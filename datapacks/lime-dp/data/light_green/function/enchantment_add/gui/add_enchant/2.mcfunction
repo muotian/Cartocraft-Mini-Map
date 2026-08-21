@@ -1,0 +1,1 @@
+$data modify storage light_green:enchant test set value '$(enchant)'

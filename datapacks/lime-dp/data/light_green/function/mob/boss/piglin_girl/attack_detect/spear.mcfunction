@@ -1,0 +1,4 @@
+execute if entity @n[tag=light_green.target,distance=10..] if score @s light_green.main.math matches 200.. run return run scoreboard players add $piglin_girl_throw light_green.main.math 9
+execute rotated ~ 0 positioned ^ ^ ^1 if entity @n[tag=light_green.target,distance=..3] run return run function light_green:mob/boss/piglin_girl/skill/spear/1
+execute rotated ~ 0 positioned ^ ^ ^1.5 if entity @n[tag=light_green.target,distance=..4] run return run function light_green:mob/boss/piglin_girl/skill/spear/1_deal
+execute if score @s light_green.main.math matches 200.. run scoreboard players add $piglin_girl_throw light_green.main.math 4

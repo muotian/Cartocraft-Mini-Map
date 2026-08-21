@@ -1,0 +1,1 @@
+scoreboard players set @s light_green.hoglin.shield.upgrade.keep 200

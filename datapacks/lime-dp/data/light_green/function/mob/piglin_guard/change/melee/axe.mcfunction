@@ -1,0 +1,3 @@
+item replace entity @s weapon.mainhand with golden_axe[attribute_modifiers=[{id:"base_attack_damage",type:attack_damage,amount:2,operation:"add_value"},{id:"base_attack_speed",type:attack_speed,amount:-3,operation:"add_value"}]]
+execute if entity @s[tag=light_green.elite] run item replace entity @s weapon.mainhand with golden_axe[item_model="light_green:black_stone/set/axe",attribute_modifiers=[{id:"base_attack_damage",type:attack_damage,amount:2,operation:"add_value"},{id:"base_attack_speed",type:attack_speed,amount:-3,operation:"add_value"}]]
+data modify entity @s drop_chances.offhand set value 0f

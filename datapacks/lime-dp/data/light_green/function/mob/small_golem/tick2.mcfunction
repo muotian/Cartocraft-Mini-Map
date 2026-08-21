@@ -1,0 +1,1 @@
+$execute unless entity @n[scores={light_green.golem_id=$(id)},type=husk,distance=..100] run kill @s

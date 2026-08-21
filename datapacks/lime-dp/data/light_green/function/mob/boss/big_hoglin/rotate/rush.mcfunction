@@ -1,0 +1,2 @@
+execute as @e[tag=aj.big_hoglin_head.root,limit=1,distance=..30] rotated as @n[tag=light_green.boss.big_hoglin.target] run rotate @s ~ ~
+execute as @e[tag=aj.big_hoglin.root,limit=1,distance=..30] rotated as @n[tag=light_green.boss.big_hoglin.target] run rotate @s ~ 0

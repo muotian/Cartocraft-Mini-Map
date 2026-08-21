@@ -1,0 +1,4 @@
+$summon minecraft:text_display ~ ~ ~ {alignment: "center", background: 0b, default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {font: "light_green:custom", text: "","color":"#a0a0a0"}, transformation: {left_rotation: [-0.7071068f, 0.0f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [$(size)f, $(size)f, $(size)f], translation: [0.0f, 0.0f, -1f]},Tags:["light_green.blood","light_green","light_green.mob","light_green.boss","light_green.new_mob"]}
+$execute as @n[tag=light_green.new_mob] at @s run rotate @s ~$(rotate) 0
+$scoreboard players set @n[tag=light_green.new_mob] light_green.mob.ai $(size)
+tag @n[tag=light_green.new_mob] remove light_green.new_mob

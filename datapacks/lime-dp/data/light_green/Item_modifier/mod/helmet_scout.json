@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.head",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "light_green:scout_effect_1",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "translate": "light_green:scout_effect_2",
+        "italic": false,
+        "color": "white"
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "light_green:scout",
+      "minecraft:equippable": {
+        "slot": "head",
+        "camera_overlay": "light_green:camera/hot"
+      },
+      "!minecraft:enchantment_glint_override": {}
+    }
+  }
+]

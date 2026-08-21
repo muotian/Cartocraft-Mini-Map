@@ -1,0 +1,1 @@
+execute as @n[tag=light_green.generate_trader] at @s run function light_green:piglin_trader/generate/0

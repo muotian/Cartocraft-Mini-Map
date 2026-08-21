@@ -1,0 +1,1 @@
+$playsound block.vault.insert_item_fail hostile @a ~ ~ ~ 4 $(pitch)

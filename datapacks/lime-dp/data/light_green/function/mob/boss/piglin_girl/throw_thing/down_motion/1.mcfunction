@@ -1,0 +1,2 @@
+$execute as caba-0-0-0-1 at @s positioned 0.0 0.0 0.0 rotated ~$(facing1) ~$(facing2) run tp @s ^ ^0.$(long) ^0.$(long)
+data modify entity @n[tag=light_green.boss.piglin_girl.throw.down] Motion set from entity caba-0-0-0-1 Pos

@@ -1,0 +1,1 @@
+give @s cookie[item_model="light_green:icecream",custom_data={light_green.icecream:1},custom_name={translate:"light_green:icecream",italic:false},lore=[{translate:"light_green:icecream_lore",italic:false,color:gray}]]

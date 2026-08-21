@@ -1,0 +1,1 @@
+$execute anchored eyes positioned ^ ^ ^ run summon item ~ ~ ~ {Tags:["light_green.drop_dirt","light_green","light_green.mob","light_green.boss"],Item:{id:"egg",components:{item_model:"air",max_stack_size:1}},PickupDelay:-1,Motion:$(motion)}

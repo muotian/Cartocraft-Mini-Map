@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:match_tool",
+  "predicate": {
+    "predicates": {
+      "minecraft:enchantments": [
+        {
+          "enchantments": "light_green:left_click"
+        }
+      ]
+    }
+  }
+}

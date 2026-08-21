@@ -1,0 +1,8 @@
+playsound minecraft:entity.hoglin.hurt hostile @a ~ ~ ~ 2 0.6
+
+execute if score $hoglin_limit light_green.main.math matches 1 run return run function light_green:mob/boss/big_hoglin/hurt/hurt/15-/convert
+execute if score @s light_green.custom.health matches 0.. if score @s light_green.custom.health <= $big_hoglin.skin_need_1 light_green.main.math run return run function light_green:mob/boss/big_hoglin/hurt/hurt/5
+execute if score @s light_green.custom.health > $big_hoglin.skin_need_1 light_green.main.math if score @s light_green.custom.health <= $big_hoglin.skin_need_2 light_green.main.math run return run function light_green:mob/boss/big_hoglin/hurt/hurt/4
+execute if score @s light_green.custom.health > $big_hoglin.skin_need_2 light_green.main.math if score @s light_green.custom.health <= $big_hoglin.skin_need_3 light_green.main.math run return run function light_green:mob/boss/big_hoglin/hurt/hurt/3
+execute if score @s light_green.custom.health > $big_hoglin.skin_need_3 light_green.main.math if score @s light_green.custom.health <= $big_hoglin.skin_need_4 light_green.main.math run return run function light_green:mob/boss/big_hoglin/hurt/hurt/2
+execute if score @s light_green.custom.health > $big_hoglin.skin_need_4 light_green.main.math if score @s light_green.custom.health <= $big_hoglin.skin_need_5 light_green.main.math run return run function light_green:mob/boss/big_hoglin/hurt/hurt/1

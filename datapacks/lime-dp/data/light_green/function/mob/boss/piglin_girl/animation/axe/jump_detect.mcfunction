@@ -1,0 +1,4 @@
+tag @e[tag=light_green.boss.piglin_girl.sprint_target,type=!#light_green:no_hp] remove light_green.boss.piglin_girl.sprint_target
+execute if score $piglin_girl_axe_jump light_green.main.math < $piglin_girl_axe_jump_target light_green.main.math run tag @s add light_green.boss.piglin_girl.axe.jump.replay_ready
+execute if score $piglin_girl_axe_jump light_green.main.math = $piglin_girl_axe_jump_target light_green.main.math run function light_green:mob/boss/piglin_girl/skill/axe/jump_end
+execute if score $piglin_girl_axe_jump light_green.main.math > $piglin_girl_axe_jump_target light_green.main.math run function light_green:mob/boss/piglin_girl/skill/axe/jump_end

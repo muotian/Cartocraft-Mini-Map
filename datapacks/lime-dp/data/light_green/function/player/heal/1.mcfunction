@@ -1,0 +1,1 @@
+$attribute @s max_health modifier add light_green:heal $(health) add_value

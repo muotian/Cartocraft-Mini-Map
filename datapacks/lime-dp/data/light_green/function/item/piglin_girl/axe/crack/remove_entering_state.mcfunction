@@ -1,0 +1,1 @@
+$execute as @a[scores={light_green.crack.player.entering.$(id)=1..}] run scoreboard players remove @s light_green.crack.player.entering.$(id) 1

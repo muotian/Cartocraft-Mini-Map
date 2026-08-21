@@ -1,0 +1,1 @@
+$kill @n[scores={light_green.npc_id=$(id)},type=interaction]

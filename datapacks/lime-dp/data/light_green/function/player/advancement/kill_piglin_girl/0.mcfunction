@@ -1,0 +1,1 @@
+advancement revoke @s only light_green:kill_by_piglin_girl

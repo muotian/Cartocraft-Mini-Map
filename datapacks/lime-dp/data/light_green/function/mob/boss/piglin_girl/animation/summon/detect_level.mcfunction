@@ -1,0 +1,3 @@
+execute store result score $challenger light_green.main.math run execute if entity @a[tag=light_green.boss.challenger]
+execute store result score $skip_challenger light_green.main.math run execute if entity @a[tag=light_green.boss.challenger,predicate=light_green:enter_skip]
+execute if score $skip_challenger light_green.main.math = $challenger light_green.main.math run function light_green:mob/boss/piglin_girl/animation/summon/skip_level

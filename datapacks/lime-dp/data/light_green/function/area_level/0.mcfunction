@@ -1,0 +1,2 @@
+execute at @s positioned ~ ~53 ~ if entity @a[distance=..70] run function light_green:area_level/1
+execute unless score $golem_kill light_green.main.math matches 1 run function light_green:area_level/golem

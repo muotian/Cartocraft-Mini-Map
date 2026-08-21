@@ -1,0 +1,3 @@
+$execute unless entity @n[scores={light_green.golem_id=$(id)},type=piglin_brute,distance=..100] run kill @s
+$execute if score @s light_green.main.math matches 80 as @e[scores={light_green.golem_id=$(id)},type=piglin_brute,distance=..100,limit=1] on target at @s if entity @e[scores={light_green.golem_id=$(id)},type=piglin_brute,distance=..15,limit=1] run function light_green:mob/small_golem/ground_laser/ready/0 with storage light_green:mob
+execute if score @s light_green.main.math matches 80.. run scoreboard players set @s light_green.main.math 1

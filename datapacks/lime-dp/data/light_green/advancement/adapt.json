@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "minecraft:bundle_contents": {
+                  "items": {
+                    "contains": [
+                      {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "light_green:golem_helmet_mod": "adapt"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:item/golem/mod/adapt/hit"
+  }
+}

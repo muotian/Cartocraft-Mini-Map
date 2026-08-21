@@ -1,0 +1,1 @@
+$effect give @s resistance $(resistance_time) $(resistance) $(resistance__icon)

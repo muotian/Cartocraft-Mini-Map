@@ -1,0 +1,1 @@
+execute if items entity @s container.0 *[custom_data~{light_green.fill_item:1}] run kill @s

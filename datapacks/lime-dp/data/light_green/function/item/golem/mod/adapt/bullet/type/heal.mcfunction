@@ -1,0 +1,1 @@
+execute as @n[tag=light_green.damage_target,type=player,distance=..10] run scoreboard players add @s light_green.long_heal 1

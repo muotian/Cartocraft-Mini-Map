@@ -1,0 +1,1 @@
+$effect give @s resistance $(time) $(level) $(show_icon)

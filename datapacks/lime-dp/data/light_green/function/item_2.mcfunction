@@ -1,0 +1,1 @@
+$execute if score @p[scores={light_green.player_id=$(id)}] light_green.death matches 1 run kill @s

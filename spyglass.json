@@ -1,0 +1,7 @@
+{
+  "env": {
+    "exclude": [
+      "**/animated_java/**"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.chest",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "light_green:second_life_effect",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "light_green:second_life_effect_warn",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

@@ -1,0 +1,3 @@
+execute if score $piglin_girl_weapon light_green.main.math matches 1 run return run function light_green:mob/boss/piglin_girl/attack_detect/axe
+execute if score $piglin_girl_weapon light_green.main.math matches 2 run return run function light_green:mob/boss/piglin_girl/attack_detect/dagger
+execute if score $piglin_girl_weapon light_green.main.math matches 3 run return run function light_green:mob/boss/piglin_girl/attack_detect/spear

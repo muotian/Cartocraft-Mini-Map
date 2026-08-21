@@ -1,0 +1,96 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.head",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "translate": "light_green:adapt_effect",
+          "italic": false,
+          "color": "white"
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "light_green:support_device",
+          "italic": false,
+          "color": "gray"
+        },
+        {
+          "translate": "light_green:"
+        }
+      ],
+      {
+        "translate": "light_green:support_device_effect",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "translate": "light_green:support_device_effect2",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "translate": "light_green:support_device_effect3",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "light_green:support_device_when_hotbar_hoglin",
+          "italic": false,
+          "color": "gray"
+        }
+      ],
+      {
+        "translate": "light_green:support_device_when_hoglin",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "translate": "light_green:support_device_when_hoglin2",
+        "italic": false,
+        "color": "white"
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "translate": "light_green:support_device_when_hotbar_piglin",
+          "italic": false,
+          "color": "gray"
+        }
+      ],
+      [
+        {
+          "translate": "light_green:support_device_when_piglin",
+          "italic": false,
+          "color": "white"
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "light_green:mask",
+      "minecraft:equippable": {
+        "slot": "head",
+        "camera_overlay": "light_green:camera/mask"
+      },
+      "!minecraft:enchantment_glint_override": {}
+    }
+  }
+]

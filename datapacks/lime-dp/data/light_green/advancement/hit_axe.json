@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "o": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:golden_axe",
+              "predicates": {
+                "custom_data": "{light_green.golden_axe:1}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:player/advancement/axe/hit"
+  }
+}

@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) light_green:upgrade_hoglin_sword

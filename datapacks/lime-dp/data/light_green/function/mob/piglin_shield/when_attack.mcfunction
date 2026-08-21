@@ -1,0 +1,1 @@
+scoreboard players add @s light_green.main.math 1

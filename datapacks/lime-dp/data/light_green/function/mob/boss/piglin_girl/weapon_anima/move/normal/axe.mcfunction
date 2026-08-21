@@ -1,0 +1,2 @@
+execute unless score $piglin_girl_idle light_green.main.math matches 100.. as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run return run function animated_java:piglin_girl/animations/axe_1_run1/play
+execute if score $piglin_girl_idle light_green.main.math matches 100.. as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run return run function animated_java:piglin_girl/animations/axe_2_run1/play

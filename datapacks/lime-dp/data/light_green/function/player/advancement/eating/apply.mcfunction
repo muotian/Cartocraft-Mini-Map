@@ -1,0 +1,1 @@
+scoreboard players set @s light_green.eating 1

@@ -1,0 +1,1 @@
+give @s golden_chestplate[equippable={slot:chest,asset_id:"light_green:black_stone",equip_sound:"minecraft:block.gilded_blackstone.step"},item_model="light_green:black_stone/set/chestplate",max_damage=240,attribute_modifiers=[{id:armor.chestplate,slot:"chest",type:armor,amount:6,operation:"add_value"}],custom_name={"translate":"light_green:blackstone_chestplate",italic:false}]

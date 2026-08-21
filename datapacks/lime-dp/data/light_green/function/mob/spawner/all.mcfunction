@@ -1,0 +1,14 @@
+function light_green:mob/spawner/archer
+function light_green:mob/spawner/audience
+function light_green:mob/spawner/axeman
+function light_green:mob/spawner/axeman_water
+function light_green:mob/spawner/double
+function light_green:mob/spawner/elite/block
+function light_green:mob/spawner/farm
+function light_green:mob/spawner/hoglin
+function light_green:mob/spawner/ride
+function light_green:mob/spawner/shield
+function light_green:mob/spawner/small_golem/block
+function light_green:mob/spawner/small_golem/block_elite
+function light_green:mob/spawner/warriror
+function light_green:mob/spawner/water

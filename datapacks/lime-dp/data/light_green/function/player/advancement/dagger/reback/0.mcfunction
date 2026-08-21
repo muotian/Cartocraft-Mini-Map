@@ -1,0 +1,1 @@
+execute as @a[tag=light_green.use_dagger] run function light_green:player/advancement/dagger/reback/1

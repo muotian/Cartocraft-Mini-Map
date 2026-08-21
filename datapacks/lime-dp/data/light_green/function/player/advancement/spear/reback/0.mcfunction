@@ -1,0 +1,1 @@
+execute as @a[tag=light_green.use_spear] run function light_green:player/advancement/spear/reback/1

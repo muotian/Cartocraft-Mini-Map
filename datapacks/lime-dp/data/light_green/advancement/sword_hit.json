@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{'light_green.hoglin_sword': 1}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:player/advancement/hand_cannon/use"
+  }
+}

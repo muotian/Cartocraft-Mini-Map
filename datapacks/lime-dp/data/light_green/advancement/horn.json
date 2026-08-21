@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{light_green.call_hoglin: 1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:ride_hoglin/summon"
+  }
+}

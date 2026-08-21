@@ -1,0 +1,1 @@
+$execute store result storage light_green:weapon damage double 0.01 run data get storage light_green:weapon player.$(id).dagger_damage 100

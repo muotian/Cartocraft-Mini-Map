@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.chest",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        {
+          "text": "(I)",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "translate": "light_green:saturation_effect_1"
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "(II)",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "light_green:saturation_uneffect_2"
+        }
+      ],
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "(III)",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "light_green:saturation_uneffect_3"
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  }
+]

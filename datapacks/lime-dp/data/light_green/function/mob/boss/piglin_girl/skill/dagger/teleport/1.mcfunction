@@ -1,0 +1,4 @@
+summon marker ~ ~ ~ {Tags:[light_green.boss.piglin_girl.dager.teleport_locator]}
+$execute as @n[tag=light_green.target] at @n[tag=light_green.summon.graud_golem] positioned ~ ~34 ~ run spreadplayers ~ ~ 0 28 under $(y) false @n[tag=light_green.boss.piglin_girl.dager.teleport_locator]
+execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~34 ~ if entity @n[tag=light_green.target,distance=..10] as @n[tag=light_green.boss.piglin_girl.dager.teleport_locator] at @s run function light_green:mob/boss/piglin_girl/skill/dagger/teleport/2_10
+execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~34 ~ if entity @n[tag=light_green.target,distance=10..] as @n[tag=light_green.boss.piglin_girl.dager.teleport_locator] at @s run function light_green:mob/boss/piglin_girl/skill/dagger/teleport/2_11

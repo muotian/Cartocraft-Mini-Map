@@ -1,0 +1,1 @@
+give @s item_frame[entity_data={id:"minecraft:item_frame",Item:{id:"minecraft:diamond",count:1},ItemDropChance:0f,Fixed:1b,Invisible:1b,Silent:1b,Invulnerable:1b,Tags:["light_green","light_green.mob","light_green.spawner_block","light_green.elite"]},item_model="spawner",custom_name="菁英"] 1

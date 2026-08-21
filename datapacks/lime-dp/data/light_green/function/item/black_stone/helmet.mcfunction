@@ -1,0 +1,1 @@
+give @s golden_helmet[equippable={slot:head,asset_id:"light_green:black_stone",equip_sound:"minecraft:block.gilded_blackstone.step"},item_model="light_green:black_stone/set/helmet",max_damage=165,attribute_modifiers=[{id:armor.helmet,slot:head,type:armor,amount:2,operation:"add_value"}],custom_name={"translate":"light_green:blackstone_helmet",italic:false}]

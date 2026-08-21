@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "light_green:no_mod",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

@@ -1,0 +1,1 @@
+execute as @n[tag=light_green.arena_npc.piglin] run function light_green:arena/npc/kill/0

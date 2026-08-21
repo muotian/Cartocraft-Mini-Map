@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "o": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "custom_data": "{'light_green.hoglin_sword':1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:player/advancement/sword/using"
+  }
+}

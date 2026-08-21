@@ -1,0 +1,3 @@
+execute store result storage light_green:boss agony int 1 run scoreboard players get @s light_green.agony
+execute unless entity @s[tag=light_green.agony_weaken] anchored eyes rotated ~ 0 positioned ^ ^1 ^1 run function light_green:item/piglin_girl/victim/agony/normal with storage light_green:boss
+execute if entity @s[tag=light_green.agony_weaken] anchored eyes rotated ~ 0 positioned ^ ^1 ^1 run function light_green:item/piglin_girl/victim/agony/weak with storage light_green:boss

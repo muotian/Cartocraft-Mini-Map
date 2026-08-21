@@ -1,0 +1,10 @@
+$execute if items entity @s weapon.mainhand *[custom_data~{"light_green:golem_hand_cannon":1}] run data modify storage light_green:weapon player.$(id).hand_cannon set from entity @s SelectedItem
+$execute unless items entity @s weapon.mainhand *[custom_data~{"light_green:golem_hand_cannon":1}] run data remove storage light_green:weapon player.$(id).hand_cannon
+$execute if items entity @s weapon.offhand *[custom_data~{"light_green:golem_hand_cannon":1}] run data modify storage light_green:weapon player.$(id).off_hand_cannon set from entity @s equipment.offhand
+$execute unless items entity @s weapon.offhand *[custom_data~{"light_green:golem_hand_cannon":1}] run data remove storage light_green:weapon player.$(id).off_hand_cannon
+
+scoreboard players set @s light_green.hand_cannon_type 1
+execute if items entity @s weapon.mainhand *[bundle_contents~{items:{contains:[{predicates:{custom_data:{"light_green:golem_hand_cannon_mod":"wave"}}}]}},custom_data~{"light_green:golem_hand_cannon":1}] run scoreboard players set @s light_green.hand_cannon_type 2
+execute if items entity @s weapon.offhand *[bundle_contents~{items:{contains:[{predicates:{custom_data:{"light_green:golem_hand_cannon_mod":"wave"}}}]}},custom_data~{"light_green:golem_hand_cannon":1}] run scoreboard players set @s light_green.hand_cannon_type 2
+execute if items entity @s weapon.mainhand *[bundle_contents~{items:{contains:[{predicates:{custom_data:{"light_green:golem_hand_cannon_mod":"lava"}}}]}},custom_data~{"light_green:golem_hand_cannon":1}] run scoreboard players set @s light_green.hand_cannon_type 3
+execute if items entity @s weapon.offhand *[bundle_contents~{items:{contains:[{predicates:{custom_data:{"light_green:golem_hand_cannon_mod":"lava"}}}]}},custom_data~{"light_green:golem_hand_cannon":1}] run scoreboard players set @s light_green.hand_cannon_type 3

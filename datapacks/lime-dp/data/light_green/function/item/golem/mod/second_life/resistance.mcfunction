@@ -1,0 +1,1 @@
+$effect give @s resistance $(time) $(resistance) true

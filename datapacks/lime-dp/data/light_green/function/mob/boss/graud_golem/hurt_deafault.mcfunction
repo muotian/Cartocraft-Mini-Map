@@ -1,0 +1,1 @@
+execute as @n[tag=aj.graud_golem.root,type=item_display] run function animated_java:graud_golem/variants/golem_deafault/apply

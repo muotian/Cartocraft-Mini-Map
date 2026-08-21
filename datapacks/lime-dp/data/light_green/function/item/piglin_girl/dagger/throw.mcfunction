@@ -1,0 +1,7 @@
+$execute if entity @s[type=player] as @e[tag=light_green.boss.piglin_girl.shadow_player,tag=light_green.from_player_$(id),type=item_display] at @s positioned ~ ~1.75 ~ facing entity @e[tag=light_green.player.$(id).last_attack,limit=1,distance=..50] feet run function light_green:item/piglin_girl/dagger/throw with storage light_green:player
+execute anchored eyes positioned ^ ^ ^ run summon item_display ~ ~ ~ {Tags:["light_green","light_green.boss","light_green.boss.piglin_girl.throw","light_green.boss.piglin_girl.dagger","light_green.new.mob","light_green.mob","light_green.from_player"],item:{id:golden_spear,components:{item_model:"light_green:golden_dagger"}},transformation:{left_rotation:[0.707,0,0,0.707],right_rotation:[0,0,0,1],translation:[0,0,0],scale:[1.5,1.5,1.5]},teleport_duration:1}
+execute at @s[type=player] anchored eyes positioned ^ ^ ^ rotated ~ ~ run rotate @n[tag=light_green.new.mob] ~ ~
+$execute at @s[type=!player] positioned ~ ~1.5 ~ facing entity @e[tag=light_green.player.$(id).last_attack,limit=1,distance=..50] eyes rotated ~ ~ run rotate @n[tag=light_green.new.mob] ~ ~
+scoreboard players operation @n[tag=light_green.new.mob] light_green.player_id = @s light_green.player_id
+execute as @n[tag=light_green.new.mob] run tag @s remove light_green.new.mob
+playsound minecraft:item.trident.throw hostile @a ~ ~ ~ 3 2

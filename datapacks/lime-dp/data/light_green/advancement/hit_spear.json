@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "o": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:golden_spear",
+              "predicates": {
+                "custom_data": "{light_green.golden_spear:1}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "light_green:player/advancement/spear/hit"
+  }
+}

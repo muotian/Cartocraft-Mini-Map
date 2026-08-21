@@ -1,0 +1,2 @@
+execute if score $killed_by_piglin_girl light_green.main.math matches 5.. run scoreboard players set $take_wool light_green.main.math 1
+execute if score $piglin_girl_level2 light_green.main.math matches 1 run scoreboard players set $take_wool light_green.main.math 2

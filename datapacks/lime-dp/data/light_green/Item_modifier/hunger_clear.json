@@ -1,0 +1,9 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "light_green:hunger": 0
+    },
+    "add": false
+  }
+]

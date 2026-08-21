@@ -1,0 +1,69 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "light_green:black_stone_armor_gloves",
+        "swappable": true,
+        "equip_sound":"minecraft:block.iron_trapdoor.close"
+      }
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "light_green:black_stone/gloves"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "light_green:golem_item_level": 3
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:armor",
+        "id": "light_green:golem_armor",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:armor_toughness",
+        "id": "light_green:golem_armor",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:knockback_resistance",
+        "id": "light_green:golem_armor",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": [
+      {
+        "translate": "light_green:golem_chestplate",
+        "italic": false
+      },
+      {
+        "text": "(III)",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ]
+  }
+]

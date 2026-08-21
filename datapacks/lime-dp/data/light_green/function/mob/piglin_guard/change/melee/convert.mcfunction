@@ -1,0 +1,2 @@
+execute if entity @s[tag=light_green.hurt_projectile] run function light_green:mob/piglin_guard/change/melee/sword
+execute unless entity @s[tag=light_green.hurt_projectile] run function light_green:mob/piglin_guard/change/melee/axe

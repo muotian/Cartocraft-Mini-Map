@@ -1,0 +1,1 @@
+$execute at @s as @p[scores={light_green.player_id=$(id)}] run function light_green:item/piglin_girl/axe/earth_quack/0

@@ -1,0 +1,6 @@
+function light_green:player/trigger/big_hoglin_limit
+function light_green:player/trigger/arena
+function light_green:player/trigger/difficulty_hoglin
+function light_green:player/trigger/difficulty_piglin
+function light_green:player/trigger/difficulty_piglin_level
+function light_green:player/trigger/piglin_girl_type

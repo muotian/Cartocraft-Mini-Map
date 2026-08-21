@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.head",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "light_green:empty_effect",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "light_green:normal_mask",
+      "minecraft:equippable": {
+        "slot": "head",
+        "camera_overlay": "light_green:camera/mask"
+      },
+      "!minecraft:enchantment_glint_override": {}
+    }
+  }
+]

@@ -1,0 +1,1 @@
+item modify entity @s armor.head light_green:mod/helmet_no_mod

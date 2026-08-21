@@ -1,0 +1,1 @@
+give @s iron_axe[custom_name={translate:"light_green:blackstone_axe",italic:false},item_model="light_green:black_stone/set/axe"]

@@ -1,0 +1,2 @@
+$execute unless score $armor_item_level light_green.main.math matches 3 run item modify entity @s container.$(slot) light_green:mod/no_mod
+$execute if score $armor_item_level light_green.main.math matches 3 run item modify entity @s container.$(slot) light_green:mod/no_mod_max

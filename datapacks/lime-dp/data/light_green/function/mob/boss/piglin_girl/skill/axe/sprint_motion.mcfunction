@@ -1,0 +1,2 @@
+execute at @s facing entity @n[tag=light_green.boss.piglin_girl.sprint_target] feet rotated ~ 0 positioned 0.0 0.0 0.0 as caba-0-0-0-1 run tp @s ^ ^-.68 ^1.5
+data modify entity @s Motion set from entity caba-0-0-0-1 Pos

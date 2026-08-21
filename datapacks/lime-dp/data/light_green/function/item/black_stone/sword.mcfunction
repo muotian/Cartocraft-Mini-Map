@@ -1,0 +1,1 @@
+give @s iron_sword[custom_name={translate:"light_green:blackstone_sword",italic:false},item_model="light_green:black_stone/set/sword"]

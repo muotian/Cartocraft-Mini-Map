@@ -1,0 +1,3 @@
+$summon item_display ~ ~ ~ {Tags:["light_green.boss","light_green.mob","light_green.attack_range","light_green.new.mob","light_green","light_green.attack_range.spear_sweep.white_end","light_green.from_player"],item:{id:stick,components:{item_model:"light_green:attack/spear_sweep_white6"}},transformation:{left_rotation:[0,0,1,0],right_rotation:[0,0,0,1],translation:[0,0,2.5],scale:[5,5,5]},teleport_duration:1,Rotation:[$(rotate),0]}
+scoreboard players operation @n[tag=light_green.new.mob] light_green.player_id = @s light_green.player_id
+tag @n[tag=light_green.new.mob] remove light_green.new.mob

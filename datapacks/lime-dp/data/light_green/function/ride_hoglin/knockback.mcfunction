@@ -1,0 +1,2 @@
+execute at @s facing entity @e[tag=light_green.attacker,limit=1] feet rotated ~ 0 positioned 0.0 0.0 0.0 as caba-0-0-0-1 run tp @s ^ ^0.4 ^-2
+data modify entity @s Motion set from entity caba-0-0-0-1 Pos

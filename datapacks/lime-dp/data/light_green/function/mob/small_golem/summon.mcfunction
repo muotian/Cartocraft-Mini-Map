@@ -1,0 +1,7 @@
+summon piglin_brute ~ ~ ~ {PersistenceRequired:true,Tags:["light_green","light_green.mob","light_green.golem","light_green.new.golem"],drop_chances:{chest:0,head:0},IsImmuneToZombification:true,equipment:{chest:{id:iron_chestplate,components:{equippable:{slot:chest,asset_id:"light_green:golem"}}},head:{id:iron_helmet,components:{equippable:{slot:"head"},item_model:"light_green:golem_head"}}},Silent:true,active_effects:[{id:"invisibility",duration:-1,show_particles:false}],attributes:[{id:"attack_damage",base:2},{id:"max_health",base:25},{id:"movement_speed",base:0.2}],CustomName:{translate:"light_green:small_golem"}}
+scoreboard players set @n[tag=light_green.new.golem] light_green.team 1
+execute store result score @n[tag=light_green.new.golem] light_green.main.math run scoreboard players add $golem_id light_green.main.math 1
+execute as @n[tag=light_green.new.golem] store result storage light_green:mob y int 1 run data get entity @s Pos[1]
+execute as @n[tag=light_green.new.golem] run function light_green:mob/small_golem/stone_stick/summon with storage light_green:mob
+team join light_green.piglin @n[tag=light_green.new.golem]
+tag @n[tag=light_green.new.golem] remove light_green.new.golem

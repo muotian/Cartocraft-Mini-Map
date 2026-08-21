@@ -1,0 +1,4 @@
+execute at @s rotated ~90 0 positioned ^ ^ ^5 as @p[distance=..5] run tag @s add light_green.facing_target
+execute if entity @p[tag=light_green.facing_target] as @e[tag=aj.piglin_girl_npc_head.root,limit=1,distance=..30] at @s anchored eyes facing entity @p[distance=..20,tag=light_green.facing_target] eyes positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~
+execute unless entity @p[tag=light_green.facing_target] as @e[tag=aj.piglin_girl_npc_head.root,limit=1,distance=..30] at @s anchored eyes rotated as @e[tag=light_green.piglin_girl_npc,type=villager,limit=1,distance=..30] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~
+execute as @p[tag=light_green.facing_target,distance=..20] run tag @s remove light_green.facing_target

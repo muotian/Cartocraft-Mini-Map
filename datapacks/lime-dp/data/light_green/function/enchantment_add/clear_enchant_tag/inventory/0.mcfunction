@@ -1,0 +1,2 @@
+execute store result storage light_green:enchant slot int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{"light_green.enchant":1b}}}].Slot
+function light_green:enchantment_add/clear_enchant_tag/inventory/1 with storage light_green:enchant

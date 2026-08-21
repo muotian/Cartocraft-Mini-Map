@@ -1,0 +1,1 @@
+$particle campfire_cosy_smoke $(pos1) $(pos2) $(pos3) ~ ~ ~ 2.5 0 force

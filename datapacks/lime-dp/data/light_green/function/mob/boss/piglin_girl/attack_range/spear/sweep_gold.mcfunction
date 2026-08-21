@@ -1,0 +1,3 @@
+summon item_display ~ ~ ~ {Tags:["light_green.boss","light_green.mob","light_green.attack_range","light_green.new.mob","light_green","light_green.attack_range.spear_sweep.gold"],item:{id:stick,components:{item_model:"light_green:attack/spear_sweep_gold1"}},transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],translation:[0,0,2.5],scale:[5,5,5]}}
+execute as @n[tag=light_green.new.mob] at @s facing entity @n[tag=light_green.boss.piglin_girl.target] feet run rotate @s ~ 0
+tag @n[tag=light_green.new.mob] remove light_green.new.mob

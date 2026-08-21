@@ -1,0 +1,2 @@
+scoreboard players remove @s light_green.long_heal 2
+summon minecraft:area_effect_cloud ~ ~ ~ {WaitTime:0,Radius:0f,Duration:6,Age:4,ReapplicationDelay:1,potion_contents:{custom_effects:[{id:"minecraft:instant_health",amplifier:0b,duration:1,show_icon:0b,show_particles:0b}]}}

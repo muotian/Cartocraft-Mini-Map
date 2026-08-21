@@ -1,0 +1,5 @@
+execute anchored eyes positioned ^ ^ ^ run summon item_display ~ ~ ~ {Tags:["light_green","light_green.boss","light_green.boss.piglin_girl.throw","light_green.boss.piglin_girl.spear","light_green.new.mob","light_green.mob"],item:{id:golden_spear,components:{item_model:"light_green:golden_spear"}},transformation:{left_rotation:[0.5,-0.5,-0.5,0.5],right_rotation:[0,0,0,1],translation:[0,0,0],scale:[1.5,1.5,1.5]},teleport_duration:1}
+execute as @s if entity @n[tag=light_green.target] at @n[tag=light_green.target] anchored eyes positioned ^ ^ ^ positioned ~ ~-1 ~ facing entity @s eyes facing ^ ^ ^-1 run rotate @n[tag=light_green.new.mob] ~ ~
+execute as @s unless entity @n[tag=light_green.target] rotated ~ ~ run rotate @n[tag=light_green.new.mob] ~ ~
+execute as @n[tag=light_green.new.mob] run tag @s remove light_green.new.mob
+playsound minecraft:item.trident.throw hostile @a ~ ~ ~ 3 1

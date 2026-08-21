@@ -1,0 +1,1 @@
+execute as @a[tag=light_green.use_hand_cannon] run function light_green:player/advancement/hand_cannon/reback/1

@@ -1,0 +1,2 @@
+execute positioned ~-2 ~ ~-2 if entity @n[type=!#light_green:no_hp,dy=15,dx=3,dz=3,type=!player] as @n[type=!#light_green:no_hp,dy=15,dx=3,dz=3,type=!player] run function light_green:item/golem/hand_cannon/ground_laser/fire
+execute positioned ~-2 ~ ~-2 if entity @n[type=!#light_green:no_hp,dy=-15,dx=3,dz=3,type=!player] as @n[type=!#light_green:no_hp,dy=-15,dx=3,dz=3,type=!player] run function light_green:item/golem/hand_cannon/ground_laser/fire

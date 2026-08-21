@@ -1,0 +1,1 @@
+give @s golden_boots[equippable={slot:feet,asset_id:"light_green:black_stone",equip_sound:"minecraft:block.gilded_blackstone.step"},item_model="light_green:black_stone/set/boots",max_damage=195,attribute_modifiers=[{id:armor.boots,slot:"feet",type:armor,amount:2,operation:"add_value"}],custom_name={"translate":"light_green:blackstone_boots",italic:false}]
