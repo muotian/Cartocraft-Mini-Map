@@ -1,6 +1,7 @@
 {
   "pack": {
     "description": "成就盃&玩家基地資料包",
-    "pack_format": 81
+    "min_format": [94, 1],
+    "max_format": 94
   }
 }
