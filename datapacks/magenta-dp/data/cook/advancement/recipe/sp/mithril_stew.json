@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:mithril_stew"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.mithril_stew.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "items","sprite": "icer:item/mithril","color": "white"},{"text": " "},{"translate":"icer.mithril.name","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/porkchop","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_raw_meat","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/brown_mushroom","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_mushroom","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "10","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.resistance","color": "blue"},{"text": " (00:30)","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "magenta.item.mithril_stew.lore","color": "blue"},{"text": " (00:30)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/sp_recipe",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+          "slots": {
+            "weapon.mainhand": {
+              "components": {
+                "minecraft:custom_data": "{magenta_recipe:3}"
+              }
+            }
+          }
+        }
+			}
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:salad"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.salad.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "magenta:item/cabbage_item","color": "white"},{"text": " "},{"translate":"magenta.item.cabbage.name","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/carrot","color": "white"},{"text": " "},{"translate":"item.minecraft.carrot","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/beetroot","color": "white"},{"text": " "},{"translate":"item.minecraft.beetroot","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "3"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.health_boost","color": "blue"},{"text": " ","color": "blue"},{"translate": "effect.duration.infinite","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/easy/pumpkin_soup",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:1}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

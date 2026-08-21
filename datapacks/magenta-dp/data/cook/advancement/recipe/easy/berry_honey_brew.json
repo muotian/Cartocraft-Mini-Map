@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:berry_honey_brew"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.berry_honey_brew.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/sweet_berries","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_berry","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/honey_bottle","color": "white"},{"text": " "},{"translate":"item.minecraft.honey_bottle","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "8"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.jump_boost","color": "blue"},{"text": "III (03:00)","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.speed","color": "blue"},{"text": " (03:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/easy/easy_recipe",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:1}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {"id": "minecraft:knowledge_book","count": 1},
+        "title": [{"translate":"magenta.advancement.reward.title","color":"white"},{"translate":"magenta.advancement.reward.sp.name","color":"white"}],
+        "description": [
+            {"translate":"magenta.advancement.reward.sp.desc"},{"text":"\n"},
+            {"translate":"magenta.advancement.reward.bonus_prefix","color":"blue"},{"text":"8","color":"blue"},{"translate":"magenta.advancement.reward.max_health","color":"blue"}
+        ],
+        "frame": "goal"
+    },
+    "parent": "cook:recipe/reward/witch",
+    "criteria": {
+        "amber_demon_meat": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:amber_demon_meat"}}]}},
+        "baguette": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:baguette"}}]}},
+        "enchanted_golden_apple": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"items": ["minecraft:enchanted_golden_apple"]}]}},
+        "gem_shaved_ice": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:gem_shaved_ice"}}]}},
+        "magenta_wool": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"items": ["minecraft:magenta_wool"]}]}},
+        "mithril_ice": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:mithril_ice"}}]}},
+        "mithril_pizza": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:mithril_pizza"}}]}},
+        "mithril_stew": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:mithril_stew"}}]}}
+    },
+    "requirements": [
+        ["amber_demon_meat"],
+        ["baguette"],
+        ["enchanted_golden_apple"],
+        ["gem_shaved_ice"],
+        ["magenta_wool"],
+        ["mithril_ice"],
+        ["mithril_pizza"],
+        ["mithril_stew"]
+    ],
+    "rewards": {
+        "function": "cook:cooking/reward/sp"
+    }
+}

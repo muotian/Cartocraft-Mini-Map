@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:meat_stew"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.meat_stew.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/porkchop","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_raw_meat","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "magenta:item/cabbage_item","color": "white"},{"text": " "},{"translate":"magenta.item.cabbage.name","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/potato","color": "white"},{"text": " "},{"translate":"item.minecraft.potato","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/brown_mushroom","color": "white"},{"text": " "},{"translate":"block.minecraft.brown_mushroom","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "magenta:item/spices","color": "white"},{"text": " "},{"translate":"magenta.item.spices.name","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "24"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.resistance","color": "blue"},{"text": " (20:00)","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": " (20:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/hard/meat_pie",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:2}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

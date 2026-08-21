@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:berry_bread"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.berry_bread.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/wheat","color": "white"},{"text": " "},{"translate":"item.minecraft.wheat","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/sweet_berries","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_berry","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "5"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.absorption","color": "blue"},{"text": "I (00:30)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/easy/bread_roll",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:1}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

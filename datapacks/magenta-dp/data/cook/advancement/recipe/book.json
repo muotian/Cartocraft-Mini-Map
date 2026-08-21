@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe.title"}],
+    "description": "",
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {"spatula":1}
+            }
+          }
+        ]
+      }
+          }
+        }
+}

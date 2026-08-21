@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe",
+      "components": {
+        "minecraft:item_model": "magenta:baguette"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.baguette.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/glowstone_dust","color": "white"},{"text": " "},{"translate":"magenta.item.golden_flour.name","color": "gold"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/hay_block_side","color": "white"},{"text": " "},{"translate":"block.minecraft.hay_block","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/egg","color": "white"},{"text": " "},{"translate":"item.minecraft.egg","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/sugar","color": "white"},{"text": " "},{"translate":"item.minecraft.sugar","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "magenta:item/milk_bottle","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_milk","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "30","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/magenta_wool",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:3}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

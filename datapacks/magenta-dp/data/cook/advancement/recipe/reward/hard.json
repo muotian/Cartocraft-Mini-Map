@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {"id": "minecraft:book","count": 1, "components": {"item_model": "written_book"}},
+        "title": [{"translate":"magenta.advancement.reward.title","color":"white"},{"translate":"magenta.advancement.reward.hard.name","color":"white"}],
+        "description": [
+            {"translate":"magenta.advancement.reward.hard.desc"},{"text":"\n"},
+            {"translate":"magenta.advancement.reward.bonus_prefix","color":"blue"},{"text":"4","color":"blue"},{"translate":"magenta.advancement.reward.max_health","color":"blue"}
+        ],
+        "frame": "goal"
+    },
+    "parent": "cook:recipe/reward/easy",
+    "criteria": {
+        "candy_apple": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:candy_apple"}}]}},
+        "meat_pie": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:meat_pie"}}]}},
+        "meat_stew": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:meat_stew"}}]}},
+        "roasted_pufferfish": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:roasted_pufferfish"}}]}},
+        "scented_tea": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:scented_tea"}}]}},
+        "spicy_stew": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:spicy_stew"}}]}}
+    },
+    "requirements": [
+        ["candy_apple"],
+        ["meat_pie"],
+        ["meat_stew"],
+        ["roasted_pufferfish"],
+        ["scented_tea"],
+        ["spicy_stew"]
+    ],
+    "rewards": {
+        "function": "cook:cooking/reward/hard"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "count": 1
+    },
+    "title": [{"translate":"magenta.item.recipe3.name"}],
+    "description": "",
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/cooking_pot",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:3}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

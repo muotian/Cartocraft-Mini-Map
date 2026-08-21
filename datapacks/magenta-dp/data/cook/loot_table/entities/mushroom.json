@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_fungus",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

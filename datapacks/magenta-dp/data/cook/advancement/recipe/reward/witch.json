@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {"id": "minecraft:book","count": 1, "components": {"item_model": "enchanted_book"}},
+        "title": [{"translate":"magenta.advancement.reward.title","color":"white"},{"translate":"magenta.advancement.reward.witch.name","color":"white"}],
+        "description": [
+            {"translate":"magenta.advancement.reward.witch.desc"},{"text":"\n"},
+            {"translate":"magenta.advancement.reward.bonus_prefix","color":"blue"},{"text":"4","color":"blue"},{"translate":"magenta.advancement.reward.max_health","color":"blue"}
+        ],
+        "frame": "goal"
+    },
+    "parent": "cook:recipe/reward/hard",
+    "criteria": {
+        "mysterious_stew": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:mysterious_stew"}}]}},
+        "rotten_broth": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:rotten_broth"}}]}},
+        "voodoo_doll": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:voodoo_doll"}}]}},
+        "witch_broth": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:witch_broth"}}]}}
+    },
+    "requirements": [
+        ["mysterious_stew"],
+        ["rotten_broth"],
+        ["voodoo_doll"],
+        ["witch_broth"]
+    ],
+    "rewards": {
+        "function": "cook:cooking/reward/witch"
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:mithril_pizza"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.mithril_pizza.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "items","sprite": "icer:item/mithril","color": "white"},{"text": " "},{"translate":"icer.mithril.name","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/wheat","color": "white"},{"text": " "},{"translate":"item.minecraft.wheat","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/porkchop","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_raw_meat","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "10","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.speed","color": "blue"},{"text": "II (00:30)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/mithril_ice",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+          "slots": {
+            "weapon.mainhand": {
+              "components": {
+                "minecraft:custom_data": "{magenta_recipe:3}"
+              }
+            }
+          }
+        }
+			}
+    }
+  }
+}

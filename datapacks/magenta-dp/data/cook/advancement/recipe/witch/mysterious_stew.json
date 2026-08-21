@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:mysterious_stew"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.mysterious_stew.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "blocks","sprite": "block/red_mushroom","color": "white"},{"text": " "},{"translate":"block.minecraft.red_mushroom","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/crimson_fungus","color": "white"},{"text": " "},{"translate":"block.minecraft.crimson_fungus","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/spider_eye","color": "white"},{"text": " "},{"translate":"item.minecraft.spider_eye","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "9"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "magenta.item.mysterious_stew.lore","color": "blue"},{"text": " (10:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/witch/rotten_broth",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:4}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

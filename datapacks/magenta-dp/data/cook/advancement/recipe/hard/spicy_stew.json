@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:spicy_stew"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.spicy_stew.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/porkchop","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_raw_meat","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/blaze_powder","color": "white"},{"text": " "},{"translate":"item.minecraft.blaze_powder","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "10"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.fire_resistance","color": "blue"},{"text": " (10:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/hard/hard_recipe",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:2}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

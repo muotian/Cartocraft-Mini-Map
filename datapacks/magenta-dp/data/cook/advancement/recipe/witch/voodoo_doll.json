@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "components": {
+        "minecraft:item_model": "magenta:voodoo_doll"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.voodoo_doll.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/rotten_flesh","color": "white"},{"text": " "},{"translate":"item.minecraft.rotten_flesh","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/bone","color": "white"},{"text": " "},{"translate":"item.minecraft.bone","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/spider_eye","color": "white"},{"text": " "},{"translate":"item.minecraft.spider_eye","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "magenta:item/spices","color": "white"},{"text": " "},{"translate":"magenta.item.spices.name","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/poisonous_potato","color": "white"},{"text": " "},{"translate":"item.minecraft.poisonous_potato","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "24"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "magenta.item.voodoo_doll.lore","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/witch/witch_broth",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:4}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

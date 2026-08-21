@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:mithril_ice"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.mithril_ice.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "items","sprite": "icer:item/mithril","color": "white"},{"text": " "},{"translate":"icer.mithril.name","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/ice","color": "white"},{"text": " "},{"translate":"block.minecraft.ice","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "5","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.absorption","color": "blue"},{"text": "V (01:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/mithril_stew",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+          "slots": {
+            "weapon.mainhand": {
+              "components": {
+                "minecraft:custom_data": "{magenta_recipe:3}"
+              }
+            }
+          }
+        }
+			}
+    }
+  }
+}

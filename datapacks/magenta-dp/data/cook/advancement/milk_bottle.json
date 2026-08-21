@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "magenta:milk_bottle"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cook:item/mysterious_stew/clear"
+  }
+}

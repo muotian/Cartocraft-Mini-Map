@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {"id": "minecraft:apple","count": 1},
+        "title": [{"translate":"magenta.advancement.reward.challenge.title"}],
+        "description": [{"translate":"magenta.advancement.reward.challenge.desc"}],
+        "frame": "goal"
+    },
+    "parent": "cook:recipe/reward/sp",
+    "criteria": {
+        "magenta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "custom_data": {"spatula":1}
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

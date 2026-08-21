@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:bread_roll"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.bread_roll.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/wheat","color": "white"},{"text": " "},{"translate":"item.minecraft.wheat","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/sugar","color": "white"},{"text": " "},{"translate":"item.minecraft.sugar","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "6"},{"translate": "magenta.advancement.seconds"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/easy/easy_recipe",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:1}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

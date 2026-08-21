@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"magenta": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+			"player": {
+          "slots": {
+            "weapon.mainhand": {
+              "components": {
+                "minecraft:custom_data": "{lottery_bag:1b}"
+              }
+            }
+          }
+        }
+			}
+		}
+	},
+  "rewards": {
+    "function": "cook:item/lottery_bag/use"
+  }
+}

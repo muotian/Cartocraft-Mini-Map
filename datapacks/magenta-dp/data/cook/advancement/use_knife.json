@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"magenta": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{cook_knife:1b}"
+                }
+              }
+            }
+          }
+			}
+		}
+	},
+  "rewards": {
+    "function": "cook:item/knife/use"
+  }
+}

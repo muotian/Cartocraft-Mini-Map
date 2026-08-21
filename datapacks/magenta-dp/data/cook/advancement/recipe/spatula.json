@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel",
+      "components": {"item_model": "magenta:spatula"},
+      "count": 1
+    },
+    "title": [{"translate":"magenta.item.spatula.name"}],
+    "description": [
+      {"translate": "magenta.advancement.spatula_1","color": "green"},{"text": "\n"},
+      {"translate": "magenta.advancement.spatula_2-1","color": "white"},{"keybind": "key.drop"},{"translate": "magenta.advancement.spatula_2-2","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.spatula_3","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.spatula_4","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.spatula_5","color": "aqua"},{"text": "\n"},
+      {"translate": "magenta.advancement.spatula_6","color": "aqua"}
+    ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/book",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {"spatula":1}
+            }
+          }
+        ]
+      }
+          }
+        }
+}

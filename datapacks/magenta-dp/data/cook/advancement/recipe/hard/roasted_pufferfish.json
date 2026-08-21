@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:roasted_pufferfish"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.roasted_pufferfish.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/pufferfish","color": "white"},{"text": " "},{"translate":"item.minecraft.pufferfish","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/kelp","color": "white"},{"text": " "},{"translate":"block.minecraft.kelp","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "10"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.water_breathing","color": "blue"},{"text": " (20:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/hard/spicy_stew",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:2}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

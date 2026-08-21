@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {"id": "minecraft:book","count": 1},
+        "title": [{"translate":"magenta.advancement.reward.title","color":"white"},{"translate":"magenta.advancement.reward.easy.name","color":"white"}],
+        "description": [
+            {"translate":"magenta.advancement.reward.easy.desc"},{"text":"\n"},
+            {"translate":"magenta.advancement.reward.bonus_prefix","color":"blue"},{"text":"4","color":"blue"},{"translate":"magenta.advancement.reward.max_health","color":"blue"}
+        ],
+        "frame": "goal"
+    },
+    "parent": "cook:recipe/spatula",
+    "criteria": {
+        "berry_bread": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:berry_bread"}}]}},
+        "berry_honey_brew": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:berry_honey_brew"}}]}},
+        "bread_roll": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:bread_roll"}}]}},
+        "farm_vegetable_soup": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:farm_vegetable_soup"}}]}},
+        "fried_egg": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:fried_egg"}}]}},
+        "grilled_meat_skewer": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:grilled_meat_skewer"}}]}},
+        "mushroom_risotto": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:mushroom_risotto"}}]}},
+        "oatmeal": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:oatmeal"}}]}},
+        "pudding": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:pudding"}}]}},
+        "pumpkin_soup": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:pumpkin_soup"}}]}},
+        "salad": {"trigger": "minecraft:inventory_changed","conditions": {"items": [{"components": {"item_model": "magenta:salad"}}]}}
+    },
+    "requirements": [
+        ["berry_bread"],
+        ["berry_honey_brew"],
+        ["bread_roll"],
+        ["farm_vegetable_soup"],
+        ["fried_egg"],
+        ["grilled_meat_skewer"],
+        ["mushroom_risotto"],
+        ["oatmeal"],
+        ["pudding"],
+        ["pumpkin_soup"],
+        ["salad"]
+    ],
+    "rewards": {
+        "function": "cook:cooking/reward/easy"
+    }
+}

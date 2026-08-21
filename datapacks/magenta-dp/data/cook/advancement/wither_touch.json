@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [{
+              "id": "is_player_attack",
+              "expected": true
+            }]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cook:item/witch_broth/attack"
+  }
+}

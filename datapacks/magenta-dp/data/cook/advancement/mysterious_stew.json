@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "magenta:mysterious_stew"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cook:item/mysterious_stew/eat"
+  }
+}

@@ -1,0 +1,29 @@
+{ 
+  "description": {
+    "translate": "magenta.enchantment.god_of_cooking_blessing",
+    "fallback":"blessing"
+  },
+  "weight": 1,
+  "max_level": 1,
+  "anvil_cost": 15,
+  "min_cost": {
+    "base": 45,
+    "per_level_above_first": 30
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 30
+  },
+  "slots": ["mainhand"],
+  "supported_items": "#enchantable/weapon",
+  "effects": {
+    "post_attack": [{
+      "effect": {
+        "type": "run_function",
+        "function": "cook:blessed_loot"
+      },
+      "enchanted": "attacker",
+      "affected": "victim"
+    }]
+  }
+}

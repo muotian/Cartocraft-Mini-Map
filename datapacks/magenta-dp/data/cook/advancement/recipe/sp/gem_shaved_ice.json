@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:gem_shaved_ice"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.gem_shaved_ice.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "blocks","sprite": "block/ice","color": "white"},{"text": " "},{"translate":"block.minecraft.ice","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "wool_purple:item/philosopher_stone_texture","color": "white"},{"text": " "},{"translate":"item.philosopher_stone.1","color":"#CF0000","italic":false},{"translate":"item.philosopher_stone.2","color":"#BF0000","italic":false},{"translate":"item.philosopher_stone.3","color":"#AF0000","italic":false},{"translate":"item.philosopher_stone.4","color":"#A00000","italic":false},{"translate":"item.philosopher_stone.5","color":"#900000","italic":false},{"translate":"item.philosopher_stone.6","color":"#800000","italic":false},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "5","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.speed","color": "blue"},{"text": "III (05:00)","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.strength","color": "blue"},{"text": "III (05:00)","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": "III (05:00)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/amber_demon_meat",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:3}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron",
+      "count": 1
+    },
+    "title": [{"translate":"magenta.block.cooking_pot.name"}],
+    "description": [
+      {"translate": "magenta.advancement.cooking_pot_1","color": "green"},{"text": "\n"},
+      {"translate": "magenta.advancement.cooking_pot_2","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.cooking_pot_3-1","color": "white"},{"keybind": "key.drop"},{"translate": "magenta.advancement.cooking_pot_3-2","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.cooking_pot_4","color": "white"},{"text": "\n"},
+      {"translate": "magenta.advancement.cooking_pot_5","color": "aqua"}
+    ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/book",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {"spatula":1}
+            }
+          }
+        ]
+      }
+          }
+        }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple",
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"item.minecraft.enchanted_golden_apple"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/golden_apple","color": "white"},{"text": " "},{"translate":"item.minecraft.golden_apple","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/enchanting_table_side","color": "white"},{"text": " "},{"translate":"block.minecraft.enchanting_table","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/bookshelf","color": "white"},{"text": " "},{"translate":"block.minecraft.bookshelf","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/experience_bottle","color": "white"},{"text": " "},{"translate":"item.minecraft.experience_bottle","color": "white"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/lapis_lazuli","color": "white"},{"text": " "},{"translate":"item.minecraft.lapis_lazuli","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "5"},{"translate": "magenta.advancement.seconds"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/sp/baguette",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:3}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

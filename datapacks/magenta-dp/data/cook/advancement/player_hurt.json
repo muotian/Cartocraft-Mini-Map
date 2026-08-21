@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "cook:item/player_hurt"
+  }
+}

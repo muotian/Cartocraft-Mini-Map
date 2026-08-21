@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "magenta:scented_tea"
+      },
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"magenta.item.scented_tea.name"}],
+    "description": [{"translate": "magenta.advancement.ingredients"},{"text": "\n"},
+                    {"atlas": "blocks","sprite": "block/poppy","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_flower","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/dandelion","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_flower","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/allium","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_flower","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/orange_tulip","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_flower","color": "white"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/lily_of_the_valley","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_flower","color": "white"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time"},{"text": "16"},{"translate": "magenta.advancement.seconds"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "magenta.item.scented_tea.lore","color": "blue"},{"text":"\n"},
+                    {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": "II (00:10)","color": "blue"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true
+  },
+  "parent": "cook:recipe/hard/candy_apple",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:2}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

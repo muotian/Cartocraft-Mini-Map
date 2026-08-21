@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_wool",
+      "count": 1
+    },
+    "title": [{"translate":"magenta.advancement.recipe"},{"translate":"block.minecraft.magenta_wool"}],
+    "description": [{"translate": "magenta.advancement.ingredients","color": "green"},{"text": "\n"},
+                    {"atlas": "items","sprite": "item/porkchop","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_meat.name","color": "light_purple"},{"text":"\n"},
+                    {"atlas": "items","sprite": "magenta:item/spices","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_spices.name","color": "light_purple"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/wheat","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_wheat.name","color": "light_purple"},{"text":"\n"},
+                    {"atlas": "blocks","sprite": "block/warped_fungus","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_mushroom.name","color": "light_purple"},{"text":"\n"},
+                    {"atlas": "items","sprite": "item/potion","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_wine.name","color": "light_purple"},{"text":"\n\n"},
+                    {"translate": "magenta.advancement.time","color": "green"},{"text": "30","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"}
+                ],
+    "background": "block/stripped_spruce_log",
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "cook:recipe/sp/sp_recipe",
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+			"player": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:custom_data": "{magenta_recipe:3}"
+                }
+              }
+            }
+          }
+			}
+    }
+  }
+}

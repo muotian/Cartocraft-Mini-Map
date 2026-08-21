@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cook:item/mysterious_stew/clear"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "magenta": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [{
+                "id": "is_player_attack",
+                "expected": true
+            },
+            {
+                "id": "is_projectile",
+                "expected": false
+            }
+        ]
+          }
+        },
+        "entity": {
+          "nbt": "{Tags:[\"MagentaMushroomSkill\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cook:enemy/mushroom/attacked"
+  }
+}
