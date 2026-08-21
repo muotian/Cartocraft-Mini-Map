@@ -1,4 +1,4 @@
-team join orange_friendly @s
+#team join orange_friendly @s
 
 execute as @s run particle minecraft:glow_squid_ink ~ ~1 ~ 0 0 0 0.1 1
 

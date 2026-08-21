@@ -1,6 +1,6 @@
-execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5, team=!orange_friendly] run effect give @s minecraft:resistance 1 4 false
-execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5,team=!orange_friendly] run effect give @s minecraft:strength 1 0 false
-execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5,team=!orange_friendly] run execute at @s run particle crit ~ ~1 ~ 0.5 0.5 0.5 1 6
+execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5] run effect give @s minecraft:resistance 1 4 false
+execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5] run effect give @s minecraft:strength 1 0 false
+execute if entity @e[type=#minecraft:hostile,tag=!orange.wind.charge.husk,distance=0..5] run execute at @s run particle crit ~ ~1 ~ 0.5 0.5 0.5 1 6
 
 
 # give @a cookie
