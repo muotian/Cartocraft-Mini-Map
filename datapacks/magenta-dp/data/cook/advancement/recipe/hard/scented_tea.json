@@ -19,7 +19,6 @@
                     {"text": "  "},{"translate": "magenta.item.scented_tea.lore","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": "II (00:10)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/hard/candy_apple",

@@ -19,7 +19,6 @@
                     {"text": "  "},{"translate": "effect.minecraft.resistance","color": "blue"},{"text": " (20:00)","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": " (20:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/hard/meat_pie",

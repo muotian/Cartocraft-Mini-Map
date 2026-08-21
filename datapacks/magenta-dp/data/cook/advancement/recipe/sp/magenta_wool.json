@@ -13,7 +13,6 @@
                     {"atlas": "items","sprite": "item/potion","color": "white"},{"text": " "},{"translate":"magenta.item.legendary_wine.name","color": "light_purple"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time","color": "green"},{"text": "30","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true,
     "frame": "challenge"
   },

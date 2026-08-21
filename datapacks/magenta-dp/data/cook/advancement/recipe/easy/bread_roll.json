@@ -13,7 +13,6 @@
                     {"atlas": "items","sprite": "item/sugar","color": "white"},{"text": " "},{"translate":"item.minecraft.sugar","color": "white"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time"},{"text": "6"},{"translate": "magenta.advancement.seconds"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/easy_recipe",

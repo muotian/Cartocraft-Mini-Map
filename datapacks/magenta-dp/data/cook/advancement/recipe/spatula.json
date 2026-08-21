@@ -14,7 +14,6 @@
       {"translate": "magenta.advancement.spatula_5","color": "aqua"},{"text": "\n"},
       {"translate": "magenta.advancement.spatula_6","color": "aqua"}
     ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/book",

@@ -16,7 +16,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.strength","color": "blue"},{"text": " (02:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/hard/roasted_pufferfish",

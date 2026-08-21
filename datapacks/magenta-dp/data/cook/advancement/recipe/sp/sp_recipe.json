@@ -6,7 +6,6 @@
     },
     "title": [{"translate":"magenta.item.recipe3.name"}],
     "description": "",
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/cooking_pot",

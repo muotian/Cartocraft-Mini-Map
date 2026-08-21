@@ -17,7 +17,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "magenta.item.witch_broth.lore","color": "blue"},{"text": " (10:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/witch/mysterious_stew",

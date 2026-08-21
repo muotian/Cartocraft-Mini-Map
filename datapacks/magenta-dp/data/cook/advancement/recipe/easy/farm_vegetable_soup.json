@@ -19,7 +19,6 @@
                     {"text": "  "},{"translate": "effect.minecraft.saturation","color": "blue"},{"text": " (00:20)","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": " (05:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/grilled_meat_skewer",

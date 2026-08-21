@@ -3,7 +3,6 @@
     "icon": {"id": "minecraft:book","count": 1, "components": {"item_model": "written_book"}},
     "title": [{"translate":"magenta.item.recipe2.name"}],
     "description": "",
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/cooking_pot",

@@ -15,7 +15,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.night_vision","color": "blue"},{"text": " (10:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/berry_bread",

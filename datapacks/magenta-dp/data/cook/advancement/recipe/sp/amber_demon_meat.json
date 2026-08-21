@@ -16,7 +16,6 @@
                     {"text": "  "},{"translate": "effect.minecraft.absorption","color": "blue"},{"text": "II (10:00)","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.resistance","color": "blue"},{"text": "III (01:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true,
     "frame": "challenge"
   },

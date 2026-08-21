@@ -16,7 +16,6 @@
                     {"atlas": "items","sprite": "magenta:item/milk_bottle","color": "white"},{"text": " "},{"translate":"magenta.advancement.any_milk","color": "white"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time","color": "green"},{"text": "30","color": "green"},{"translate": "magenta.advancement.seconds","color": "green"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true,
     "frame": "challenge"
   },

@@ -13,7 +13,6 @@
                     {"atlas": "items","sprite": "item/bone","color": "white"},{"text": " "},{"translate":"item.minecraft.bone","color": "white"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time"},{"text": "10"},{"translate": "magenta.advancement.seconds"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/witch/witch_recipe",

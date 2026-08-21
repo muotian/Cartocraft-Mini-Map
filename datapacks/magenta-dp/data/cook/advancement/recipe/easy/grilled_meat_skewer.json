@@ -16,7 +16,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.instant_health","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/salad",

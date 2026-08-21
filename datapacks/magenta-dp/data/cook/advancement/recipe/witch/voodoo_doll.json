@@ -18,7 +18,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "magenta.item.voodoo_doll.lore","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/witch/witch_broth",

@@ -12,7 +12,6 @@
                     {"atlas": "items","sprite": "item/egg","color": "white"},{"text": " "},{"translate":"item.minecraft.egg","color": "white"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time"},{"text": "4"},{"translate": "magenta.advancement.seconds"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/easy_recipe",

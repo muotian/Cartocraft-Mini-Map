@@ -13,7 +13,6 @@
                     {"atlas": "items","sprite": "item/lapis_lazuli","color": "white"},{"text": " "},{"translate":"item.minecraft.lapis_lazuli","color": "white"},{"text":"\n\n"},
                     {"translate": "magenta.advancement.time"},{"text": "5"},{"translate": "magenta.advancement.seconds"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/sp/baguette",

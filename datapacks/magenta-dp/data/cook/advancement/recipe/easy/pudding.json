@@ -17,7 +17,6 @@
                     {"text": "  "},{"translate": "effect.minecraft.regeneration","color": "blue"},{"text": " (00:30)","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "magenta.item.pudding.lore","color": "blue"},{"text": " (00:30)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/easy/fried_egg",

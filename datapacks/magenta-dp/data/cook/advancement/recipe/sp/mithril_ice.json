@@ -15,7 +15,6 @@
                     {"translate": "magenta.advancement.effects","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "effect.minecraft.absorption","color": "blue"},{"text": "V (01:00)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true,
     "frame": "challenge"
   },

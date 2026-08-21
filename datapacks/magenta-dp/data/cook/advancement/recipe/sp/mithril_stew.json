@@ -17,7 +17,6 @@
                     {"text": "  "},{"translate": "effect.minecraft.resistance","color": "blue"},{"text": " (00:30)","color": "blue"},{"text":"\n"},
                     {"text": "  "},{"translate": "magenta.item.mithril_stew.lore","color": "blue"},{"text": " (00:30)","color": "blue"}
                 ],
-    "background": "block/stripped_spruce_log",
     "hidden": true,
     "frame": "challenge"
   },

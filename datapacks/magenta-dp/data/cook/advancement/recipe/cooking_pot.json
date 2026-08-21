@@ -12,7 +12,6 @@
       {"translate": "magenta.advancement.cooking_pot_4","color": "white"},{"text": "\n"},
       {"translate": "magenta.advancement.cooking_pot_5","color": "aqua"}
     ],
-    "background": "block/stripped_spruce_log",
     "hidden": true
   },
   "parent": "cook:recipe/book",
