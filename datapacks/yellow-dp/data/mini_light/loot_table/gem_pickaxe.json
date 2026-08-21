@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "name": "iron_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"translate": "item.mini_light.name.gem_pickaxe", "italic": false, "color":"gold"}
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore":[
+                  ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gem_pickaxe.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gem_pickaxe.2","italic":false,"color":"white"}]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:gem_pickaxe",
+                  "unbreakable": {}
+                }
+              },
+              {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "mini_light:gem_pickaxe": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

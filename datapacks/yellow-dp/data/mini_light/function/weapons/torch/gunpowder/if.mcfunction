@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand torch[minecraft:custom_data~{frame:{bone:1b}}] if predicate {"condition": "random_chance","chance": 0.5} at @e[type=#mini_light:mobs, tag=attacked] run return run function mini_light:weapons/gunpowder/little_explosion
+execute if predicate {"condition": "random_chance","chance": 0.4} at @e[type=#mini_light:mobs, tag=attacked] run function mini_light:weapons/gunpowder/little_explosion

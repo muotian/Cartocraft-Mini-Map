@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"mini_light.worm2\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mini_light:monster/worm_skeleton/check"
+    }
+  }
+  

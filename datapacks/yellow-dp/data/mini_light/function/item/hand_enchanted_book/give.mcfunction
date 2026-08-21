@@ -1,0 +1,4 @@
+$give @s minecraft:poisonous_potato[minecraft:custom_data={mini_light:hand_enchanted_book, hand_enchanted_book:{id:"$(namespace):$(id)", lvl:$(lvl)}},minecraft:stored_enchantments={"$(namespace):$(id)":$(lvl)},minecraft:consumable={consumer_seconds:-1,animation:eat,has_consume_particles:false,},food={can_always_eat:true, nutrition:0,saturation:0},minecraft:custom_name=[{"translate":"item.goldtower.enchant","italic":false,"color":yellow}],max_stack_size=64,minecraft:item_model=enchanted_book,enchantment_glint_override=true,lore=[[{"translate":"item_desc.goldtower.enchant","color":"white","italic":false},{"translate":"item_desc.goldtower.","color":"white","italic":false}]]]
+
+# example
+# function mini_light:item/hand_enchanted_book/give {namespace:"minecraft", id:"fortune", lvl:3}

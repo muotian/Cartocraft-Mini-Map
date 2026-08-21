@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "小小光明勇者",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

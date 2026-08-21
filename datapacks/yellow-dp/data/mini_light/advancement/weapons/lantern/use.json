@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "custom_data": "{frame:{lantern:1b}}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mini_light:weapons/lantern/use"
+    }
+  }
+  

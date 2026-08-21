@@ -1,0 +1,2 @@
+execute at @e[type=#mini_light:mobs,tag=attacked] run effect give @e[type=#mini_light:mobs,type=!player,distance=..5.5] glowing 10 0 true
+execute at @e[type=#mini_light:mobs,tag=attacked] run particle minecraft:wax_off ~ ~1 ~ 0.1 0.1 0.1 20 50

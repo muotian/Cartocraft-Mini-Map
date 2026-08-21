@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "name": "armadillo_scute",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"translate": "item.mini_light.name.redstone_candle_copper", "italic": false}
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore":[
+                  ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type.weapon","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.cycle_ability.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.cycle_ability.2","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➊","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.none","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➋","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.redstone_candle_copper.1","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➌","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.redstone_candle_copper.2","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➍","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.redstone_candle_copper.3","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.copper_candle.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.copper_candle.2","italic":false,"color":"white"}]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{fuel:{redstone:1b}, frame:{candle:1b,copper_candle:1b},weapon:1b}"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:weapons/redstone_candle_copper",
+                  "max_stack_size": 1
+                }
+              },
+              {
+                "function": "set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "movement_speed",
+                    "amount": 0.25,
+                    "operation": "add_multiplied_base",
+                    "id": "23476f8d-2cf1-4667-af04-df5cfce4b1a3",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "id": "base_attack_damage",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "attribute": "attack_speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+execute as @e[tag=mini_light.redstone_skeleton] at @s run function mini_light:monster/redstone_skeleton/as

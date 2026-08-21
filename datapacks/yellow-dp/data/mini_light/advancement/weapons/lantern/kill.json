@@ -1,0 +1,36 @@
+{
+    "criteria": {
+      "kill": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:custom_data": "{frame:{lantern:1b}}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mini_light:weapons/lantern/kill"
+    }
+  }
+  

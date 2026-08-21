@@ -1,0 +1,3 @@
+summon area_effect_cloud ~ ~ ~ {Tags:["mini_light.dark_cloud","new"],Duration:60,Radius:0.35f,RadiusPerTick:0.1825f, RadiusOnUse:0f,custom_particle:{type:"dust_color_transition",from_color:[0.0f,0.0f,0.0f],to_color:[0.8f,0.2f,0.7f],scale:2f},ReapplicationDelay:5,potion_contents:{custom_effects:[{id:"wither",duration:60,amplifier:1b}]}}
+scoreboard players set @e[type=area_effect_cloud,tag=new,tag=mini_light.dark_cloud] mini_light.duration 60
+tag @e[type=area_effect_cloud,tag=new] remove new

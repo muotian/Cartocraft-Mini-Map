@@ -1,0 +1,20 @@
+{
+    "description": ["", {"text":"4", "font":"mini_light:gem", "color":"white"}, {"translate":"enchantment.mini_light.amethyst_gem"}],
+    "max_level": 1,
+    "max_cost": {"base": 0, "per_level_above_first": 0},
+    "min_cost": {"base": 0, "per_level_above_first": 0},
+    "supported_items": "#minecraft:enchantable/armor",
+    "anvil_cost": 10,
+    "weight": 1,
+    "slots":["armor"],
+    "effects": {
+        "attributes": [
+            {
+                "attribute": "attack_damage",
+                "id": "mini_light:amethyst_gem",
+                "amount": 0.05,
+                "operation": "add_multiplied_base"
+            }
+        ]
+    }
+}

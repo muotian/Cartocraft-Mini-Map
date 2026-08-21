@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {"translate": "item.mini_light.name.blaze_torch_copper","italic": false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type.offhand","italic":false,"color":"white"}],
+                ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.blaze_torch_copper.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.blaze_torch_copper.2","italic":false,"color":"white"}],
+                ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.copper_grip.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.copper_grip.2","italic":false,"color":"white"}]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{fuel:{blaze:1b}, frame:{torch:1b, copper:1b},weapon:1b}"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:weapons/blaze_torch_copper",
+                  "unbreakable": {},
+                  "tooltip_display": {"hidden_components": ["unbreakable"]},
+                  "max_stack_size": 1
+                }
+            },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "id": "base_attack_damage",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "attribute": "attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

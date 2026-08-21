@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {IsBaby:0b, CustomName:{"translate":"entity.mini_light.dodger"},Tags:["mini_light.dodger","new"],DeathLootTable:"mini_light:monster_forest"}

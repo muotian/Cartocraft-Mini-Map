@@ -1,0 +1,2 @@
+execute if items entity @s weapon.offhand #leg_armor[enchantments~[{enchantments:"mini_light:soul_gem"}]] run item modify entity @s weapon.offhand {function:"set_attributes", modifiers:[{id:"mini_light:soul_gem",attribute: "step_height", amount:0.6, operation:"add_value", slot:"legs"}], replace:false}
+execute if score $is_soul_gem mini_light.main matches 1.. if items entity @s weapon.offhand #chest_armor[enchantments~[{enchantments:"mini_light:soul_gem"}]] run function mini_light:item/hand_enchanted_book/soul_chestplate_patch

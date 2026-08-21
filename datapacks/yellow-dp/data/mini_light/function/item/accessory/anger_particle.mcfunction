@@ -1,0 +1,9 @@
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~ ~1 ~1 .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~ ~1 ~-1 .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~1 ~1 ~ .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~-1 ~1 ~ .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~.5 ~1 ~.5 .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~.5 ~1 ~-.5 .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~-.5 ~1 ~.5 .1 .1 .1 0 10
+particle minecraft:dust{color:[0.686,0.000,0.000],scale:1} ~-.5 ~1 ~-.5 .1 .1 .1 0 10
+particle smoke ~ ~.5 ~ .2 1 .2 0 200

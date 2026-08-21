@@ -1,0 +1,125 @@
+{
+    "type": "command",
+    "pools": [
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/attack_ring"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/jump_ring"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/power_ring"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/health_bracelet"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/vampire_bracelet"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/shield_bracelet"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/armor_necklace"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/light_necklace"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/anger_necklace"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/flame_ring"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/wither_bracelet"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:accessories/poison_necklace"
+                }
+            ]
+        }
+    ]
+}

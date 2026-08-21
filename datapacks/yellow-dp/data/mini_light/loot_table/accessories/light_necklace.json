@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "name": "armadillo_scute",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"translate": "item.mini_light.name.light_necklace", "italic": false, "color":"aqua"}
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore":[
+                  ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type.offhand","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.light_necklace.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.light_necklace.2","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.light_necklace.3","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.light_necklace.4","italic":false,"color":"white"}]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{light_necklace:1b}"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:accessories/light_necklace",
+                  "max_stack_size": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

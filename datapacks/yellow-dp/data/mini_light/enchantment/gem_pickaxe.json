@@ -1,0 +1,32 @@
+{
+    "description": [""],
+    "max_level": 1,
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "supported_items": "#pickaxes",
+    "anvil_cost": 10,
+    "weight": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "hit_block": [
+            {
+                "requirements": {
+                    "condition": "block_state_property",
+                    "block": "spawner"
+                },
+                "effect": {
+                    "type": "run_function",
+                    "function": "mini_light:item/gem_pickaxe/gem_pickaxe"
+                }
+            }
+        ]
+    }
+}

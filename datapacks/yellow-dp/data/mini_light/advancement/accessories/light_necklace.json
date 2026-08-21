@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "light_necklace":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "predicates": {
+                                "custom_data": "{light_necklace:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mini_light:item/accessory/light_necklace"
+    }
+}

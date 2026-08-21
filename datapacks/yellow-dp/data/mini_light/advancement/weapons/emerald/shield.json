@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "hurt":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "mini_light.counter_shield_count",
+                            "target": "this"
+                        },
+                        "range": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mini_light:weapons/emerald/counter_shield/shield_hit"
+    }
+}

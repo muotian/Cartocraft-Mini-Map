@@ -1,0 +1,20 @@
+{
+    "description": ["", {"text":"0", "font":"mini_light:gem", "color":"white"}, {"translate":"enchantment.mini_light.coal_gem"}],
+    "max_level": 1,
+    "max_cost": {"base": 0, "per_level_above_first": 0},
+    "min_cost": {"base": 0, "per_level_above_first": 0},
+    "supported_items": "#minecraft:enchantable/armor",
+    "anvil_cost": 10,
+    "weight": 1,
+    "slots":["armor"],
+    "effects": {
+        "attributes": [
+            {
+                "attribute": "armor_toughness",
+                "id": "mini_light:coal_gem",
+                "amount": 2,
+                "operation": "add_value"
+            }
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+execute if predicate {"condition": "random_chance","chance": 0.55} run function mini_light:weapons/torch/amethyst/glow
+execute if predicate {"condition": "random_chance","chance": 0.35} run function mini_light:weapons/amethyst/burst {target:"@e[type=#mini_light:mobs,tag=attacked]"}

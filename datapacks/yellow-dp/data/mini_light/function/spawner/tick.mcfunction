@@ -1,0 +1,1 @@
+execute as @e[type=silverfish, tag=mini_light.sp] at @s run function mini_light:spawner/spawn

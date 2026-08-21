@@ -1,0 +1,1 @@
+$damage @s $(damage) arrow by @n[tag=mini_light.soul_previous]

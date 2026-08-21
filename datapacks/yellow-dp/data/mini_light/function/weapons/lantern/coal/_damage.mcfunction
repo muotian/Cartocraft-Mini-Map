@@ -1,0 +1,1 @@
+$damage @s $(damage) mini_light:player_coal_lantern by @p[tag=mini_light.coal_lantern_player]

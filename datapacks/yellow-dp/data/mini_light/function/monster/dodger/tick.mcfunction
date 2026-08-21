@@ -1,0 +1,1 @@
+execute as @e[tag=mini_light.dodger] at @s run function mini_light:monster/dodger/as

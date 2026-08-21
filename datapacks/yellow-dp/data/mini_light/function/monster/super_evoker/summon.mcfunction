@@ -1,0 +1,1 @@
+summon evoker ~ ~ ~ {CustomName:{"bold":true,"color":"gold","translate":"entity.mini_light.super_evoker"},Tags:["mini_light.super_evoker"],PersistenceRequired:1b, equipment:{mainhand:{id:"totem_of_undying", count:1}, offhand:{id:"totem_of_undying", count:1}},DeathLootTable:"mini_light:monster_castle", Health:50f, attributes:[{id:"max_health", base:50d}]}

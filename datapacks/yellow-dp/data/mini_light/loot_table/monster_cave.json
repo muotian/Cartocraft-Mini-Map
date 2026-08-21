@@ -1,0 +1,69 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:gem/coal_gem"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:gem/emerald_gem"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:gem/blaze_gem"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:gem/redstone_gem"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:gem/amethyst_gem"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.18
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "coal"
+                },
+                {
+                    "type": "item",
+                    "name": "emerald"
+                },
+                {
+                    "type": "item",
+                    "name": "blaze_powder"
+                },
+                {
+                    "type": "item",
+                    "name": "redstone"
+                },
+                {
+                    "type": "item",
+                    "name": "amethyst_shard"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.15
+                }
+            ]
+        }
+    ]
+}

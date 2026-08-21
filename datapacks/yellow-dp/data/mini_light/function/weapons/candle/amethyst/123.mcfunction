@@ -1,0 +1,2 @@
+execute as @e[type=#mini_light:mobs, tag=attacked] at @s run function mini_light:weapons/candle/amethyst/start
+execute unless entity @e[type=#mini_light:mobs, tag=attacked] as @n[type=#mini_light:mobs, type=!player] at @s run function mini_light:weapons/candle/amethyst/start

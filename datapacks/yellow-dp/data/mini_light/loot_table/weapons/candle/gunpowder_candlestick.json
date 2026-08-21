@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "name": "armadillo_scute",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"translate": "item.mini_light.name.gunpowder_candlestick", "italic": false}
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore":[
+                  ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.type.weapon","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.cycle_ability.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.cycle_ability.2","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➊","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gunpowder_candlestick.1","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➋","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gunpowder_candlestick.2","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➌","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gunpowder_candlestick.3","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"text":"➍","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.gunpowder_candlestick.4","italic":false,"color":"white"}],
+                  ["",{"text":" ","italic":false,"color":"green"},{"text":"◆ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.candlestick.1","italic":false,"color":"yellow"},{"text":" - ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.candlestick.2","italic":false,"color":"white"}]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{fuel:{gunpowder:1b}, frame:{candle:1b,candlestick:1b},weapon:1b}"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:weapons/gunpowder_candlestick",
+                  "max_stack_size": 1
+                }
+              },
+              {
+                "function": "set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "id": "23476f8d-2cf1-4667-af04-df5cfce4b1a3",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "id": "base_attack_damage",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "attribute": "attack_speed",
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+give @s iron_boots[enchantments={"mini_light:soul_gem":1}]

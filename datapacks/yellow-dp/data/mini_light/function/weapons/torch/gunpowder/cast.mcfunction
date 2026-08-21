@@ -1,0 +1,2 @@
+execute if entity @e[type=#mini_light:mobs, tag=attacked, predicate=mini_light:weapons/steping_air] at @e[type=#mini_light:mobs, tag=attacked] run function mini_light:weapons/gunpowder/little_explosion
+execute unless entity @e[type=#mini_light:mobs, tag=attacked, predicate=mini_light:weapons/steping_air] run function mini_light:weapons/torch/gunpowder/if

@@ -1,0 +1,145 @@
+{
+    "type": "command",
+    "pools": [
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/coal_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/blaze_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/emerald_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/redstone_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/amethyst_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/gunpowder_lantern_golden"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/soul_lantern_golden"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/coal_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/blaze_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/emerald_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/redstone_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/amethyst_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/gunpowder_lantern_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/lantern/soul_lantern_copper"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "type": "command",
+    "pools": [
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/coal_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/blaze_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/emerald_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/redstone_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/amethyst_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/gunpowder_torch_bone"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/soul_torch_bone"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/coal_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/blaze_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/emerald_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/redstone_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/amethyst_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/gunpowder_torch_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/torch/soul_torch_copper"
+                }
+            ]
+        }
+    ]
+}

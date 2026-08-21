@@ -1,0 +1,2 @@
+execute as @e[tag=mini_light.elite_poison_zombie] at @s run function mini_light:monster/elite_poison_zombie/as
+execute as @e[tag=mini_light.elite_poison_zombie_skill] at @s run function mini_light:monster/elite_poison_zombie/as_skill

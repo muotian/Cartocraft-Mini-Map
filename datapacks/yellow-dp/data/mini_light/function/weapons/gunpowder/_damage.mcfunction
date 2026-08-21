@@ -1,0 +1,1 @@
+$damage @s $(damage) explosion by @p[tag=this]

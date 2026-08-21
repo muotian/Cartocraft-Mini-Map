@@ -1,0 +1,7 @@
+{
+    "values": [
+        "mini_light:load",
+        "custom_heal:load",
+        "player_motion:internal/technical/load"
+    ]
+}

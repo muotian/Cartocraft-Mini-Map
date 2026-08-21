@@ -1,0 +1,1 @@
+execute as @e[tag=mini_light.knockback_guard_attack] at @s run function mini_light:monster/knockback_guard/attack

@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {Tags:["mini_light.redstone_skeleton"], equipment:{head:{id:"redstone_block"}, chest:{id:iron_chestplate,components:{trim:{material:"minecraft:redstone",pattern:"minecraft:silence"}},count:1}}, drop_chances:{head:0.0f, chest:0.0f},CustomName:{"translate":"entity.mini_light.redstone_skeleton"},DeathLootTable:"mini_light:monster_cave"}

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "area_skill_3":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{area_skill_3:1b}"
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "mini_light.use_goat_horn": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mini_light:area_skill/3/cast"
+    }
+}

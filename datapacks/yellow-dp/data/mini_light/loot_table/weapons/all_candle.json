@@ -1,0 +1,145 @@
+{
+    "type": "command",
+    "pools": [
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/coal_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/blaze_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/emerald_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/redstone_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/amethyst_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/gunpowder_candlestick"
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/soul_candlestick"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/coal_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/blaze_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/emerald_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/redstone_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/amethyst_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/gunpowder_candle_copper"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mini_light:weapons/candle/soul_candle_copper"
+                }
+            ]
+        }
+    ]
+}

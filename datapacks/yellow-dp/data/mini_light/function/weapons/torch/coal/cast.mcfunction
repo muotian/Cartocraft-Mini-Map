@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand torch[minecraft:custom_data~{frame:{bone:1b}}] if predicate {"condition": "random_chance","chance": 0.40} run return run function mini_light:weapons/torch/coal/effect
+execute if predicate {"condition": "random_chance","chance": 0.30} run function mini_light:weapons/torch/coal/effect

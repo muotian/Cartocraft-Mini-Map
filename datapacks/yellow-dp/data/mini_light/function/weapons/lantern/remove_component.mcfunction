@@ -1,0 +1,3 @@
+# 執行者是玩家
+execute unless items entity @s weapon.mainhand *[custom_data~{frame:{golden:1b}}] if score @s mini_light.lantern_energy < $3 mini_light.lantern_energy run item modify entity @s weapon.mainhand {function:"set_components",components:{"!consumable":{}}}
+execute if items entity @s weapon.mainhand *[custom_data~{frame:{golden:1b}}] if score @s mini_light.lantern_energy < $2 mini_light.lantern_energy run item modify entity @s weapon.mainhand {function:"set_components",components:{"!consumable":{}}}

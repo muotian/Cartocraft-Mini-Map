@@ -1,0 +1,3 @@
+give @s villager_spawn_egg[entity_data={id:"marker", Tags:["mini_light.torch_villager.marker"]}, item_name={translate:"entity.mini_light.torch_villager"}]
+give @s villager_spawn_egg[entity_data={id:"marker", Tags:["mini_light.lantern_villager.marker"]}, item_name={translate:"entity.mini_light.lantern_villager"}]
+give @s villager_spawn_egg[entity_data={id:"marker", Tags:["mini_light.candle_villager.marker"]}, item_name={translate:"entity.mini_light.candle_villager"}]

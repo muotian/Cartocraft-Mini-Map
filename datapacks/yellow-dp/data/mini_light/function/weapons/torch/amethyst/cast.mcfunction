@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand torch[minecraft:custom_data~{frame:{bone:1b}}] run return run function mini_light:weapons/torch/amethyst/bone_cast
+execute if predicate {"condition": "random_chance","chance": 0.45} run function mini_light:weapons/torch/amethyst/glow
+execute if predicate {"condition": "random_chance","chance": 0.25} run function mini_light:weapons/amethyst/burst {target:"@e[type=#mini_light:mobs,tag=attacked]"}

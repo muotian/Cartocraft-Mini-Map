@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type":"minecraft:item",
+            "name": "goat_horn",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"translate": "item.mini_light.name.area_skill_2", "italic": false, "color":"light_purple"}
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore":[
+                  ["",{"text":">>","italic":false,"color":"gray"},{"text":"> ","italic":false,"bold":true,"color":"dark_aqua"},{"translate":"item.mini_light.lore.ability","italic":false,"color":"green"}],
+                  ["",{"text":" ","italic":false},{"text":"◇","italic":false,"color":"aqua"},{"text":" ","italic":false},{"keybind": "key.use","italic":false,"color":"yellow"}],
+                  ["",{"text":"   ","italic":false},{"text":"▶","italic":false,"color":"gray"},{"text":" ","italic":false},{"translate":"item.mini_light.name.area_skill_2","italic":false,"color":"yellow"},{"text":" ","italic":false},{"text":"-","italic":false,"color":"gray"},{"text":" ","italic":false},{"translate":"item.mini_light.lore.area_skill_2.1","italic":false,"color":"white"}],
+                  ["",{"text":"      ","italic":false,"color":"white"},{"text":"⌛ ","italic":false,"color":"gray"},{"translate":"item.mini_light.lore.cd","italic":false,"color":"white"},{"text":"10","italic":false,"color":"white"},{"translate":"item.mini_light.lore.sec","italic":false,"color":"white"}]
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{area_skill_2:1b}"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "item_model":"mini_light:area_skill/area_skill_2",
+                  "max_stack_size": 1,
+                  "instrument": {
+                    "description": "",
+                    "range": 16,
+                    "use_duration": 10,
+                    "sound_event": {
+                        "sound_id": ""
+                    }
+                  },
+                  "use_cooldown": {
+                    "seconds": 10,
+                    "cooldown_group": "area_skill_2"
+                  },
+                  "tooltip_display": {
+                    "hidden_components":[
+                        "instrument"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

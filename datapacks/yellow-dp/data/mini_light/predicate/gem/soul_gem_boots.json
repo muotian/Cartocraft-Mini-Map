@@ -1,0 +1,17 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "feet": {
+                "predicates": {
+                    "enchantments": [
+                        {
+                            "enchantments": "mini_light:soul_gem"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "mini_light:coal_gem",
+        "mini_light:emerald_gem",
+        "mini_light:blaze_gem",
+        "mini_light:redstone_gem",
+        "mini_light:amethyst_gem",
+        "mini_light:gunpowder_gem",
+        "mini_light:soul_gem"
+    ],
+    "replace": false
+}

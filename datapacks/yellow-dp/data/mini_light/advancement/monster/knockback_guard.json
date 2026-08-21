@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"mini_light.knockback_guard\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mini_light:monster/knockback_guard/hit"
+    }
+  }
+  

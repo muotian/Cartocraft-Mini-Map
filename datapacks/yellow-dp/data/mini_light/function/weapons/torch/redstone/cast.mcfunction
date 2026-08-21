@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand torch[minecraft:custom_data~{frame:{bone:1b}}] if predicate {"condition": "random_chance","chance": 0.5} run return run function mini_light:weapons/redstone/laser {target:"@e[type=#mini_light:mobs, type=!player,distance=..7]"}
+execute if predicate {"condition": "random_chance","chance": 0.3} run function mini_light:weapons/redstone/laser {target:"@e[type=#mini_light:mobs, type=!player,distance=..7]"}

@@ -1,0 +1,2 @@
+execute if entity @n[tag=attacked] at @n[tag=attacked] run return run function mini_light:weapons/candle/soul/summon_item
+execute rotated ~ 0 positioned ^ ^ ^5 run function mini_light:weapons/candle/soul/summon_item

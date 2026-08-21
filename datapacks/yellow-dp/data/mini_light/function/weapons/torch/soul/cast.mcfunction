@@ -1,0 +1,3 @@
+# 執行者、執行位置是玩家
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{frame:{bone:1b}}] if predicate {"condition": "random_chance","chance": 0.4} run return run execute as @n[tag=attacked] at @s run function mini_light:weapons/torch/soul/curse
+execute if predicate {"condition": "random_chance","chance": 0.3} run execute as @n[tag=attacked] at @s run function mini_light:weapons/torch/soul/curse

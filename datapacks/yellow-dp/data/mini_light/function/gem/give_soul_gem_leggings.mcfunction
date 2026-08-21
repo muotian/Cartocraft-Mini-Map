@@ -1,0 +1,1 @@
+give @s iron_leggings[enchantments={"mini_light:soul_gem":1}, attribute_modifiers=[{id:"mini_light:soul_gem", type:"step_height", amount:0.6, operation:"add_value", slot:"legs"}, {id:"minecraft:armor.leggings", type:"armor", amount:5.0d, operation:"add_value", slot:"legs"}]]
