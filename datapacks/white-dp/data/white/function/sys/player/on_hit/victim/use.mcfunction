@@ -1,0 +1,3 @@
+
+execute unless score #is_custom white.main matches 1 as @e[type=#white:hostile,tag=!white.victim.triggered,distance=..8] if function white:sys/player/on_hit/victim/detect unless data entity @s {HurtTime:0s} run return run function white:sys/player/on_hit/victim/2
+execute as @e[type=#white:hostile,tag=white.victim,tag=white.hostile,distance=..8,limit=1] at @s run function white:sys/mob/on_hurt/use with entity @s data.white

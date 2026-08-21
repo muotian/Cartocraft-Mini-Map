@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "copper_helmet",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.white.vigor"
+                },
+                "trim": {
+                  "material": "redstone",
+                  "pattern": "wayfinder"
+                },
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "white:head",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "attack_damage",
+                    "id": "white:head",
+                    "amount": 0.04,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ],
+                "max_damage": 165,
+                "tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

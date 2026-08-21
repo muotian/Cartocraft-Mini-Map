@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "copper_boots",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.white.vigor"
+                },
+                "trim": {
+                  "material": "redstone",
+                  "pattern": "wayfinder"
+                },
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "white:feet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "attack_damage",
+                    "id": "white:feet",
+                    "amount": 0.03,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  }
+                ],
+                "max_damage": 195,
+                "tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+
+execute if items entity @s weapon.mainhand *[custom_data~{white:{right_click:true}}] run return run function white:sys/player/right_click/2b with entity @s SelectedItem.components."minecraft:custom_data".white
+execute if items entity @s weapon.offhand *[custom_data~{white:{right_click:true}}] run function white:sys/player/right_click/2b with entity @s equipment.offhand.components."minecraft:custom_data".white

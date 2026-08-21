@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "binomial",
+        "n": 12,
+        "p": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_stained_glass_pane",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sunflower",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_glazed_terracotta",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

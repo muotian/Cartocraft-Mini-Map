@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_shovel",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "bamboo",
+                "item_name": [{"translate": "item.white.flute"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.flute.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.flute.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.flute.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.flute.desc.4","color":"white","italic": false}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "type": "attack_speed",
+                    "amount": -2.8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "enchantments": {
+                  "unbreaking": 3
+                },
+                "custom_data": {
+                  "white": {
+                    "item": "flute",
+                    "right_click": true
+                  }
+                },
+                "consumable": {
+                    "consume_seconds": 1145141919810,
+                    "animation": "none"
+                },
+                "food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1,
+                  "interact_vibrations": false
+                },
+                "max_damage": 165
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

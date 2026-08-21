@@ -1,0 +1,56 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "predicates": {
+              "custom_data": {
+                "white": {
+                  "is_decorate": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.offhand": {
+            "predicates": {
+              "custom_data": {
+                "white": {
+                  "is_decorate": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.cursor": {
+            "predicates": {
+              "custom_data": {
+                "white": {
+                  "is_decorate": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

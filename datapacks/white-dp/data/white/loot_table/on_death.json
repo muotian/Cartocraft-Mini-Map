@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "barrier",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "air",
+                "custom_data": {
+                  "white": {"on_death": true}
+                }
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "data.white",
+                  "target": "@s",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

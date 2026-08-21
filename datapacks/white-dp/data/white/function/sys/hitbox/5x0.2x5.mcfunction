@@ -1,0 +1,1 @@
+execute positioned ~-2.5 ~-0.9 ~-2.5 if entity @s[dx=4,dy=0,dz=4] positioned ~ ~0.8 ~ if entity @s[dx=4,dy=0,dz=4] run return 1

@@ -1,0 +1,34 @@
+{
+  "values": [
+    "#arthropod",
+    "#undead",
+    "#raiders",
+    "#aquatic",
+    "#followable_friendly_mobs",
+    "#freeze_hurts_extra_types",
+    "#freeze_immune_entity_types",
+    
+    "ender_dragon",
+    "enderman",
+    "creaking",
+    "creeper",
+    "hoglin",
+    "piglin",
+    "piglin_brute",
+    "ghast",
+    "giant",
+    "warden",
+    "shulker",
+    "vex",
+    "slime",
+    "breeze",
+
+    "iron_golem",
+    "snow_golem",
+    "wolf",
+    "bat",
+    "cow",
+    "axolotl",
+    "rabbit"
+  ]
+}

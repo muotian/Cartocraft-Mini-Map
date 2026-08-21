@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "binomial",
+        "n": 6,
+        "p": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_stained_glass_pane",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "tooltip_display": {
+                  "hide_tooltip": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

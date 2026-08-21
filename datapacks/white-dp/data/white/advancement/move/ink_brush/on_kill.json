@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "predicates": {
+                "custom_data": {
+                  "white": {
+                    "item": "ink_brush"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "white:move/ink_brush/on_kill"
+  }
+}

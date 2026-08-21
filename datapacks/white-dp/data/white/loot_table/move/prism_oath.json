@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "stone_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "white:prism_oath",
+                "item_name": [
+                  "ღ   ",
+                  {"translate": "item.white.prism_oath.1","color":"#B5FFF5","bold":true},
+                  {"translate": "item.white.prism_oath.2","color":"#ADE9F7","bold":true},
+                  {"translate": "item.white.prism_oath.3","color":"#A5D3F9","bold":true},
+                  {"translate": "item.white.prism_oath.4","color":"#9DBDFC","bold":true},
+                  "   ღ"
+                ],
+                "lore": [
+                  {"translate": "item.white.prism_oath.desc.tip","color":"dark_gray","italic": false,"with":[{"keybind": "key.drop"}]},
+                  {"translate": "item.white.prism_oath.desc.1","color":"gray","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.2","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.3","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  "",
+                  {"translate": "item.white.prism_oath.desc.4","color":"gray","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.5","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.6","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  "",
+                  {"translate": "item.white.prism_oath.desc.7","color":"gray","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.8","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]},
+                  {"translate": "item.white.prism_oath.desc.9","color":"white","italic": false,"with":[{"translate": "item.white.prism_oath.oath","color":"#a6d6f5"}]}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "type": "attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "custom_data": {
+                  "white": {
+                    "item": "prism_oath",
+                    "right_click": true
+                  }
+                },
+                "consumable": {
+                    "consume_seconds": 1145141919810,
+                    "animation": "none"
+                },
+                "food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1,
+                  "interact_vibrations": false
+                },
+                "damage_type": "white:move/prism_oath",
+                "minimum_attack_charge": 0.8,
+                "unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

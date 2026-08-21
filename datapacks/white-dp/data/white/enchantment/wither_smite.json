@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.white.wither_smite"
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1,
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:wither": {}
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 1.5
+        }
+      }
+    ]
+  }
+}

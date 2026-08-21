@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "poisonous_potato",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "white_dye",
+                "item_name": [{"translate": "item.white.muse"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.muse.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.muse.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.muse.desc.3","color":"white","italic": false},
+                  "",
+                  {"translate": "item.white.muse.desc.4","color": "#855c40","italic": true},
+                  {"translate": "item.white.muse.desc.5","color": "#855c40","italic": true}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "type": "movement_speed",
+                    "id": "green:offhand",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_base",
+                    "slot": "offhand"
+                  }
+                ],
+                "custom_data": {
+                  "white": {
+                    "item": "muse"
+                  }
+                },
+                "!food": {}, "!consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

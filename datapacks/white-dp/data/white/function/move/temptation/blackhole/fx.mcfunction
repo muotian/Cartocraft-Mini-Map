@@ -1,0 +1,12 @@
+particle glow_squid_ink ^5.0 ^0.0 ^ ^-984807.753 ^-173648.178 ^ 0.000001 0 force @s
+particle glow_squid_ink ^4.33 ^2.5 ^ ^-766044.443 ^-642787.61 ^ 0.000001 0 force @s
+particle glow_squid_ink ^2.5 ^4.33 ^ ^-342020.143 ^-939692.621 ^ 0.000001 0 force @s
+particle glow_squid_ink ^0.0 ^5.0 ^ ^173648.178 ^-984807.753 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-2.5 ^4.33 ^ ^642787.61 ^-766044.443 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-4.33 ^2.5 ^ ^939692.621 ^-342020.143 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-5.0 ^0.0 ^ ^984807.753 ^173648.178 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-4.33 ^-2.5 ^ ^766044.443 ^642787.61 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-2.5 ^-4.33 ^ ^342020.143 ^939692.621 ^ 0.000001 0 force @s
+particle glow_squid_ink ^-0.0 ^-5.0 ^ ^-173648.178 ^984807.753 ^ 0.000001 0 force @s
+particle glow_squid_ink ^2.5 ^-4.33 ^ ^-642787.61 ^766044.443 ^ 0.000001 0 force @s
+particle glow_squid_ink ^4.33 ^-2.5 ^ ^-939692.621 ^342020.143 ^ 0.000001 0 force @s

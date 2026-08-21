@@ -1,0 +1,25 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "white:player"
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "white.player.id": {
+                    "min": 1
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HurtTime: 0s}"
+            }
+        }
+    ]
+}

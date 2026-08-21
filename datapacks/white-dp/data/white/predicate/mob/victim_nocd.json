@@ -1,0 +1,12 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "#white:hostile"
+            }
+        }
+    ]
+}

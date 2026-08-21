@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "dyed_color":14876159,
+                "trim": {"material": "diamond","pattern": "snout"},
+                "item_name": [{"translate": "item.white.liuhsu","color":"#cb5bed"}," ",{"translate": "item.white.liuhsu1","color":"gray"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.liuhsu1.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.4","color":"white","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.5","color":"white","italic": false},
+                  "",
+                  {"translate": "item.white.liuhsu1.desc.6","color":"gray","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.7","color":"blue","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.8","color":"blue","italic": false},
+                  {"translate": "item.white.liuhsu1.desc.9","color":"blue","italic": false}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "white:chest",
+                    "type": "armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "custom_data": {
+                  "white": {
+                    "item": "liuhsu",
+                    "liuhsu_id": "liu"
+                  }
+                },
+                "unbreakable": {},
+                "tooltip_display": {
+                  "hidden_components": ["trim","dyed_color"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

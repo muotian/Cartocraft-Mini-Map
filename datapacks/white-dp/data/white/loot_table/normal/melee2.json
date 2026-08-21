@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "white:reverse_guitar",
+                "item_name": {"translate":"item.white.reverse_guitar"},
+                "lore": [
+                  "",
+                  {"translate": "item.white.reverse_guitar.desc.1","italic": true,"color": "#855c40"},
+                  {"translate": "item.white.reverse_guitar.desc.2","italic": true,"color": "#855c40"}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "type": "attack_damage",
+                    "id": "base_attack_damage",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "attack_speed",
+                    "id": "base_attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "enchantments": {
+                  "smite": 2,
+                  "bane_of_arthropods": 2,
+                  "unbreaking": 1
+                },
+                "custom_data": {
+                  "white": {"item":"reverse_guitar"}
+                },
+                "max_damage": 318
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

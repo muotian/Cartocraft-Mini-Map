@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_spear",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "white:ink_brush",
+                "item_name": [{"translate": "item.white.ink_brush"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.ink_brush.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.ink_brush.desc.2","color":"white","italic": false},
+                  "",
+                  {"translate": "item.white.ink_brush.desc.3","color":"gray","italic": false},
+                  {"translate": "item.white.ink_brush.desc.4","color":"white","italic": false}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "base_attack_damage",
+                    "type": "attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "base_attack_speed",
+                    "type": "attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "enchantments": {
+                    "white:wither_smite": 1,
+                    "unbreaking": 5
+                },
+                "damage_type": "white:move/ink_brush",
+                "custom_data": {
+                  "white": {
+                    "item": "ink_brush"
+                  }
+                },
+                "max_damage": 350
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

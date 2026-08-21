@@ -1,0 +1,3 @@
+
+execute if items entity @s weapon.mainhand *[custom_data~{white:{item:ink_bottle}}] run return run item modify entity @s weapon.mainhand {function:"set_name",entity:"this",name:[{"translate": "item.white.ink_bottle"},{text:" (",color:"gray"},{score:{name:"@s",objective:"white.move.ink_bottle.count"}},{text:")",color:"gray"}],target:"item_name"}
+item modify entity @s weapon.offhand {function:"set_name",entity:"this",name:[{"translate": "item.white.ink_bottle"},{text:" (",color:"gray"},{score:{name:"@s",objective:"white.move.ink_bottle.count"}},{text:")",color:"gray"}],target:"item_name"}

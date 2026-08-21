@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "poisonous_potato",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "feather",
+                "item_name": [{"translate": "item.white.phineas"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.phineas.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.phineas.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.phineas.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.phineas.desc.4","color":"white","italic": false}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "type": "safe_fall_distance",
+                    "id": "green:offhand",
+                    "amount": 1,
+                    "operation": "add_multiplied_base",
+                    "slot": "offhand"
+                  }
+                ],
+                "custom_data": {
+                  "white": {
+                    "item": "phineas"
+                  }
+                },
+                "!food": {}, "!consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

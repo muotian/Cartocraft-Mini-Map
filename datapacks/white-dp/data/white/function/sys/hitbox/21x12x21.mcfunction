@@ -1,0 +1,1 @@
+execute positioned ~-10.5 ~-6.0 ~-10.5 if entity @s[dx=20,dy=11,dz=20] run return 1

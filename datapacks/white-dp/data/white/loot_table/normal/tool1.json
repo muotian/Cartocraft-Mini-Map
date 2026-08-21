@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_pickaxe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.white.eraser"
+                },
+                "item_model": "white:eraser",
+                "enchantments": {
+                  "efficiency": 1,
+                  "unbreaking": 1
+                },
+                "max_damage": 160
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

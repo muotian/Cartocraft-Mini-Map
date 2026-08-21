@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "poisonous_potato",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "phantom_spawn_egg",
+                "item_name": [{"translate": "item.white.goodnight"}],
+                "lore": [
+                  "", 
+                  {"translate": "item.white.goodnight.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.goodnight.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.goodnight.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.goodnight.desc.4","color":"white","italic": false},
+                  "",
+                  {"translate": "item.white.goodnight.desc.5","color": "#855c40","italic": true},
+                  {"translate": "item.white.goodnight.desc.6","color": "#855c40","italic": true}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "type": "max_health",
+                    "id": "green:offhand",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ],
+                "custom_data": {
+                  "white": {
+                    "item": "goodnight"
+                  }
+                },
+                "!food": {}, "!consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

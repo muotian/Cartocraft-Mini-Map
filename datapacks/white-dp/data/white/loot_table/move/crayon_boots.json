@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "leather_boots",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "trim": {"material": "quartz","pattern": "wild"},
+                "dyed_color": 16366442,
+                "item_name": [{"translate": "item.white.crayon_boots"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.crayon_boots.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.crayon_boots.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.crayon_boots.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.crayon_boots.desc.4","color":"white","italic": false},
+                  {"translate": "item.white.crayon_boots.desc.5","color":"white","italic": false},
+                  "",
+                  {"translate": "item.white.crayon_boots.desc.6","color": "#855c40","italic": true}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "white:feet",
+                    "type": "armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "white:feet",
+                    "type": "armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "white:feet",
+                    "type": "movement_speed",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  }
+                ],
+                "enchantments": {
+                  "unbreaking": 3
+                },
+                "tooltip_display": {
+                  "hidden_components": ["trim","dyed_color"]
+                },
+                "custom_data": {
+                  "white": {
+                    "item": "crayon_boots"
+                  }
+                },
+                "max_damage": 195
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

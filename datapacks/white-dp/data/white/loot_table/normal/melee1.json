@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {"translate":"item.white.pencil"},
+                "item_model": "white:pencil",
+                "attribute_modifiers": [
+                  {
+                    "type": "attack_damage",
+                    "id": "base_attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "attack_speed",
+                    "id": "base_attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "enchantments": {
+                  "sharpness": 1,
+                  "unbreaking": 1
+                },
+                "max_damage": 160
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

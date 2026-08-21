@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "wooden_pickaxe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "white:amigatito",
+                "item_name": [{"translate": "item.white.amigatito"}],
+                "lore": [
+                  "",
+                  {"translate": "item.white.amigatito.desc.1","color":"gray","italic": false},
+                  {"translate": "item.white.amigatito.desc.2","color":"white","italic": false},
+                  {"translate": "item.white.amigatito.desc.3","color":"white","italic": false},
+                  {"translate": "item.white.amigatito.desc.4","color":"white","italic": false}
+                ],
+                "attribute_modifiers": [
+                  {
+                    "id": "white:mainhand",
+                    "type": "mining_efficiency",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "enchantments": {
+                  "unbreaking": 3
+                },
+                "custom_data": {
+                  "white": {
+                    "item": "amigatito"
+                  }
+                },
+                "max_damage": 160 
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

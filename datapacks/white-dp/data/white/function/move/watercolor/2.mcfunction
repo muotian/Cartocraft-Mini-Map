@@ -1,0 +1,9 @@
+execute facing ^-0.8005 ^-0.1477 ^0.5993 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.7557 ^-0.1364 ^0.6549 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.7071 ^-0.125 ^0.7071 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.6549 ^-0.1136 ^0.7557 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.5993 ^-0.1023 ^0.8005 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.5406 ^-0.0909 ^0.8413 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.4792 ^-0.0795 ^0.8777 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.4154 ^-0.0682 ^0.9096 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use
+execute facing ^-0.3495 ^-0.0568 ^0.9369 positioned ^ ^ ^1 run function white:move/watercolor/liquid/use

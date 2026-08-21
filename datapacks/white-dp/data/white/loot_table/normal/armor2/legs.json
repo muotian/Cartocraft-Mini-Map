@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "copper_leggings",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.white.vigor"
+                },
+                "trim": {
+                  "material": "redstone",
+                  "pattern": "wayfinder"
+                },
+                "attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "id": "white:legs",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "attack_damage",
+                    "id": "white:legs",
+                    "amount": 0.06,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  }
+                ],
+                "max_damage": 225,
+                "tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
