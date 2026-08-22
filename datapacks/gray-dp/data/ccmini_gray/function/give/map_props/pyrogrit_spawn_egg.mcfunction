@@ -1,0 +1,1 @@
+give @s blaze_spawn_egg[entity_data={id:"minecraft:blaze",DeathLootTable:"ccmini_gray:pyrogrit",Tags:["gray.pyrogrit"],CustomName:{"translate":"gray.mob.pyrogrit"},attributes:[{id:"minecraft:max_health",base:13}]},item_name="Pyrogrit Spawn Egg"] 1

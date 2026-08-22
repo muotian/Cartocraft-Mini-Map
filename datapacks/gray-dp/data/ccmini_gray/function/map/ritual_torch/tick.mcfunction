@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=gray.plot.ritual_torch.hitbox,limit=1] at @s if data entity @s interaction run function ccmini_gray:map/ritual_torch/remove

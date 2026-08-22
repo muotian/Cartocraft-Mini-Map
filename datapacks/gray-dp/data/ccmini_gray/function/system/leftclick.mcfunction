@@ -1,0 +1,2 @@
+scoreboard players set @s gray.leftclick 1
+execute if items entity @s weapon.mainhand minecraft:music_disc_13[minecraft:custom_data~{flickering_spark:1b}] at @s anchored eyes positioned ^ ^ ^ run function ccmini_gray:skills/spark/motion

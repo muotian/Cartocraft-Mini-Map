@@ -1,0 +1,3 @@
+execute as @e[type=interaction,tag=gray.plot.gopr.hitbox,limit=1] if data entity @s interaction run function ccmini_gray:map/remains/gopr
+execute as @e[type=interaction,tag=gray.plot.book.hitbox,limit=1] if data entity @s interaction run function ccmini_gray:map/remains/book
+execute as @e[type=item_display,tag=gray.plot.remains.unactivated,limit=1] at @s positioned ~-0.5 ~ ~-0.5 if entity @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:music_disc_13",components:{"minecraft:custom_data":{gray_flower:true}}}}] run function ccmini_gray:map/remains/rip

@@ -1,0 +1,1 @@
+give @s spawner[item_name="烈砂焰火生怪磚",block_entity_data={id:"mob_spawner",SpawnData:{entity:{id:"minecraft:blaze",DeathLootTable:"ccmini_gray:pyrogrit",Tags:["gray.pyrogrit"],CustomName:{"translate":"gray.mob.pyrogrit"},attributes:[{id:"minecraft:max_health",base:13}]}}}] 1

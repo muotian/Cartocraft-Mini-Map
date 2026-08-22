@@ -1,0 +1,4 @@
+{
+	"replace": false,
+	"values": ["animated_java:global/on_load", "ccmini_gray:load", "player_motion:internal/technical/load"]
+}

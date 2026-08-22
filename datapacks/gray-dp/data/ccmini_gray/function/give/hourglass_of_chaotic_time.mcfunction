@@ -1,0 +1,1 @@
+give @s music_disc_13[rarity="common",item_model="minecraft:gray_hourglass_of_chaotic_time",item_name={"translate":"gray.item.hourglass_of_chaotic_time"},custom_data={gray.hourglass_of_chaotic_time:true},!jukebox_playable,lore=[{text:" "},{translate:"gray.lore.hourglass_of_chaotic_time",color:"gray",italic:false}]] 1

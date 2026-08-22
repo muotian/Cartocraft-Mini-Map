@@ -1,0 +1,4 @@
+particle crit ~ ~ ~ 0.18 0.18 0.18 0 3
+execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,nbt={DeathTime:0s},type=!armor_stand,tag=!gray.boss.hitbox] unless score @s gray.gopr.invincibility.frames matches 1.. unless score @s gray.gopr.invincibility.frames.additional matches 1.. run damage @s 1 ccmini_gray:physical_damage_nocd by @e[type=parched,tag=gray.boss.hitbox,limit=1]
+execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,nbt={DeathTime:0s},type=!armor_stand,tag=!gray.boss.hitbox] unless score @s gray.gopr.invincibility.frames matches 1.. unless score @s gray.gopr.invincibility.frames.additional matches 1.. run effect give @s slowness 1 1 true
+execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,nbt={DeathTime:0s},type=!armor_stand,tag=!gray.boss.hitbox] if score @s gray.gopr.invincibility.frames matches 1.. unless score @s gray.gopr.invincibility.frames.additional matches 4.. run function ccmini_gray:system/dodge_success

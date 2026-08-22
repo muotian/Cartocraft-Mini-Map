@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:water"},max_stack_size=99,custom_name={"italic":false,"translate":"gray.item.oasis_dew"},minecraft:enchantment_glint_override=true,lore=[{text:" "},{translate:"gray.lore.oasis_dew",color:"gray",italic:false}],item_model="minecraft:gray_oasis_dew"] 1

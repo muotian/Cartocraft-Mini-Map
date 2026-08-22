@@ -1,0 +1,5 @@
+summon silverfish ~ ~ ~ {Tags:["gray.desert_ranger_silverfish"],Passengers:[{id:"minecraft:parched",DeathLootTable:"ccmini_gray:desert_ranger",Health:30f,Tags:["gray.desert_ranger_parched"],CustomName:{"translate":"gray.mob.desert_ranger"},equipment:{feet:{id:"minecraft:leather_boots",count:1},legs:{id:"minecraft:leather_leggings",count:1},chest:{id:"minecraft:iron_chestplate",count:1},head:{id:"minecraft:iron_helmet",count:1},mainhand:{id:"minecraft:bow",count:1}},drop_chances:{feet:0.000,legs:0.000,chest:0.000,head:0.000,mainhand:0.000},attributes:[{id:"minecraft:max_health",base:30}]}],attributes:[{id:"minecraft:max_health",base:1},{id:"minecraft:scale",base:2}]}
+
+
+tp ~ -1000 ~
+kill @s

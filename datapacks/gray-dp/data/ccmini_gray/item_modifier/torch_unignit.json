@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_model": "gray_ritual_torch",
+    "minecraft:custom_data": "{gray_ritual_torch:1b}"
+  },
+  "conditions": []
+}

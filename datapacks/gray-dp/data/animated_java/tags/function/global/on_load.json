@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:gray_battle_boss_body/on_load",
+		"animated_java:gray_battle_boss_feet/on_load",
+		"animated_java:gray_battle_boss_head/on_load",
+		"animated_java:gray_battle_boss_weapon/on_load",
+		"animated_java:gray_coffin/on_load",
+		"animated_java:gray_gopr/on_load",
+		"animated_java:gray_guide/on_load",
+		"animated_java:gray_pharaoh_coffin/on_load",
+		"animated_java:gray_plot_boss/on_load",
+		"animated_java:gray_sandstorm/on_load",
+		"animated_java:gray_speed_lines/on_load",
+		"animated_java:gray_sword_beam/on_load",
+		"animated_java:gray_waterball/on_load"
+	]
+}

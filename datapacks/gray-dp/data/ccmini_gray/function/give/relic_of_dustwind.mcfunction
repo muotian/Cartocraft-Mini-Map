@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"gray.item.relic_of_dustwind"},minecraft:item_model="minecraft:gray_relic_of_dustwind",minecraft:custom_data={gray.relic_of_dustwind:true},lore=[{text:" "},{translate:"gray.lore.relic_of_dustwind",color:"gray",italic:false}],rarity="rare"]

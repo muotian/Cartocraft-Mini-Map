@@ -1,0 +1,2 @@
+scoreboard players set $skill_timer gray.boss.data 65
+execute as @e[type=item_display,tag=aj.gray_battle_boss_body.root] run function animated_java:gray_battle_boss_body/animations/battle_ranged_sandsword/play

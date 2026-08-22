@@ -1,0 +1,1 @@
+give @s music_disc_13[!jukebox_playable,custom_data={gray_flower:true},item_name={translate:"gray.item.flower"},lore=[{translate:"gray.lore.flower"}],rarity="common",item_model="minecraft:poppy"]

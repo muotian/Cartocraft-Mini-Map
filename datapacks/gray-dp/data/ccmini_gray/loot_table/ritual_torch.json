@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "minecraft:gray_ritual_torch",
+                "minecraft:item_name": {
+                  "translate": "gray.item.ritual_torch"
+                },
+                "minecraft:custom_data": "{gray_ritual_torch:1b}",
+                "minecraft:rarity": "common"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                " ",
+                {
+                  "translate": "gray.lore.ritual_torch.1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "gray.lore.ritual_torch.2",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "gray.lore.ritual_torch.3",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

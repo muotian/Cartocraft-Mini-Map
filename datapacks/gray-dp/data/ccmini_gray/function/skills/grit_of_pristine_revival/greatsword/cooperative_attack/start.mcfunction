@@ -1,0 +1,1 @@
+execute as @a[tag=gray.user,limit=1] at @s anchored eyes positioned ^-1 ^0.5 ^ run function ccmini_gray:skills/grit_of_pristine_revival/greatsword/cooperative_attack/summon

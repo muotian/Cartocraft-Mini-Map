@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"gray.item.portablesandstorm"},minecraft:item_model="minecraft:gray_portable_sandstorm",minecraft:custom_data={gray.portable_sandstorm:true},lore=[{text:" "},{translate:"gray.lore.portablesandstorm.1",color:"gray",italic:false},{translate:"gray.lore.portablesandstorm.2",color:"gray",italic:false}]]

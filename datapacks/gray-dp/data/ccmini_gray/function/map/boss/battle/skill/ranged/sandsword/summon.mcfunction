@@ -1,0 +1,8 @@
+particle falling_dust{block_state:{Name:sand}} ^ ^ ^ 0.15 0.15 0.15 0 20
+particle falling_dust{block_state:{Name:sand}} ^1 ^-0.2 ^ 0.15 0.15 0.15 0 20
+particle falling_dust{block_state:{Name:sand}} ^-1 ^-0.2 ^ 0.15 0.15 0.15 0 20
+
+execute positioned ^1 ^-0.2 ^ run summon item_display ~ ~ ~ {item: {components: {"minecraft:item_model": "minecraft:gray_sand_sword"}, count: 1, id: "minecraft:iron_sword"}, transformation: {left_rotation: [0.2705981f, 0.6532815f, 0.2705981f, 0.6532815f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.9999993f, 0.9999992f], translation: [0.0f, 0.0f, 0.0f]},Tags:[gray.boss.battle.sandsword,gray.boss.battle.sandsword_1,gray.boss.battle.sandsword,gray.boss.battle.sandsword.locate,gray.boss.can_break],teleport_duration:1}
+summon item_display ~ ~ ~ {item: {components: {"minecraft:item_model": "minecraft:gray_sand_sword"}, count: 1, id: "minecraft:iron_sword"}, transformation: {left_rotation: [0.2705981f, 0.6532815f, 0.2705981f, 0.6532815f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.9999993f, 0.9999992f], translation: [0.0f, 0.0f, 0.0f]},Tags:[gray.boss.battle.sandsword,gray.boss.battle.sandsword_2,gray.boss.battle.sandsword.locate,gray.boss.can_break],teleport_duration:1}
+execute positioned ^-1 ^-0.2 ^ run summon item_display ~ ~ ~ {item: {components: {"minecraft:item_model": "minecraft:gray_sand_sword"}, count: 1, id: "minecraft:iron_sword"}, transformation: {left_rotation: [0.2705981f, 0.6532815f, 0.2705981f, 0.6532815f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.9999993f, 0.9999992f], translation: [0.0f, 0.0f, 0.0f]},Tags:[gray.boss.battle.sandsword,gray.boss.battle.sandsword_3,gray.boss.battle.sandsword.locate,gray.boss.can_break],teleport_duration:1}
+

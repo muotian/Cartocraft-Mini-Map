@@ -1,0 +1,1 @@
+give @s written_book[item_name={translate:"gray.item.mob_guide"},item_model="knowledge_book",written_book_content={title:"",author:"",pages:[{translate:"gray.book.mob_guide.dune_recluse"},{translate:"gray.book.mob_guide.desert_ranger"},{translate:"gray.book.mob_guide.pyrogrit"},{translate:"gray.book.mob_guide.fire"}]},tooltip_display={hidden_components:[written_book_content]}]

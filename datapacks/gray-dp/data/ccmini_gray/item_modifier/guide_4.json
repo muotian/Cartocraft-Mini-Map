@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{guide_state:4}",
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:written_book_content": {
+        "pages": [
+          {
+            "translate": "gray.book.guide_book.4",
+            "click_event": {
+              "action": "run_command",
+              "command": "/trigger gray.guide_input"
+            }
+          }
+        ],
+        "title": "",
+        "author": ""
+      }
+    }
+  }
+]
