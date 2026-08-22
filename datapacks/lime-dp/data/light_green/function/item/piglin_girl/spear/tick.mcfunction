@@ -17,4 +17,4 @@ execute if items entity @s container.* *[custom_data~{light_green.golden_axe:1}]
 execute if items entity @s container.* *[custom_data~{light_green.golden_axe:1}] if items entity @s container.* *[custom_data~{light_green.golden_dagger:1}] if score @s light_green.dagger_load matches 55 if score @s light_green.dagger_storage matches 18.. if score @s light_green.dagger_storage.ready_use matches 3.. run scoreboard players remove @s light_green.dagger_storage.ready_use 3
 execute if items entity @s container.* *[custom_data~{light_green.golden_axe:1}] if items entity @s container.* *[custom_data~{light_green.golden_dagger:1}] if score @s light_green.dagger_load matches 55.. run scoreboard players reset @s light_green.dagger_load
 
-execute if entity @s[tag=light_green.take_axe] run function light_green:item/piglin_girl/axe/throw_apply
+#execute if entity @s[tag=light_green.take_axe] run function light_green:item/piglin_girl/axe/throw_apply

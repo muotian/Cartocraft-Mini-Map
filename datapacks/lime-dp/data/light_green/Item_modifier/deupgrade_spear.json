@@ -8,7 +8,6 @@
   },
   {
     "function": "minecraft:set_components",
-    "name": "",
     "components": {
       "minecraft:attack_range": {
         "min_reach": 0,
