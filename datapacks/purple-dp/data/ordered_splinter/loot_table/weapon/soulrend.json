@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [[{"color":"gray","italic":false,"translate":"item.sword.soulrend.lore.1"},{"color":"dark_gray","italic":false,"text":"｜"},{"color":"#4D8AB3","italic":false,"translate":"item.sword.soulrend.lore.2"}],[{"text":""}],[{"color":"gray","italic":false,"text":">>"},{"color":"dark_aqua","bold":true,"italic":false,"text":"> "},{"color":"green","italic":false,"translate":"item.sword.soulrend.lore.3"}],[{"color":"gray","italic":false,"text":"  ➽ "},{"color":"yellow","italic":false,"translate":"item.sword.soulrend.lore.4"},{"color":"gray","italic":false,"text":"- "},{"color": "white", "italic": false, "translate": "purple.number.7"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.5"}],[{"color":"gray","italic":false,"text":"  ◆ "},{"color":"yellow","italic":false,"translate":"item.sword.soulrend.lore.5"},{"color":"gray","italic":false,"text":"- "},{"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}],[{"text":""}],[{"color":"gray","italic":false,"text":">>"},{"color":"dark_aqua","bold":true,"italic":false,"text":"> "},{"color":"green","italic":false,"translate":"item.sword.soulrend.lore.6"}],[{"color":"gray","italic":false,"text":"  "},{"atlas": "items", "sprite": "wool_purple:item/so_ul", "color":"white"},{"color":"#9863E7","italic":false,"translate":"item.sword.soulrend.lore.7"},{"color":"gray","italic":false,"text":"- "},{"color":"white","italic":false,"translate":"item.sword.soulrend.lore.8"}]],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"color":"#9863E7","translate":"item.sword.soulrend.1","italic":false},{"color":"#904EDB","translate":"item.sword.soulrend.2","italic":false},{"color":"#8838CF","translate":"item.sword.soulrend.3","italic":false},{"color":"#8023C3","translate":"item.sword.soulrend.4","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:soulrend_item",
+                                "custom_data":"{weapon:{type:\"sword\"}, soulrend: 1b, no_offhand: 1b}",
+                                "tooltip_style":"wool_purple:rare",
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:soulrend",
+                                        "type": "attack_damage",
+                                        "slot": "mainhand", 
+                                        "amount": 6.5,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter_main:left_click": 1},
+                                "enchantment_glint_override": false,
+                                "unbreakable": {},
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["attribute_modifiers", "unbreakable"]},
+                                "attack_range": {"min_reach": 0.0, "max_reach": 0.0, "hitbox_margin": 0.0, "mob_factor": 0.0, "min_creative_reach": 0.0, "max_creative_reach": 0.0}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

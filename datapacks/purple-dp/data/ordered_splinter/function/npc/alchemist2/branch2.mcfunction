@@ -1,0 +1,2 @@
+execute unless entity @e[tag=wool_purple.npc.alchemist2.dialog.branch.2,type=text_display] run return fail
+execute if score #alchemist2 wool_purple.npc matches 1 run function ordered_splinter:npc/alchemist2/dialog/2

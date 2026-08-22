@@ -1,0 +1,4 @@
+execute positioned ~-.5 ~-.5 ~-.5 as @n[dx=0,type=#mobs,tag=!wool_purple.boss_mainbody] run damage @s 15 mob_attack by a11-0-0-0-1
+execute positioned ~-.5 ~-.5 ~-.5 as @n[dx=0,type=#mobs,tag=!wool_purple.boss_mainbody,tag=wool_purple.monster] run function ordered_splinter:monster/add_tag
+execute positioned ~-.5 ~-.5 ~-.5 as @n[dx=0,tag=!wool_purple.hellfire_target,type=#mobs,tag=!wool_purple.boss_mainbody] run data modify entity @s[predicate=!ordered_splinter:on_fire] Fire set value 60s
+execute positioned ~-.5 ~-.5 ~-.5 as @n[dx=0,tag=!wool_purple.hellfire_target,type=#mobs,tag=!wool_purple.boss_mainbody] run tag @s add wool_purple.hellfire_target

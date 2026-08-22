@@ -1,0 +1,6 @@
+function ordered_splinter_main:random {math1:1,math2:101}
+$execute if score $random wool_purple.main.math matches $(common_chance_min)..$(common_chance_max) store result storage give:weapon quality int 1 run return run scoreboard players set $quality wool_purple.main.math 0
+$execute if score $random wool_purple.main.math matches $(handy_chance_min)..$(handy_chance_max) store result storage give:weapon quality int 1 run return run scoreboard players set $quality wool_purple.main.math 1
+$execute if score $random wool_purple.main.math matches $(fine_chance_min)..$(fine_chance_max) store result storage give:weapon quality int 1 run return run scoreboard players set $quality wool_purple.main.math 2
+$execute if score $random wool_purple.main.math matches $(superior_chance_min)..$(superior_chance_max) store result storage give:weapon quality int 1 run return run scoreboard players set $quality wool_purple.main.math 3
+$execute if score $random wool_purple.main.math matches $(masterwork_chance_min)..$(masterwork_chance_max) store result storage give:weapon quality int 1 run return run scoreboard players set $quality wool_purple.main.math 4

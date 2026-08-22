@@ -1,0 +1,10 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "passenger": {
+      "type": "minecraft:block_display",
+      "nbt": "{Tags:[\"wool_purple.isaiah_amethyst\"]}"
+    }
+  }
+}

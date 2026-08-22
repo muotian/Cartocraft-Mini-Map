@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"italic": false,"translate":"item.heart_of_pyrowind.4","color":"gray"},{"italic": false,"translate":"item.heart_of_pyrowind.1","color":"#FB8C00"},{"italic": false,"translate":"item.heart_of_pyrowind.2","color":"#BDC9FF"},{"italic": false,"translate":"item.heart_of_pyrowind.3","color":"gray"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [[{"text":""}],[{"italic": false,"translate":"item.heart_of_pyrowind.lore.1","color":"gray"}],[{"italic": false,"translate":"item.heart_of_pyrowind.lore.2","color":"gray"}],[{"text":""}],[{"italic": false,"translate":"item.heart_of_pyrowind.lore.3","color":"white"},{"italic": false,"translate":"item.windflame_longsword.1","color":"#FB8C00"},{"italic": false,"translate":"item.windflame_longsword.2","color":"#FB9D10"},{"italic": false,"translate":"item.windflame_longsword.3","color":"#FBAE21"},{"italic": false,"translate":"item.windflame_longsword.4","color":"#FBBF31"},{"italic": false,"translate":"item.heart_of_pyrowind.lore.4","color":"white"}],[{"text": ""}],[{"italic": false, "translate":"item.heart_of_pyrowind.lore.5","color":"dark_gray"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:heart_of_pyrowind_item",
+                                "custom_data":"{heart_of_pyrowind: 1b}",
+                                "tooltip_style":"wool_purple:legendary",
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["enchantments", "attribute_modifiers", "unbreakable"]}
+                                }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

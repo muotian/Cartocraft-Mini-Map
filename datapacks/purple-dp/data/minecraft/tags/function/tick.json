@@ -1,0 +1,6 @@
+{
+    "values": [
+        "ordered_splinter_main:tick",
+        "ordered_splinter:tick"
+    ]
+}

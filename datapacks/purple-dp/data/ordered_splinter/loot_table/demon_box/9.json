@@ -1,0 +1,79 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "swiftness",
+                                    "custom_effects": [
+                                        {
+                                            "id": "speed",
+                                            "duration": 600
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "fire_resistance"
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "strong_healing"
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "enchanted_golden_apple"
+                }
+            ]
+        },
+        {
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "arrow"
+                }
+            ]
+        }
+    ]
+}

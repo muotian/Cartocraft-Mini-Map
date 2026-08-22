@@ -1,0 +1,2 @@
+scoreboard players reset $archdemon_ice_to_sprint
+function ordered_splinter:boss/archdemon/skill/sprint

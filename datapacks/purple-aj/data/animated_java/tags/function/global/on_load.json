@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:archdemon/on_load",
+		"animated_java:boss_box/on_load",
+		"animated_java:box/on_load",
+		"animated_java:demon_box/on_load",
+		"animated_java:sword_double_model/on_load",
+		"animated_java:sword_model/on_load"
+	]
+}

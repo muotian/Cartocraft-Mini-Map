@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "packed_ice",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "apple",
+                    "weight": 6
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "enchanted_golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:null",
+                    "weight": 9
+                }
+            ]
+        }
+    ]
+}

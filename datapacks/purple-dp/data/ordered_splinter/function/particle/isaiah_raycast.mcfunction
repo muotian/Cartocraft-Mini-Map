@@ -1,0 +1,1 @@
+particle reverse_portal ~ ~ ~ 0.0005 0.0005 0.0005 0.0001 15

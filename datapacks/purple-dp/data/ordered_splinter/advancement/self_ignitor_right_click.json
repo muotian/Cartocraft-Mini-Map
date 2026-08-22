@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "eye_of_truesight": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{self_ignitor: 1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ordered_splinter:prop/self_ignitor"
+  }
+}

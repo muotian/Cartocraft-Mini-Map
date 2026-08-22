@@ -1,0 +1,5 @@
+execute if score @s wool_purple.eye_ability matches 0 if score @s wool_purple.ability.stockpile matches ..150 if items entity @s weapon.mainhand *[custom_data~{eye_of_truesight: 1b}] run item modify entity @s weapon.mainhand {function:"set_components",components:{item_model:"wool_purple:eye_of_truesight_item"}}
+execute if score @s wool_purple.eye_ability matches 0 if score @s wool_purple.ability.stockpile matches 150.. if items entity @s weapon.mainhand *[custom_data~{eye_of_truesight: 1b}] at @s run function ordered_splinter:eye_of_truesight/ability_raycast_start
+execute if score @s wool_purple.eye_ability matches 0 run scoreboard players set @s wool_purple.ability.stockpile 0
+execute if score @s wool_purple.eye_ability matches 0 run stopsound @a player block.portal.trigger
+execute if score @s wool_purple.eye_ability matches 0 run tag @s remove wool_purple.eye_ability

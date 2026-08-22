@@ -1,0 +1,48 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [{"translate":"item.maurice.1","color":"#C3D1D1","italic":false},{"translate":"item.maurice.2","color":"#B0BCBD","italic":false},{"translate":"item.maurice.3","color":"#9CA8A8","italic":false},{"translate":"item.maurice.4","color":"#899394","italic":false}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [[{"color": "gray", "italic": false, "translate": "item.maurice.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"color": "#4F8F7A", "italic": false, "translate": "item.maurice.lore.2"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.maurice.lore.3"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "➽ "}, {"color": "yellow", "italic": false, "translate": "item.maurice.lore.4"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.7"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "◆ "}, {"color": "yellow", "italic": false, "translate": "item.maurice.lore.5"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.maurice.lore.6"}], [{"italic": false, "text": "  "},{"atlas":"items","sprite":"wool_purple:item/resistance","color":"white"}, {"color": "#c3d1d1", "italic": false, "translate": "item.maurice.lore.7"}, {"color": "dark_gray", "italic": false, "text": " ❬ "}, {"color": "gray", "italic": false, "translate": "item.maurice.lore.8"}, {"color": "dark_gray", "italic": false, "text": " ❭ "}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "item.maurice.lore.9"},{"atlas":"items","sprite":"wool_purple:item/heart","color":"white"}, {"color": "white", "italic": false, "translate": "item.maurice.lore.10"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:maurice_item",
+                                "custom_data":"{weapon:{type:\"sword\"}, maurice: 1b, no_offhand: 1b}",
+                                "tooltip_style":"wool_purple:uncommon",
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:maurice",
+                                        "type": "attack_damage",
+                                        "slot": "mainhand", 
+                                        "amount": 6,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter_main:left_click": 1},
+                                "enchantment_glint_override": false,
+                                "unbreakable": {},
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["attribute_modifiers", "unbreakable"]},
+                                "attack_range": {"min_reach": 0.0, "max_reach": 0.0, "hitbox_margin": 0.0, "mob_factor": 0.0, "min_creative_reach": 0.0, "max_creative_reach": 0.0}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

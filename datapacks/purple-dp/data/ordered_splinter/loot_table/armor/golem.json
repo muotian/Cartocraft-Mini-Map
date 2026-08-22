@@ -1,0 +1,233 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"italic": false,"translate":"item.golem_helmet","color":"white"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [[{"text":""}],[{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false,"translate": "item.golem.lore.1"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.2"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.3"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.3"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "▶ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.4"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"},{"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "white", "italic": false, "text": "％"}], [{"text":""}], [{"italic": false,"translate":"item.golem.lore.5","color":"gray"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:golem_helmet_item",
+                                "custom_data":"{golem_helmet: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "tooltip_display": {
+                                    "hide_tooltip": false, 
+                                    "hidden_components": ["attribute_modifiers"]
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "wool_purple:golem_helmet",
+                                        "amount": 0.25,
+                                        "type": "movement_speed",
+                                        "slot": "head",
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_helmet",
+                                        "amount": 3,
+                                        "type": "armor",
+                                        "slot": "head",
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_helmet",
+                                        "amount": 2,
+                                        "type": "armor_toughness",
+                                        "slot": "head",
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "equippable": {
+                                    "asset_id": "wool_purple:golem",
+                                    "slot": "head"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"italic": false,"translate":"item.golem_chestplate","color":"white"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [[{"text":""}],[{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false,"translate": "item.golem.lore.1"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.2"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.8"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.3"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "▶ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.4"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"},{"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "white", "italic": false, "text": "％"}], [{"text":""}], [{"italic": false,"translate":"item.golem.lore.5","color":"gray"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:golem_chestplate_item",
+                                "custom_data":"{golem_chestplate: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "tooltip_display": {
+                                    "hide_tooltip": false, 
+                                    "hidden_components": ["attribute_modifiers"]
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "wool_purple:golem_chestplate",
+                                        "amount": 0.25,
+                                        "type": "movement_speed",
+                                        "slot": "chest",
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_chestplate",
+                                        "amount": 8,
+                                        "type": "armor",
+                                        "slot": "chest",
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_chestplate",
+                                        "amount": 2,
+                                        "type": "armor_toughness",
+                                        "slot": "chest",
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "equippable": {
+                                    "asset_id": "wool_purple:golem",
+                                    "slot": "chest"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"italic": false,"translate":"item.golem_leggings","color":"white"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [[{"text":""}],[{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false,"translate": "item.golem.lore.1"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.2"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.6"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.3"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "▶ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.4"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"},{"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "white", "italic": false, "text": "％"}], [{"text":""}], [{"italic": false,"translate":"item.golem.lore.5","color":"gray"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:golem_leggings_item",
+                                "custom_data":"{golem_leggings: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "tooltip_display": {
+                                    "hide_tooltip": false, 
+                                    "hidden_components": ["attribute_modifiers"]
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "wool_purple:golem_leggings",
+                                        "amount": 0.25,
+                                        "type": "movement_speed",
+                                        "slot": "legs",
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_leggings",
+                                        "amount": 6,
+                                        "type": "armor",
+                                        "slot": "legs",
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_leggings",
+                                        "amount": 2,
+                                        "type": "armor_toughness",
+                                        "slot": "legs",
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "equippable": {
+                                    "asset_id": "wool_purple:golem",
+                                    "slot": "legs"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"italic": false,"translate":"item.golem_boots","color":"white"}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [[{"text":""}],[{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false,"translate": "item.golem.lore.1"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.2"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.3"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "✠ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.3"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"}],[{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "▶ "}, {"color": "yellow", "italic": false,"translate": "item.golem.lore.4"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.2"},{"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "white", "italic": false, "text": "％"}], [{"text":""}], [{"italic": false,"translate":"item.golem.lore.5","color":"gray"}]]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:golem_boots_item",
+                                "custom_data":"{golem_boots: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "tooltip_display": {
+                                    "hide_tooltip": false, 
+                                    "hidden_components": ["attribute_modifiers"]
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "wool_purple:golem_boots",
+                                        "amount": 0.25,
+                                        "type": "movement_speed",
+                                        "slot": "feet",
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_boots",
+                                        "amount": 3,
+                                        "type": "armor",
+                                        "slot": "feet",
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:golem_boots",
+                                        "amount": 2,
+                                        "type": "armor_toughness",
+                                        "slot": "feet",
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "equippable": {
+                                    "asset_id": "wool_purple:golem",
+                                    "slot": "feet"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

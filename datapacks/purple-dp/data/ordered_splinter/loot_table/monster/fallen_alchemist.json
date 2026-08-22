@@ -1,0 +1,20 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:prop/philosopher_stone",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:null",
+                    "weight": 7
+                }
+            ]
+        }
+    ]
+}

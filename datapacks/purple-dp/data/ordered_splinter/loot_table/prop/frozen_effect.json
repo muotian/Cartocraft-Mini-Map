@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:frozen_effect_item",
+                                "custom_data":"{frozen_effect: 1b}",
+                                "tooltip_style":"wool_purple:air",
+                                "equippable": {
+                                    "slot": "offhand",
+                                    "camera_overlay": "wool_purple:frozen_effect",
+                                    "equip_sound": "block.creaking_heart.spawn"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "wool_purple:frozen_effect",
+                                        "amount": -0.75,
+                                        "type": "jump_strength",
+                                        "slot": "offhand",
+                                        "operation": "add_multiplied_total"
+                                    },
+                                    {
+                                        "id": "wool_purple:frozen_effect",
+                                        "amount": -0.075,
+                                        "type": "movement_speed",
+                                        "slot": "offhand",
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["enchantments", "attribute_modifiers", "unbreakable"]}
+                                }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

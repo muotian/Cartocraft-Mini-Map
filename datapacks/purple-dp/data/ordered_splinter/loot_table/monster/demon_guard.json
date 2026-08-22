@@ -1,0 +1,20 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gold_nugget",
+                    "weight": 9
+                },
+                {
+                    "type": "item",
+                    "name": "gold_block",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+execute facing entity @p[distance=..5] feet positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^15 facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if entity @e[tag=wool_purple.npc.alchemist2.dialog] unless entity @p[distance=..5] run function ordered_splinter:npc/alchemist2/dialog/end
+execute as @s[tag=!wool_purple.npc.trading] if items entity @p[distance=..5] weapon.mainhand *[custom_data~{philosopher_stone: 1b}] run function ordered_splinter:npc/alchemist2/dialog/trade
+execute as @s[tag=wool_purple.npc.trading] unless entity @p[distance=..5] run function ordered_splinter:npc/alchemist2/dialog/trade_end

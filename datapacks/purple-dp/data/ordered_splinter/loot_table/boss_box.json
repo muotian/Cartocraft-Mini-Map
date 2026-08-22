@@ -1,0 +1,25 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "purple_wool",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:weapon/isaiah",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

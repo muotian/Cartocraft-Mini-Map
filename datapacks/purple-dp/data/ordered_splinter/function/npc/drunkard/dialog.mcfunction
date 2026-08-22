@@ -1,0 +1,19 @@
+execute unless score #drunkard wool_purple.npc matches ..15 run scoreboard players set #drunkard wool_purple.npc 1
+execute if score #drunkard wool_purple.npc matches 17 run function ordered_splinter:npc/drunkard/dialog/17
+execute if score #drunkard wool_purple.npc matches 16 run function ordered_splinter:npc/drunkard/dialog/16
+execute if score #drunkard wool_purple.npc matches 15 run function ordered_splinter:npc/drunkard/dialog/15
+execute if score #drunkard wool_purple.npc matches 14 run function ordered_splinter:npc/drunkard/dialog/14
+execute if score #drunkard wool_purple.npc matches 13 run function ordered_splinter:npc/drunkard/dialog/13
+execute if score #drunkard wool_purple.npc matches 12 run function ordered_splinter:npc/drunkard/dialog/12
+execute if score #drunkard wool_purple.npc matches 11 run function ordered_splinter:npc/drunkard/dialog/11
+execute if score #drunkard wool_purple.npc matches 10 run function ordered_splinter:npc/drunkard/dialog/10
+execute if score #drunkard wool_purple.npc matches 9 run function ordered_splinter:npc/drunkard/dialog/9
+execute if score #drunkard wool_purple.npc matches 8 run function ordered_splinter:npc/drunkard/dialog/8
+execute if score #drunkard wool_purple.npc matches 7 run function ordered_splinter:npc/drunkard/dialog/7
+execute if score #drunkard wool_purple.npc matches 6 run function ordered_splinter:npc/drunkard/dialog/6
+execute if score #drunkard wool_purple.npc matches 5 run function ordered_splinter:npc/drunkard/dialog/5
+execute if score #drunkard wool_purple.npc matches 4 run function ordered_splinter:npc/drunkard/dialog/4
+execute if score #drunkard wool_purple.npc matches 3 run function ordered_splinter:npc/drunkard/dialog/3
+execute if score #drunkard wool_purple.npc matches 2 run function ordered_splinter:npc/drunkard/dialog/2
+execute if score #drunkard wool_purple.npc matches 1 run function ordered_splinter:npc/drunkard/dialog/1
+execute if score #drunkard wool_purple.npc matches 0 run function ordered_splinter:npc/drunkard/dialog/end

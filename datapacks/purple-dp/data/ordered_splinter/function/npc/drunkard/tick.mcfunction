@@ -1,0 +1,6 @@
+execute facing entity @p[distance=..5] feet positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^15 facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @e[tag=wool_purple.no_conversation_yet,tag=wool_purple.npc.drunkard_mannequin] if entity @p[distance=..15] if predicate ordered_splinter:10percentage run rotate @s ~ ~5
+execute as @e[tag=wool_purple.no_conversation_yet,tag=wool_purple.npc.drunkard_mannequin] if entity @p[distance=..15] if predicate ordered_splinter:10percentage run rotate @s ~10 ~
+execute as @e[tag=wool_purple.no_conversation_yet,tag=wool_purple.npc.drunkard_mannequin] if entity @p[distance=..15] if predicate ordered_splinter:10percentage run rotate @s ~ ~-5
+execute as @e[tag=wool_purple.no_conversation_yet,tag=wool_purple.npc.drunkard_mannequin] if entity @p[distance=..15] if predicate ordered_splinter:10percentage run rotate @s ~-10 ~
+execute if entity @e[tag=wool_purple.npc.drunkard.dialog] unless entity @p[distance=..5] run function ordered_splinter:npc/drunkard/dialog/end

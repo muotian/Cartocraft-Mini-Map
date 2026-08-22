@@ -1,0 +1,2 @@
+execute as @s[tag=!wool_purple.fallen_alchemist_hurt] run playsound minecraft:entity.evoker.hurt hostile @a ~ ~ ~ 2 0.8
+execute as @s[tag=!wool_purple.fallen_alchemist_hurt] run tag @s add wool_purple.fallen_alchemist_hurt

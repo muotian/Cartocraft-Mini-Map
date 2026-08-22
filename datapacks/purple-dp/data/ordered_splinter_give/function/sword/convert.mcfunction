@@ -1,0 +1,1 @@
+execute if score $weapon_set wool_purple.main.math matches 1 run return run function ordered_splinter_give:sword/rotten/damage with storage give:weapon

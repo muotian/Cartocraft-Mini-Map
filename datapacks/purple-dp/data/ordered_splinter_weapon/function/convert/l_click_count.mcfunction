@@ -1,0 +1,2 @@
+execute if score @s wool_purple.weapon.attack_type matches 1..4 run return run function ordered_splinter_weapon:convert/l_click_count2
+execute unless score @s wool_purple.weapon.attack_type matches 1.. run return run scoreboard players set @s wool_purple.weapon.attack_type 1

@@ -1,0 +1,44 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "enchanted_golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "rolls": 16,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "scaffolding"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:weapon/blade_of_finality",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:null",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

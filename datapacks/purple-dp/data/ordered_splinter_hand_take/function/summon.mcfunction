@@ -1,0 +1,1 @@
+function ordered_splinter_weapon:convert/summon

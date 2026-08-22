@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [[{"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"color": "#C8A84A", "italic": false, "translate": "item.aspectslayer_longsword.lore.2"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.aspectslayer_longsword.lore.3"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "➽ "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.4"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.5"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "◆ "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.5"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.aspectslayer_longsword.lore.6"}], [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/duality_of_crimson_and_azure", "color":"white"}, {"color": "white", "italic": false, "text": " "}, {"color": "#62BEFF", "italic": false, "translate": "item.aspectslayer_longsword.lore.7"}, {"color": "#96A5D0", "italic": false, "translate": "item.aspectslayer_longsword.lore.8"}, {"color": "#CB8BA1", "italic": false, "translate": "item.aspectslayer_longsword.lore.9"}, {"color": "#FF7272", "italic": false, "translate": "item.aspectslayer_longsword.lore.10"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.aspectslayer_longsword.lore.11"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.12"}, {"color": "#92D2FF", "italic": false, "translate": "item.purity_dagger.1"}, {"color": "#7FC1F4", "italic": false, "translate": "item.purity_dagger.2"}, {"color": "#6DB1E9", "italic": false, "translate": "item.purity_dagger.3"}, {"color": "#5AA0DE", "italic": false, "translate": "item.purity_dagger.4"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.13"}, {"color": "white", "italic": false, "translate": "item.aspectslayer_longsword.lore.14"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.aspectslayer_longsword.lore.15"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.16"}, {"color": "#a31212", "italic": false, "translate": "item.aspectslayer_longsword.lore.17"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.18"}], [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.19"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.aspectslayer_longsword.lore.20"}], [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/hollow_square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.21"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "keybind": "key.swapOffhand"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.22"}], [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/clock", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.23"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.24"}], [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/sandglass", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.aspectslayer_longsword.lore.25"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.3"}, {"color": "white", "italic": false, "translate": "purple.number.0"}, {"color": "gray", "italic": false, "translate": "item.aspectslayer_longsword.lore.26"}]],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"color":"#E61B1B","translate":"item.aspectslayer_longsword.1","italic":false},{"color":"#CB1917","translate":"item.aspectslayer_longsword.2","italic":false},{"color":"#B01614","translate":"item.aspectslayer_longsword.3","italic":false},{"color":"#951410","translate":"item.aspectslayer_longsword.4","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:aspectslayer_longsword_item",
+                                "custom_data":"{weapon:{type:\"sword\"}, aspectslayer_longsword: 1b}",
+                                "tooltip_style":"wool_purple:legendary",
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:aspectslayer_longsword",
+                                        "type": "attack_damage",
+                                        "slot": "hand", 
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter_main:left_click": 1},
+                                "enchantment_glint_override": false,
+                                "unbreakable": {},
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["attribute_modifiers", "unbreakable"]},
+                                "attack_range": {"min_reach": 0.0, "max_reach": 0.0, "hitbox_margin": 0.0, "mob_factor": 0.0, "min_creative_reach": 0.0, "max_creative_reach": 0.0}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

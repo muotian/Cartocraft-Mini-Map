@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cookie",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"translate":"item.philosopher_stone.1","color":"#CF0000","italic":false},{"translate":"item.philosopher_stone.2","color":"#BF0000","italic":false},{"translate":"item.philosopher_stone.3","color":"#AF0000","italic":false},{"translate":"item.philosopher_stone.4","color":"#A00000","italic":false},{"translate":"item.philosopher_stone.5","color":"#900000","italic":false},{"translate":"item.philosopher_stone.6","color":"#800000","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:philosopher_stone_item",
+                                "custom_data":"{philosopher_stone: 1b}",
+                                "tooltip_style":"wool_purple:epic",
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["enchantments", "attribute_modifiers", "unbreakable"]},
+                                "minecraft:food": {"can_always_eat":true,"nutrition":0, "saturation":0},
+                                "consumable": {"animation":"eat","consume_seconds":2,"has_consume_particles":true,"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"minecraft:strength","amplifier":2,"duration":600,"show_particles":false,"show_icon":true},{"id":"minecraft:regeneration","amplifier":2,"duration":600,"show_particles":false,"show_icon":true}]}],
+                                "sound":{"sound_id":"block.decorated_pot.shatter"}}
+                                }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

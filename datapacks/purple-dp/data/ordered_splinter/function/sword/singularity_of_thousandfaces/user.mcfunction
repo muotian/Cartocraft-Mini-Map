@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand *[custom_data~{singularity_of_thousandfaces: 1b}] run scoreboard players add $cycle wool_purple.singularity_cycle 1
+execute if score $cycle wool_purple.singularity_cycle matches 40 at @s run function ordered_splinter:particle/black_hole
+execute if score $cycle wool_purple.singularity_cycle matches 40 at @s run scoreboard players set $cycle wool_purple.singularity_cycle 0

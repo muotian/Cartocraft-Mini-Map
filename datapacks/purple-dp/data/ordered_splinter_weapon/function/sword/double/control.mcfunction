@@ -1,0 +1,11 @@
+function ordered_splinter_weapon:sword/replace_undouble with storage player:data
+
+execute if score @s wool_purple.weapon.attack_type matches 3 store result storage player:data damage float 0.75 run data get storage player:data damage
+execute if score @s wool_purple.weapon.attack_type matches 1 run return run function ordered_splinter_weapon:sword/double/attack/1 with storage player:data
+
+execute if score @s wool_purple.weapon.attack_type matches 3 store result storage player:data damage_offhand double 0.75 run data get storage player:data damage_offhand
+execute if score @s wool_purple.weapon.attack_type matches 2 run return run function ordered_splinter_weapon:sword/double/attack/2 with storage player:data
+
+execute if score @s wool_purple.weapon.attack_type matches 3 run return run function ordered_splinter_weapon:sword/double/attack/3 with storage player:data
+
+execute if score @s wool_purple.weapon.attack_type matches 4 run return run function ordered_splinter_weapon:sword/double/attack/4 with storage player:data

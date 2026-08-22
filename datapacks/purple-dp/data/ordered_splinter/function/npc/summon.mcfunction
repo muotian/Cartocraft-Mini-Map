@@ -1,0 +1,1 @@
+$execute align xz positioned ~0.5 ~ ~0.5 unless entity @e[tag=wool_purple.npc.$(npc_name).spawner] run summon marker ~ ~ ~ {Tags:[wool_purple.npc.$(npc_name).spawner]}

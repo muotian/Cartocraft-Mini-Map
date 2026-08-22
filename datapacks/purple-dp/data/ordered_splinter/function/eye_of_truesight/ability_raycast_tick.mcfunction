@@ -1,0 +1,4 @@
+execute positioned ^ ^1 ^1 if items entity @s weapon.mainhand *[custom_data~{eye_of_truesight: 1b}] run function ordered_splinter:eye_of_truesight/ability_raycast
+execute if items entity @s weapon.mainhand *[custom_data~{eye_of_truesight: 1b}] run scoreboard players add @s wool_purple.eye_ability_raycast 1
+execute if score @s wool_purple.eye_ability_raycast matches 100 if items entity @s weapon.mainhand *[custom_data~{eye_of_truesight: 1b}] run item modify entity @s weapon.mainhand {function:"set_components",components:{item_model:"wool_purple:eye_of_truesight_item"}}
+execute if score @s wool_purple.eye_ability_raycast matches 100 run tag @s remove wool_purple.eye_ability_raycast

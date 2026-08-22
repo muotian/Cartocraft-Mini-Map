@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [
+                            [{"color": "gray", "italic": false, "translate": "item.isaiah.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"translate":"item.isaiah.lore.2", "font":"wool_purple:hidden", "color":"white"}], 
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.isaiah.lore.3"}], 
+                            [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "➽ "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.4"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "translate": "purple.number.2"}], 
+                            [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "◆ "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.5"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}], 
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.isaiah.lore.6"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.7"}, {"color": "#d0a6e8", "italic": false, "translate": "item.isaiah.lore.8"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.9"}],
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.10"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.isaiah.lore.11"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/hollow_square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.12"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "keybind": "key.use"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/clock", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.13"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "translate": "purple.number.0"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.14"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/sandglass", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.15"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.3"}, {"color": "white", "italic": false, "translate": "purple.number.0"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.16"}],
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.isaiah.lore.17"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.18"}, {"color": "#a958d8", "italic": false, "translate": "item.isaiah.lore.19"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.20"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.21"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.isaiah.lore.22"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/hollow_square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.23"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "keybind": "key.sneak"}, {"color": "white", "italic": false, "text": " + "}, {"color": "white", "italic": false, "keybind": "key.use"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/clock", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.24"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.25"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/sandglass", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.isaiah.lore.26"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.6"}, {"color": "white", "italic": false, "translate": "purple.number.0"}, {"color": "gray", "italic": false, "translate": "item.isaiah.lore.27"}]
+                            ],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"color":"#CFA8E7","translate":"item.isaiah.1","italic":false},{"color":"#BC80E0","translate":"item.isaiah.2","italic":false},{"color":"#A958D8","translate":"item.isaiah.3","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:isaiah_item",
+                                "custom_data":"{weapon:{type:\"sword\"},no_offhand: 1b,isaiah: 1b}",
+                                "tooltip_style":"wool_purple:hidden",
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:isaiah",
+                                        "type": "attack_damage",
+                                        "slot": "mainhand", 
+                                        "amount": 11,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "food": {"nutrition":0, "saturation":0,"can_always_eat": true},
+                                "consumable": {
+                                    "consume_seconds": 10000,
+                                    "animation": "eat",
+                                    "has_consume_particles": false
+                                },
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter_main:left_click": 1},
+                                "enchantment_glint_override": false,
+                                "unbreakable": {},
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["attribute_modifiers", "unbreakable"]},
+                                "attack_range": {"min_reach": 0.0, "max_reach": 0.0, "hitbox_margin": 0.0, "mob_factor": 0.0, "min_creative_reach": 0.0, "max_creative_reach": 0.0}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

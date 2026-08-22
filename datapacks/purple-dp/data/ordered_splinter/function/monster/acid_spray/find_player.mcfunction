@@ -1,0 +1,1 @@
+execute as @n[tag=wool_purple.target,distance=..15] run tag @s add wool_purple.acid_target

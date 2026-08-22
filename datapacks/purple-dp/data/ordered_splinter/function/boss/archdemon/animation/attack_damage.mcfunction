@@ -1,0 +1,1 @@
+damage @s 20 mob_attack by @n[tag=wool_purple.attacker]

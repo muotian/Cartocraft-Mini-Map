@@ -1,0 +1,4 @@
+execute if score @s wool_purple.weapon.player_hand_animation matches 17 run function ordered_splinter_playsound:play {voice:entity.player.attack.sweep,type:master,volume:1,pitch:1}
+execute if score @s wool_purple.weapon.player_hand_animation matches 17 run function ordered_splinter_playsound:play {voice:entity.player.attack.sweep,type:master,volume:1,pitch:1}
+$execute if score @s wool_purple.weapon.player_hand_animation matches 16 run function ordered_splinter_apply_damage:0 {damage:$(damage),dis:3.5,long:1.35}
+$execute if score @s wool_purple.weapon.player_hand_animation matches 16 run function ordered_splinter_weapon_damage:0 {damage:$(damage_offhand),dis:3.5,long:1.35,slot:off,type:common}

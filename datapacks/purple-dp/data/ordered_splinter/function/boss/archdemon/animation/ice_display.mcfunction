@@ -1,0 +1,5 @@
+tag @s add wool_purple.ice_id
+summon block_display ~-0.5 ~-0.5 ~-0.5 {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:packed_ice",Properties:{}},transformation:[-1.0000f,0.0000f,0.0000f,0.5000f,0.0000f,1.0000f,0.0000f,1.0000f,-0.0000f,0.0000f,-1.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f],Tags:["wool_purple.ice_display_in"],teleport_duration:1b},{id:"minecraft:block_display",block_state:{Name:"minecraft:packed_ice",Properties:{}},transformation:[-1.0000f,0.0000f,0.0000f,0.5000f,0.0000f,1.0000f,0.0000f,0.0000f,-0.0000f,0.0000f,-1.0000f,0.5000f,0.0000f,0.0000f,0.0000f,1.0000f],Tags:["wool_purple.ice_display_in"],teleport_duration:1b}],Tags:["wool_purple.ice_display","wool_purple.ice_id"]}
+
+execute store result score @e[tag=wool_purple.ice_id,limit=2] wool_purple.mob.id run scoreboard players add #index wool_purple.mob.id 1
+tag @e[tag=wool_purple.ice_id,limit=2] remove wool_purple.ice_id

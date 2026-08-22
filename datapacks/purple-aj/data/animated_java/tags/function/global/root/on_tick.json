@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:archdemon/root/on_tick",
+		"animated_java:boss_box/root/on_tick",
+		"animated_java:box/root/on_tick",
+		"animated_java:demon_box/root/on_tick",
+		"animated_java:sword_double_model/root/on_tick",
+		"animated_java:sword_model/root/on_tick"
+	]
+}

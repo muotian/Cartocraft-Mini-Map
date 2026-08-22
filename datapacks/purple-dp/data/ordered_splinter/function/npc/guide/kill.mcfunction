@@ -1,0 +1,6 @@
+kill @e[tag=wool_purple.npc.guide_mannequin]
+kill @e[tag=wool_purple.npc.guide.dialog]
+kill @e[tag=wool_purple.npc.guide]
+kill @e[tag=wool_purple.npc.guide.dialog.branch.1]
+kill @e[tag=wool_purple.npc.guide.dialog.branch.2]
+kill @e[tag=wool_purple.npc.guide.dialog.condition]

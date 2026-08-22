@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": ""
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ordered_splinter:monster/demon/add_tag"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:chest_armor",
+  "weight": 1
+}

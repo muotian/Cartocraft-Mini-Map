@@ -1,0 +1,1 @@
+give @s spawner[block_entity_data={id:"mob_spawner",SpawnCount:4,MaxNearbyEntities:4,SpawnRange:5,Delay:0,MinSpawnDelay:700,MaxSpawnDelay:800,RequiredPlayerRange:20,SpawnData:{entity:{id:armor_stand,Tags:["wool_purple.fallen_alchemist.spawner"],Invisible:1b}}}]

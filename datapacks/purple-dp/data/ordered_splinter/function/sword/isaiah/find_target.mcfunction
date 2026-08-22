@@ -1,0 +1,1 @@
+execute as @n[tag=wool_purple.isaiah_eye_raycast_ready] run tag @n[tag=wool_purple.have_amethyst] add wool_purple.isaiah_target

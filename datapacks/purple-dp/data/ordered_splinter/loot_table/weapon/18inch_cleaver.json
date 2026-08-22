@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [[{"color": "gray", "italic": false,"translate": "item.18inch_cleaver.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"color": "#9E9E9E", "italic": false,"translate": "item.18inch_cleaver.lore.2"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false,"translate": "item.18inch_cleaver.lore.3"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "➽ "}, {"color": "yellow", "italic": false,"translate": "item.18inch_cleaver.lore.4"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.6"}], [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "◆ "}, {"color": "yellow", "italic": false,"translate": "item.18inch_cleaver.lore.5"}, {"color": "gray", "italic": false, "text": "- "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}], [{"italic": false, "text": ""}], [{"color": "dark_gray", "italic": false, "text": "❝ "}], [{"color": "white", "italic": false,"translate": "item.18inch_cleaver.lore.6"}], [{"color": "dark_gray", "italic": false,"translate": "item.18inch_cleaver.lore.7"}]],
+                            "mode": "append"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"color":"#E03636","translate":"item.18inch_cleaver.1","italic":false},{"color":"#D94949","translate":"item.18inch_cleaver.2","italic":false},{"color":"#D35C5C","translate":"item.18inch_cleaver.3","italic":false},{"color":"#CC6E6E","translate":"item.18inch_cleaver.4","italic":false},{"color":"#C68181","translate":"item.18inch_cleaver.5","italic":false},{"color":"#BF9494","translate":"item.18inch_cleaver.6","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:18inch_cleaver_item",
+                                "custom_data":"{weapon:{type:\"sword\"},no_offhand: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:18inch_cleaver",
+                                        "type": "attack_damage",
+                                        "slot": "mainhand", 
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter_main:left_click": 1},
+                                "enchantment_glint_override": false,
+                                "unbreakable": {},
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["attribute_modifiers", "unbreakable"]},
+                                "attack_range": {"min_reach": 0.0, "max_reach": 0.0, "hitbox_margin": 0.0, "mob_factor": 0.0, "min_creative_reach": 0.0, "max_creative_reach": 0.0}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

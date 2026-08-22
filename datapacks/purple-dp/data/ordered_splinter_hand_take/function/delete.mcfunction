@@ -1,0 +1,1 @@
+$execute as @n[tag=$(id)-hand] run function ordered_splinter_weapon:convert/delete

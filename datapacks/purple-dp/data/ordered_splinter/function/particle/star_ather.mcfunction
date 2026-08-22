@@ -1,0 +1,1 @@
+$particle ominous_spawning ^$(x) ^$(y) ^1 0.05 0.05 0.05 0.0001 15

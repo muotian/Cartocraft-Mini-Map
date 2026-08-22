@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "eye_of_truesight": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{pyrowind_longsword: 1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ordered_splinter:sword/pyrowind_longsword/right_click"
+  }
+}

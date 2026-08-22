@@ -1,0 +1,12 @@
+loot give @s loot ordered_splinter:weapon/18inch_cleaver
+loot give @s loot ordered_splinter:weapon/aspectslayer_longsword
+loot give @s loot ordered_splinter:weapon/blade_of_finality
+loot give @s loot ordered_splinter:weapon/eye_of_truesight
+loot give @s loot ordered_splinter:weapon/isaiah
+loot give @s loot ordered_splinter:weapon/maurice
+loot give @s loot ordered_splinter:weapon/naraku_fallen_shortsword
+loot give @s loot ordered_splinter:weapon/purity_dagger
+loot give @s loot ordered_splinter:weapon/pyrowind_longsword
+loot give @s loot ordered_splinter:weapon/singularity_of_thousandfaces
+loot give @s loot ordered_splinter:weapon/soulrend
+loot give @s loot ordered_splinter:weapon/windflame_longsword

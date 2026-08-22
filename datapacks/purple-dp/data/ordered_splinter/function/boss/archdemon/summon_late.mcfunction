@@ -1,0 +1,1 @@
+execute as @e[tag=wool_purple.boss_summon_late] at @s run function ordered_splinter:boss/archdemon/summon_late2

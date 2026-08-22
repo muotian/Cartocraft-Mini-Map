@@ -1,0 +1,1 @@
+$playsound $(voice) $(type) @a[distance=..$(distance)] ~ ~ ~ $(volume) $(pitch)

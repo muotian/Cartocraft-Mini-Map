@@ -1,0 +1,4 @@
+execute if entity @s[tag=wool_purple.murderer,tag=wool_purple.monster] at @s if predicate ordered_splinter:50percentage run function ordered_splinter:particle/sword_aura_left
+execute if entity @s[tag=wool_purple.murderer,tag=wool_purple.monster] at @s if predicate ordered_splinter:50percentage run function ordered_splinter:particle/sword_aura_right
+execute if entity @s[tag=wool_purple.acid_spray.entity] at @s run function ordered_splinter:monster/acid_spray/kill
+execute if entity @s[tag=wool_purple.imp,tag=wool_purple.monster] at @s if predicate ordered_splinter:50percentage run particle minecraft:sweep_attack ^ ^0.5 ^1 0 0 0 0 1

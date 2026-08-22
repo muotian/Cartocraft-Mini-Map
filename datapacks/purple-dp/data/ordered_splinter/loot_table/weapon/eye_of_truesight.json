@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cookie",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"translate": "item.eye_of_truesight.1","color":"#00B0BC","italic": false},{"translate": "item.eye_of_truesight.2","color":"#24C0BD","italic": false},{"translate": "item.eye_of_truesight.3","color":"#48D0BF","italic": false},{"translate": "item.eye_of_truesight.4","color":"#6CE0C0","italic": false}]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"translate":"item.eye_of_truesight.lore.2", "font":"wool_purple:hidden", "color":"white"}], 
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.eye_of_truesight.lore.3"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.4"}, {"color": "#4a4a4a", "italic": false, "translate": "item.eye_of_truesight.lore.5"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.6"}],
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.7"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.eye_of_truesight.lore.8"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/hollow_square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.9"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "keybind": "key.attack"}], 
+                            [{"italic": false, "text": "  "}, {"color": "gray", "italic": false, "text": "➽"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.10"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "translate": "purple.number.2"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/rhombic", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.11"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.1"}, {"color": "white", "italic": false, "text": "."}, {"color": "white", "italic": false, "translate": "purple.number.7"}],
+                            [{"italic": false, "text": ""}], 
+                            [{"color": "gray", "italic": false, "text": ">>"}, {"color": "dark_aqua", "bold": true, "italic": false, "text": "> "}, {"color": "green", "italic": false, "translate": "item.eye_of_truesight.lore.12"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.13"}, {"color": "#00b0bc", "italic": false, "translate": "item.eye_of_truesight.lore.14"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.15"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.16"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "item.eye_of_truesight.lore.17"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/hollow_square", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.18"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "keybind": "key.use"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/clock", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.19"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.5"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.20"}], 
+                            [{"italic": false, "text": "  "}, {"atlas": "items", "sprite": "wool_purple:item/sandglass", "color":"gray"}, {"text": " "}, {"color": "yellow", "italic": false, "translate": "item.eye_of_truesight.lore.21"}, {"color": "gray", "italic": false, "text": " - "}, {"color": "white", "italic": false, "translate": "purple.number.3"}, {"color": "white", "italic": false, "translate": "purple.number.0"}, {"color": "gray", "italic": false, "translate": "item.eye_of_truesight.lore.22"}]
+                        ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "swing_animation": {
+                                    "type": "stab"
+                                },
+                                "item_model":"wool_purple:eye_of_truesight_item",
+                                "custom_data":"{eye_of_truesight: 1b, no_offhand: 1b}",
+                                "tooltip_style":"wool_purple:hidden",
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["enchantments", "attribute_modifiers", "unbreakable"]},
+                                "piercing_weapon": {},
+                                "enchantments": {"ordered_splinter:left_click": 1},
+                                "food": {"nutrition":0, "saturation":0,"can_always_eat": true},
+                                "consumable": {
+                                    "consume_seconds": 10000,
+                                    "animation": "bow",
+                                    "has_consume_particles": false
+                                },
+                                "enchantment_glint_override": false,
+                                "minimum_attack_charge": 1,
+                                "attribute_modifiers":[
+                                    {
+                                        "id": "wool_purple:eye_of_truesight",
+                                        "type": "attack_speed",
+                                        "slot": "mainhand", 
+                                        "amount": -2.3,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:eye_of_truesight",
+                                        "type": "attack_damage",
+                                        "slot": "mainhand",
+                                        "amount": -1,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "id": "wool_purple:eye_of_truesight",
+                                        "type": "entity_interaction_range",
+                                        "slot": "mainhand",
+                                        "amount": -5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                                }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

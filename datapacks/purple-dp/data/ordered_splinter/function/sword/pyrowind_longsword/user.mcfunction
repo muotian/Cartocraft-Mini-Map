@@ -1,0 +1,4 @@
+execute unless score @s wool_purple.on_fire matches 1..30 run scoreboard players set @s wool_purple.on_fire 0
+execute if score @s wool_purple.on_fire matches ..30 run scoreboard players add @s wool_purple.on_fire 1
+execute if score @s wool_purple.on_fire matches 30 at @s run summon minecraft:area_effect_cloud ~ ~ ~ {WaitTime:0,Radius:0f,Duration:6,Age:4,ReapplicationDelay:1,potion_contents:{custom_effects:[{id:"minecraft:instant_health",amplifier:0b,duration:1,show_icon:0b,show_particles:0b}]}}
+execute if score @s wool_purple.on_fire matches 30 run scoreboard players set @s wool_purple.on_fire 0

@@ -1,0 +1,14 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ordered_splinter:weapon/singularity_of_thousandfaces"
+                }
+            ]
+        }
+    ]
+}

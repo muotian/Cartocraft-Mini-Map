@@ -1,0 +1,2 @@
+summon wolf ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["wool_purple.tornado"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:2000000,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:attack_damage",base:15},{id:"minecraft:movement_speed",base:0.2},{id:"minecraft:scale",base:0.5}]}
+execute as @n[tag=wool_purple.tornado] at @s run data modify entity @s Owner set from entity @p UUID

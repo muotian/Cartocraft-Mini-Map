@@ -1,0 +1,1 @@
+execute store result score @s wool_purple.main.player_id run scoreboard players add $playerid wool_purple.main.player_id 1

@@ -1,0 +1,11 @@
+execute if score @s wool_purple.box.id matches 1 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/1
+execute if score @s wool_purple.box.id matches 2 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/2
+execute if score @s wool_purple.box.id matches 3 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/3
+execute if score @s wool_purple.box.id matches 3 at @e[tag=wool_purple.npc.swordmaster.spawner] run function ordered_splinter:npc/swordmaster/summon
+execute if score @s wool_purple.box.id matches 4 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/4
+execute if score @s wool_purple.box.id matches 5 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/5
+execute if score @s wool_purple.box.id matches 6 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/6
+execute if score @s wool_purple.box.id matches 7 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/7
+execute if score @s wool_purple.box.id matches 8 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/8
+execute if score @s wool_purple.box.id matches 9 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/9
+execute if score @s wool_purple.box.id matches 10 run loot spawn ~ ~0.5 ~ loot ordered_splinter:box/10

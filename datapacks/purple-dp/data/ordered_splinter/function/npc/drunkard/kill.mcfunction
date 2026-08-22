@@ -1,0 +1,6 @@
+kill @e[tag=wool_purple.npc.drunkard_mannequin]
+kill @e[tag=wool_purple.npc.drunkard.dialog]
+kill @e[tag=wool_purple.npc.drunkard]
+kill @e[tag=wool_purple.npc.drunkard.dialog.branch.1]
+kill @e[tag=wool_purple.npc.drunkard.dialog.branch.2]
+kill @e[tag=wool_purple.npc.drunkard.dialog.condition]

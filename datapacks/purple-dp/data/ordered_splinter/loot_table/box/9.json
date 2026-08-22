@@ -1,0 +1,42 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "coal_block",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "blackstone",
+                    "weight": 24
+                },
+                {
+                    "type": "item",
+                    "name": "enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "stored_enchantments": {"sharpness": 3}
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "oak_log"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "values": [
+        "ordered_splinter_main:load",
+        "ordered_splinter:load"
+    ]
+}

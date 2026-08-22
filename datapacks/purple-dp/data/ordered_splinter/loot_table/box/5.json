@@ -1,0 +1,55 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "strength"
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "fire_resistance"
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "potion": "strong_healing"
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

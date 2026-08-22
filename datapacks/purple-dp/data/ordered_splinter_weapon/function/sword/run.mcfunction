@@ -1,0 +1,2 @@
+$execute if items entity @s weapon.offhand *[custom_data~{weapon:{type:sword}}] as @n[tag=$(id)-hand] run return run function animated_java:sword_double_model/animations/run/play
+$execute as @n[tag=$(id)-hand] run function animated_java:sword_model/animations/run/play

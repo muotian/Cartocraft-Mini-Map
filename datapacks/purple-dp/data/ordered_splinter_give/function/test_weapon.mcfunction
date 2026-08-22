@@ -1,0 +1,1 @@
+give @s stick[minecraft:item_model="weapon/gloves/rotten",minecraft:custom_data={weapon:{type:gloves,damage:4}},minecraft:piercing_weapon={},minecraft:enchantments={"ordered_splinter_main:left_click":1},minecraft:attack_range={min_reach:0.0,max_reach:0.0,hitbox_margin:0.0,mob_factor:0.0,min_creative_reach:0.0,max_creative_reach:0.0}]

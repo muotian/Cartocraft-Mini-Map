@@ -1,0 +1,8 @@
+kill @e[tag=wool_purple.npc.swordmaster_mannequin]
+kill @e[tag=wool_purple.npc.swordmaster.dialog]
+kill @e[tag=wool_purple.npc.swordmaster]
+kill @e[tag=wool_purple.npc.swordmaster.dialog.branch.1]
+kill @e[tag=wool_purple.npc.swordmaster.dialog.branch.2]
+kill @e[tag=wool_purple.npc.swordmaster.dialog.condition]
+kill @e[tag=wool_purple.aspectslayer_longsword_wear]
+kill @e[tag=wool_purple.purity_dagger_wear]

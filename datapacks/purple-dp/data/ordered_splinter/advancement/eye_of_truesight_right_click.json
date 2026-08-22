@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "eye_of_truesight": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{eye_of_truesight: 1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ordered_splinter:eye_of_truesight/ability_start"
+  }
+}

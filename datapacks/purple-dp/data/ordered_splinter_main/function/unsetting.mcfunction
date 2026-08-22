@@ -1,0 +1,1 @@
+scoreboard players add @s wool_purple.main.mob_cheak 1 

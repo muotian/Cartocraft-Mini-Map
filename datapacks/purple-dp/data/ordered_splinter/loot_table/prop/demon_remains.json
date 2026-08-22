@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "apple",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [{"translate":"item.demon_remains.1","color":"#AC3230","italic":false},{"translate":"item.demon_remains.2","color":"#9D433D","italic":false},{"translate":"item.demon_remains.3","color":"#8E544A","italic":false},{"translate":"item.demon_remains.4","color":"#7A473D","italic":false},{"translate":"item.demon_remains.5","color":"#663A30","italic":false}]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model":"wool_purple:demon_remains_item",
+                                "custom_data":"{demon_remains: 1b}",
+                                "tooltip_style":"wool_purple:common",
+                                "tooltip_display": {"hide_tooltip": false, "hidden_components": ["enchantments", "attribute_modifiers", "unbreakable"]},
+                                "minecraft:food": {"nutrition":3, "saturation":5},
+                                "consumable": {"animation":"eat","consume_seconds":1.6,"has_consume_particles":true,"sound":{"sound_id":"entity.cat.eat"}}
+                                }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
