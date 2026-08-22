@@ -1,0 +1,4 @@
+# 這個函數會給你一把範例道具，道具的效果是
+# 吹奏時向四面八方發射子彈
+
+give @s goat_horn[item_model="light_gray_wool:spell_gathering", custom_data={spell_gathering:1b}, lore=[[{"color": "gray", "italic": false, translate: "item.light_gray_wool.spell_gathering.lore.1"}, {"color": "dark_gray", "italic": false, "text": "｜"}, {"color": "#4F8F7A", "italic": false, translate: "item.light_gray_wool.spell_gathering.lore.2"}], [{"italic": false, "text": ""}], [{"color": "gray", "italic": false, translate: "item.light_gray_wool.spell_gathering.lore.3"}],[{"color": "gray", "italic": false, translate: "item.light_gray_wool.spell_gathering.lore.4"}]],minecraft:custom_name=[{translate:"item.light_gray_wool.spell_gathering","color":"#FB8C00","italic":false}]]

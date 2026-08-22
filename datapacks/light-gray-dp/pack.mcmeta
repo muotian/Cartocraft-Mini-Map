@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"description": "這是CartoCraft Mini 的資料包模板(這行敘述請自己改掉)",
+		"min_format": 88,
+		"max_format": 9999999
+	}
+}

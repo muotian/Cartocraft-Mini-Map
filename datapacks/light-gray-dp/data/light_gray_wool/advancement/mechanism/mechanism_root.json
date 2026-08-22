@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.light_gray_wool.mechanism_root.title"
+        },
+        "description": {
+            "translate": "advancement.light_gray_wool.mechanism_root.description"
+        },
+        "icon": {
+            "id": "minecraft:crafter",
+            "count": 1
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "light_gray_wool:root",
+    "criteria": {
+        "monster" :{
+            "trigger": "tick"
+        }
+    }
+}

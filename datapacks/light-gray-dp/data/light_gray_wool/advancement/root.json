@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.light_gray_wool.root.title"
+        },
+        "description": {
+            "translate": "advancement.light_gray_wool.root.description"
+        },
+        "icon": {
+            "id": "minecraft:light_gray_wool",
+            "count": 1
+        },
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:block/light_gray_wool"
+    },
+    "criteria": {
+        "my_area" :{
+            "trigger": "tick"
+        }
+    }
+}
