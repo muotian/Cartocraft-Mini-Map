@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:guardian"
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:elder_guardian",
+                      "PersistenceRequired": true
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "SpawnCount": 1,
+                  "MinSpawnDelay": 32767,
+                  "MaxSpawnDelay": 32767,
+                  "MaxNearbyEntities": 6,
+                  "RequiredPlayerRange": 96
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

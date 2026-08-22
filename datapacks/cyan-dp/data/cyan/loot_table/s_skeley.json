@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:skeleton",
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:iron_sword"
+                        },
+                        "head": {
+                          "id": "minecraft:iron_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:iron_chestplate"
+                        },
+                        "legs": {
+                          "id": "minecraft:iron_leggings"
+                        },
+                        "feet": {
+                          "id": "minecraft:iron_boots"
+                        }
+                      }
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:stray",
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:bow",
+                          "components": {
+                            "minecraft:enchantments": {
+                              "minecraft:punch": 2,
+                              "cyan:bow": 1
+                            }
+                          }
+                        },
+                        "head": {
+                          "id": "minecraft:iron_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:iron_chestplate"
+                        },
+                        "legs": {
+                          "id": "minecraft:iron_leggings"
+                        },
+                        "feet": {
+                          "id": "minecraft:iron_boots"
+                        }
+                      }
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

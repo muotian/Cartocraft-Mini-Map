@@ -1,0 +1,9 @@
+execute positioned ^-1 ^ ^1 run function cyan:init-
+execute positioned ^ ^ ^1 run function cyan:init-
+execute positioned ^1 ^ ^1 run function cyan:init-
+execute positioned ^-1 ^1 ^1 run function cyan:init-
+execute positioned ^ ^1 ^1 run function cyan:init-
+execute positioned ^1 ^1 ^1 run function cyan:init-
+execute positioned ^-1 ^2 ^1 run function cyan:init-
+execute positioned ^ ^2 ^1 run function cyan:init-
+execute positioned ^1 ^2 ^1 run function cyan:init-

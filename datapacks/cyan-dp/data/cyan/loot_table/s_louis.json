@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:zombie",
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:golden_pickaxe"
+                        },
+                        "head": {
+                          "id": "minecraft:golden_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:leather_chestplate"
+                        }
+                      }
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:zombie",
+                      "CustomName": {
+                        "translate": "entity.cyan.louis"
+                      },
+                      "Health": 50,
+                      "attributes": [
+                        {
+                          "id": "minecraft:max_health",
+                          "base": 100
+                        }
+                      ],
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:flint_and_steel"
+                        },
+                        "head": {
+                          "id": "minecraft:leather_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:netherite_chestplate",
+                          "components": {
+                            "minecraft:enchantments": {
+                              "cyan:louis": 1
+                            }
+                          }
+                        },
+                        "legs": {
+                          "id": "minecraft:leather_leggings"
+                        },
+                        "feet": {
+                          "id": "minecraft:leather_boots"
+                        }
+                      },
+                      "active_effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": -1,
+                          "show_particles": false
+                        }
+                      ],
+                      "PersistenceRequired": true
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "SpawnCount": 1,
+                  "MinSpawnDelay": 32767,
+                  "MaxSpawnDelay": 32767
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:cave_spider"
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

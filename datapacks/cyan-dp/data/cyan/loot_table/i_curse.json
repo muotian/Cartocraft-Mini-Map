@@ -1,0 +1,115 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "animation": "toot_horn",
+                  "consume_seconds": 0.8,
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:darkness",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:hunger",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:infested",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:instant_damage",
+                          "duration": 30
+                        },
+                        {
+                          "id": "minecraft:levitation",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:mining_fatigue",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:oozing",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:slowness",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:unluck",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:weakness",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:weaving",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:wind_charged",
+                          "duration": 600
+                        },
+                        {
+                          "id": "minecraft:wither",
+                          "duration": 600
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:item.totem.use"
+                    }
+                  ],
+                  "sound": "minecraft:intentionally_empty"
+                },
+                "minecraft:item_model": "cyan:curse",
+                "minecraft:item_name": {
+                  "translate": "item.cyan.curse"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.curse.1"
+                  },
+                  {
+                    "translate": "lore.cyan.curse.2"
+                  }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

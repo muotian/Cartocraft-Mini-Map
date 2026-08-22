@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 3,
+                  "minecraft:fire_aspect": 2,
+                  "minecraft:unbreaking": 3
+                },
+                "minecraft:item_model": "cyan:fireaxe",
+                "minecraft:item_name": {
+                  "translate": "item.cyan.fireaxe"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.fireaxe"
+                  }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "animation": "toot_horn",
+                  "consume_seconds": 1.6,
+                  "has_consume_particles": false,
+                  "sound": "minecraft:block.end_portal_frame.fill"
+                },
+                "minecraft:item_model": "cyan:rod",
+                "minecraft:item_name": {
+                  "translate": "item.cyan.rod"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.rod"
+                  }
+                ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

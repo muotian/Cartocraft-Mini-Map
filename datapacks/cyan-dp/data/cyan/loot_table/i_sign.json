@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:sign",
+                  "front_text": {
+                    "has_glowing_text": true,
+                    "messages": [
+                      "",
+                      {
+                        "translate": "sign.cyan.man"
+                      },
+                      "",
+                      ""
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:sign",
+                  "front_text": {
+                    "has_glowing_text": true,
+                    "messages": [
+                      "",
+                      {
+                        "translate": "sign.cyan.woman"
+                      },
+                      "",
+                      ""
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:sign",
+                  "front_text": {
+                    "has_glowing_text": true,
+                    "messages": [
+                      "",
+                      {
+                        "translate": "sign.cyan.hideyoshi"
+                      },
+                      "",
+                      ""
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

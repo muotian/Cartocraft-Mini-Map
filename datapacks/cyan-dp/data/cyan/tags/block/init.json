@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:barrier",
+    "minecraft:bedrock",
+    "minecraft:command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:spawner"
+  ]
+}

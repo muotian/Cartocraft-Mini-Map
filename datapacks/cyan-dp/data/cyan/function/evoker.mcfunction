@@ -1,0 +1,1 @@
+execute at @a[distance=..32] run summon lightning_bolt ~ ~ ~

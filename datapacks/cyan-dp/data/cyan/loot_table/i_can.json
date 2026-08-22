@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "cyan:can",
+                "minecraft:item_name": {
+                  "translate": "item.cyan.can"
+                },
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 11.2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "unstable": "true"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.cyan.tnt"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

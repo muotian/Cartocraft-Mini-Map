@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "cyan:alarm"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cyan:alarm"
+  }
+}

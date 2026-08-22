@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:ghast",
+                      "Tags": [
+                        "cyan.ghast"
+                      ],
+                      "ExplosionPower": 2
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "MinSpawnDelay": 400,
+                  "MaxSpawnDelay": 1600,
+                  "MaxNearbyEntities": 6,
+                  "RequiredPlayerRange": 32
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:phantom",
+                      "size": 4
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:blaze"
+                    },
+                    "custom_spawn_rules": {}
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

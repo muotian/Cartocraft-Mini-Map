@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:skeleton",
+                      "Health": 5,
+                      "equipment": {}
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "MinSpawnDelay": 20,
+                  "MaxSpawnDelay": 80
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:skeleton",
+                      "CustomName": {
+                        "translate": "entity.cyan.necro"
+                      },
+                      "Health": 100,
+                      "attributes": [
+                        {
+                          "id": "minecraft:max_health",
+                          "base": 100
+                        }
+                      ],
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:book",
+                          "components": {
+                            "minecraft:enchantments": {
+                              "cyan:bow": 1
+                            }
+                          }
+                        },
+                        "head": {
+                          "id": "minecraft:iron_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:elytra",
+                          "components": {
+                            "minecraft:enchantments": {
+                              "cyan:necro": 1
+                            }
+                          }
+                        },
+                        "legs": {
+                          "id": "minecraft:iron_leggings"
+                        },
+                        "feet": {
+                          "id": "minecraft:iron_boots"
+                        }
+                      },
+                      "PersistenceRequired": true
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "SpawnCount": 1,
+                  "MinSpawnDelay": 32767,
+                  "MaxSpawnDelay": 32767
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

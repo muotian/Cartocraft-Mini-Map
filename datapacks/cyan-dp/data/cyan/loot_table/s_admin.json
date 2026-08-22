@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:wither_skeleton",
+                      "equipment": {
+                        "mainhand": {
+                          "id": "minecraft:netherite_sword"
+                        },
+                        "head": {
+                          "id": "minecraft:iron_helmet"
+                        },
+                        "chest": {
+                          "id": "minecraft:iron_chestplate",
+                          "components": {
+                            "minecraft:enchantments": {
+                              "cyan:admin": 1
+                            }
+                          }
+                        },
+                        "legs": {
+                          "id": "minecraft:iron_leggings"
+                        },
+                        "feet": {
+                          "id": "minecraft:iron_boots"
+                        }
+                      },
+                      "Invulnerable": true,
+                      "PersistenceRequired": true
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "SpawnCount": 1,
+                  "MinSpawnDelay": 32767,
+                  "MaxSpawnDelay": 32767,
+                  "MaxNearbyEntities": 6,
+                  "RequiredPlayerRange": 96
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:warden"
+                    },
+                    "custom_spawn_rules": {}
+                  },
+                  "SpawnCount": 1,
+                  "MinSpawnDelay": 200,
+                  "MaxSpawnDelay": 800
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

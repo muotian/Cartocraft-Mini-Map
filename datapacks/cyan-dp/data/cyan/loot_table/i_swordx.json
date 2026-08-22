@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:unbreaking": 3,
+                  "cyan:swordx": 1
+                },
+                "minecraft:custom_data": {
+                  "cyan.swordx": false
+                },
+                "minecraft:item_name": {
+                  "translate": "item.cyan.swordx"
+                },
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:unbreaking": 3,
+                  "minecraft:lure": 3,
+                  "minecraft:luck_of_the_sea": 3
+                },
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

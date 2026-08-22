@@ -1,0 +1,1 @@
+summon falling_block ~ ~ ~ {BlockState:{Name:"fire"},Motion:[0,.4,0]}

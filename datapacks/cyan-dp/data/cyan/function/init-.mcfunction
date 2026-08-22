@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #cyan:init run setblock ~ ~ ~ air destroy

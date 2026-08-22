@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.cyan.clue1"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.clue1.1"
+                  },
+                  {
+                    "translate": "lore.cyan.clue1.2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.cyan.clue2"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.clue2.1"
+                  },
+                  {
+                    "translate": "lore.cyan.clue2.2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.cyan.clue3"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.clue3.1"
+                  },
+                  {
+                    "translate": "lore.cyan.clue3.2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.cyan.clue4"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "lore.cyan.clue4.1"
+                  },
+                  {
+                    "translate": "lore.cyan.clue4.2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
