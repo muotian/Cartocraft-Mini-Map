@@ -7,9 +7,15 @@
   "lint": {
     "undeclaredSymbol": [
       {
-        "if": {
-          "namespace": "animated_java"
-        },
+        "if": [
+          {
+            "namespace": "animated_java"
+          },
+          {
+            "category": "objective",
+            "pattern": "^aj\\..*"
+          }
+      ],
         "then": {
           "declare": "block"
         }
