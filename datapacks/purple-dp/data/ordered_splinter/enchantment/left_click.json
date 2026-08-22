@@ -23,9 +23,7 @@
         "effect": {
           "type": "minecraft:run_function",
           "function": "ordered_splinter:eye_of_truesight/attack"
-        },
-        "enchanted": "attacker",
-        "affected": "victim"
+        }
       }
     ]
   }

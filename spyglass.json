@@ -14,6 +14,9 @@
           {
             "category": "objective",
             "pattern": "^aj\\..*"
+          },
+          {
+            "namespace": "icer"
           }
       ],
         "then": {

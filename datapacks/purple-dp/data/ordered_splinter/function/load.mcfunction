@@ -13,6 +13,7 @@ scoreboard objectives add wool_purple.summon_tornado dummy
 scoreboard objectives add wool_purple.gametype dummy
 scoreboard objectives add wool_purple.raycast dummy
 scoreboard objectives add wool_purple.blade_of_finality dummy
+scoreboard objectives add wool_purple.bolt dummy
 scoreboard objectives add wool_purple.singularity dummy
 scoreboard objectives add wool_purple.singularity_cycle dummy
 scoreboard objectives add wool_purple.comet_cd dummy
