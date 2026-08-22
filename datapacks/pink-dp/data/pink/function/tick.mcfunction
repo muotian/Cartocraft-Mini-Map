@@ -67,7 +67,7 @@ execute as @e[tag=pink.guardian,tag=pink_mobs] at @s run function pink:monster/g
 execute as @e[tag=pink.devour,tag=pink_mobs] at @s run function pink:monster/devour/tick
 
 # end_crystal
-execute as @e[tag=pink.end_crystal] at @s run function pink:monster/end_crystal/tick
+#execute as @e[tag=pink.end_crystal] at @s run function pink:monster/end_crystal/tick
 scoreboard players add @e[type=end_crystal,tag=pink.end_crystal.crystal] pink.monster.end_crystal.life 1
 kill @e[tag=pink.end_crystal.crystal,type=end_crystal,scores={pink.monster.end_crystal.life=160..}]
 

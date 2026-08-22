@@ -9,5 +9,5 @@ tp @e[tag=pink_npc,tag=!main,tag=!pink_npc.close] ~ ~-100 ~
 kill @e[tag=pink_npc,tag=!main,tag=!pink_npc.close]
 
 #
-execute in pink:pink_train run tp 0 2 0
+#execute in pink:pink_train run tp 0 2 0
 
