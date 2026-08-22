@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "clock",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": {"translate":"item.pink.item.white_upgrade_l","italic":false,"color":"#BCFFFF"}
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": "{upgrade_l:1b,id:\"star\"}",
+                                "tooltip_style": "pink:white",
+                                "item_model": "pink:upgrade/white"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": ["",{"translate":"item.pink.item.upgrade_l.lore","italic":false,"color":"white"}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

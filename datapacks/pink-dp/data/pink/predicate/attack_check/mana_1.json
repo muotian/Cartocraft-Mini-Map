@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "attacking_player",
+  "scores": {
+    "pink.mana_u": {
+      "min": 1,
+      "max": 8
+    }
+  }
+}

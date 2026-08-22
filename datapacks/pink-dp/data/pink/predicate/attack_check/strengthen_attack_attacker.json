@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "attacker",
+  "scores": {
+    "pink.black.strengthen_attack": {
+      "min": 1,
+      "max": 4
+    }
+  }
+}

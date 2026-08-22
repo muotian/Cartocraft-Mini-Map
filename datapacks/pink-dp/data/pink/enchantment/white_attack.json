@@ -1,0 +1,380 @@
+{
+  "description": "",
+  "exclusive_set": [],
+  "supported_items": "minecraft:clock",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"pink_no_mana1\"]}"
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pink:skills_1/white/player_attack"
+        }
+      },
+      {
+        "requirements": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tag:[\"pink_no_mana1\"]}"
+                }
+              }
+            }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pink:skills_1/white/self"
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": [
+          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "nbt": "{Tags:[\"pink_no_mana1\"]}"
+            }
+          }
+        },
+          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+      ],
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 4.5,
+            "per_level_above_first": 1
+          }
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "nbt": "{Tags:[\"pink_no_mana1\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"pink_mobs\"]}"
+            }
+          },
+          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+        ],
+        "effect": {
+          "type": "minecraft:add",
+            "value": {
+            "type": "minecraft:linear",
+            "base": 4.5,
+            "per_level_above_first": 1
+          }
+        }
+      },
+      {
+        "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:[\"pink_strengthen_attack\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pink_no_mana1\"]}"
+                  }
+                }
+              },
+                        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+            ]
+          },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.6,
+            "per_level_above_first": 1
+          }
+        }
+      },
+
+      {
+        "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pink_no_mana1\"]}"
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "player"
+                }
+              },
+              {
+                "condition": "inverted",
+                "term": {
+                  "condition": "entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "pink.white.protect_cd": {
+                      "max": 239,
+                      "min": 1
+                    }
+                  }
+                }
+              }
+            ]
+          },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 0.1
+        }
+      },
+
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:[\"pink_strengthen_attack\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pink_no_mana1\"]}"
+                  }
+                }
+              },
+                        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+            ]
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"pink_mobs\"]}"
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:add",
+
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.6,
+            "per_level_above_first": 1
+          }        
+        }
+      }
+
+    ],
+    
+    "minecraft:post_attack": [
+      {
+        "requirements": [{
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "nbt": "{Tags:[\"pink_no_mana1\"]}"
+            }
+          }
+          
+        },          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+      ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pink:skills_1/white/damage"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:[\"pink_strengthen_attack\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pink_no_mana1\"]}"
+                  }
+                }
+              },
+                        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "player"
+            }
+          }
+        }
+            ]
+          },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pink:skills_1/black/bonus_damage"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pink_no_mana1\"]}"
+                  }
+                }
+              },
+              
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "player"
+              }
+        }
+            ]
+          },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pink:skills_1/white/effect"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:ender_pearl",
+          "predicates": {
+            "minecraft:custom_data": "{unstable_eye:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pink:item/unstable_eye/use"
+  }
+}

@@ -1,0 +1,19 @@
+[{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attack_range": {
+      "max_reach": 12,
+      "hitbox_margin": 0.3
+    },
+    "swing_animation": {
+      "type": "stab",
+      "duration": 15
+    },
+    "attribute_modifiers": [{"type":"attack_damage","amount":-1,"slot":"mainhand","operation":"add_value","id":"1767247837998"},{"type":"attack_speed","amount":-2.2,"slot":"mainhand","operation":"add_value","id":"1767247837939"}]
+  }
+},
+{
+  "function": "set_custom_data",
+  "tag": "{mana:1b}"
+}
+]

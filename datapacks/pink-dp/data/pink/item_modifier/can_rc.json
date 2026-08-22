@@ -1,0 +1,23 @@
+[{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 0,
+      "saturation": 0,
+      "can_always_eat": true
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 0.1,
+      "animation": "bow",
+      "sound": "block.anvil.step",
+      "has_consume_particles": false
+    }
+  }
+},
+{
+  "function": "set_custom_data",
+  "tag": "{shift_rc:0b}"
+}
+
+
+]

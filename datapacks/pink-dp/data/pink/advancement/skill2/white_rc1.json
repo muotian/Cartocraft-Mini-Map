@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{pink_skill_2_id:3}"
+          }
+        },
+        "player": {
+          "flags": {"is_sneaking": false}
+        }
+      }
+    }
+  }, 
+  "rewards": {
+    "function": "pink:skills_2/white/cast"
+  }
+}

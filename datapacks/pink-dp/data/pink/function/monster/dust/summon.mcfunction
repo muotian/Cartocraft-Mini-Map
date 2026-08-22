@@ -1,0 +1,5 @@
+#
+summon husk ~ ~ ~ {Health:27,Tags:["pink_mobs"],equipment:{head:{id:player_head,components:{"minecraft:custom_name":{text:"Soul Sand Monster",color:gold,underlined:true,bold:true,italic:false},"minecraft:lore":[{text:"Custom Head ID: 97486",color:gray,italic:false},{text:"www.minecraft-heads.com",color:blue,italic:false}],profile:{properties:[{name:textures,value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkYjQyMzEzZDdjYmFjYmE0MzQ4OTU4Mzg5OGU0NDNmZmMyN2U0OGQyOTczN2Q2ODhkOTcyYWRkZjgxMmYyYyJ9fX0="}]}}},chest:{id:leather_chestplate,components:{dyed_color:1908001}},legs:{id:leather_leggings,components:{dyed_color:1908001}},feet:{id:leather_boots,components:{dyed_color:1908001}}},drop_chances:{head:0f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:27f},{id:attack_damage,base:4f},{id:attack_knockback,base:0.9f}],CustomName:[{"translate":"monster.pink.dust.name"}],DeathLootTable:"pink:item_d/star2"}
+
+kill @s
+kill @n[tag=pink.monster.b,type=marker]

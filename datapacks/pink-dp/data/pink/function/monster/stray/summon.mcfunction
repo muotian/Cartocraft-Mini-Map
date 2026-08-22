@@ -1,0 +1,4 @@
+summon stray ~ ~ ~ {Health:40,LeftHanded:1b,Tags:["pink_mobs"],equipment:{mainhand:{id:bow,components:{enchantments:{power:1}}},head:{id:player_head,components:{"minecraft:custom_name":{text:"Warped Wood Monster",color:gold,underlined:true,bold:true,italic:false},"minecraft:lore":[{text:"Custom Head ID: 67960",color:gray,italic:false},{text:"www.minecraft-heads.com",color:blue,italic:false}],profile:{properties:[{name:textures,value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzOTdmNWMwMjBhNmY4MTc5ZmE2MWUyMTM1ZGQ3MjdkMjVkNTI1MTM2YzBmYTE3YTQ1ZmFkYmJiMjkzNTkzNiJ9fX0="}]}}},chest:{id:diamond_chestplate}},drop_chances:{mainhand:0f,head:0f,chest:0f},attributes:[{id:max_health,base:40f}],DeathLootTable:"pink:item_d/all",CustomName:[{"translate":"monster.pink.stray.name"}]}
+
+kill @s
+kill @n[tag=pink.monster.b,type=marker]

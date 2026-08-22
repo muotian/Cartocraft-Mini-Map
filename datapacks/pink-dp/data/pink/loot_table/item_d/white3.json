@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pink:item/star",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pink:item/black",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pink:item/white",
+          "weight": 3
+        }
+      ],
+      "functions": []
+    }
+  ],
+  "functions": []
+}

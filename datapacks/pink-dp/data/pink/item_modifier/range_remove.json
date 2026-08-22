@@ -1,0 +1,19 @@
+[{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:attack_range": {
+      "max_reach": 0,
+      "hitbox_margin": 0
+    },
+    "swing_animation": {
+      "type": "none",
+      "duration": 1
+    },
+    "attribute_modifiers": [{"type":"attack_damage","amount":-100,"slot":"mainhand","operation":"add_value","id":"1767247837998"},{"type":"attack_speed","amount":-2.2,"slot":"mainhand","operation":"add_value","id":"1767247837939"}]
+  }
+},
+{
+  "function": "set_custom_data",
+  "tag": "{no_skill:1b}"
+}
+]

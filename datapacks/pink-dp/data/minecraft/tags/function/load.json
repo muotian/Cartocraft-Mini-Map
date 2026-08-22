@@ -1,0 +1,4 @@
+{
+	"replace": false,
+	"values": ["animated_java:global/on_load", "pink:load", "player_motion:internal/technical/load"]
+}

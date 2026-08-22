@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "inventory_change": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{pink_skill_1_id:2}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pink:skills_1/black/kill1"
+  }
+}

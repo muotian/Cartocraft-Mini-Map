@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:pink_bh1/on_load",
+		"animated_java:pink_black1__/on_load",
+		"animated_java:pink_black1/on_load",
+		"animated_java:pink_black2/on_load",
+		"animated_java:pink_boss1_head/on_load",
+		"animated_java:pink_boss1/on_load",
+		"animated_java:pink_npc/on_load",
+		"animated_java:pink_skill3_d/on_load",
+		"animated_java:pink_skill3_d2/on_load",
+		"animated_java:pink_star_skill1_2/on_load",
+		"animated_java:pink_star_skill1_3/on_load",
+		"animated_java:pink_star_skill1/on_load",
+		"animated_java:pink_star_skill3_1/on_load",
+		"animated_java:pink_star1/on_load",
+		"animated_java:pink_white2/on_load",
+		"animated_java:pink_white3/on_load"
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"pink_npc\",\"m2_rc\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pink:npc/talk/monster/put2"
+  }
+}

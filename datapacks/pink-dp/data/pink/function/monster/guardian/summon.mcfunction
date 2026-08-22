@@ -1,0 +1,5 @@
+#
+summon zombie ~ ~ ~ {CustomNameVisible:1b,Health:40,PersistenceRequired:1b,Tags:["pink_mobs","pink.guardian"],equipment:{mainhand:{id:wooden_axe,components:{item_model:iron_sword,enchantments:{fire_aspect:1,sharpness:2}}},head:{id:player_head,components:{"minecraft:custom_name":{text:"Sculk Monster",color:gold,underlined:true,bold:true,italic:false},"minecraft:lore":[{text:"Custom Head ID: 83853",color:gray,italic:false},{text:"www.minecraft-heads.com",color:blue,italic:false}],profile:{properties:[{name:textures,value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThiYTZkNjkyZjcxYTA1ZTQ3N2JlZDE3YjE1OTE4MWQzODI3YmIwYmU3YjUzYTdkZDY0ZDhkNDUzNTQwMzMyNSJ9fX0="}]}}},chest:{id:netherite_chestplate},legs:{id:netherite_leggings},feet:{id:netherite_boots}},drop_chances:{mainhand:0f,offhand:0f,chest:0f,legs:0f,feet:0f,head:0f},attributes:[{id:armor,base:-7f},{id:attack_damage,base:-3f},{id:max_health,base:45f}],CustomName:[{"translate":"monster.pink.guardian.name"}],DeathLootTable:"pink:item_d/star1"}
+
+kill @s
+kill @n[tag=pink.monster.b,type=marker]

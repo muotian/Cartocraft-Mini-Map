@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"pink_npc\",\"pink_npc.close\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pink:npc/close/rc"
+  }
+}

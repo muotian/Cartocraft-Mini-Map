@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:pink_bh1/root/on_tick",
+		"animated_java:pink_black1__/root/on_tick",
+		"animated_java:pink_black1/root/on_tick",
+		"animated_java:pink_black2/root/on_tick",
+		"animated_java:pink_boss1_head/root/on_tick",
+		"animated_java:pink_boss1/root/on_tick",
+		"animated_java:pink_npc/root/on_tick",
+		"animated_java:pink_skill3_d/root/on_tick",
+		"animated_java:pink_skill3_d2/root/on_tick",
+		"animated_java:pink_star_skill1_2/root/on_tick",
+		"animated_java:pink_star_skill1_3/root/on_tick",
+		"animated_java:pink_star_skill1/root/on_tick",
+		"animated_java:pink_star_skill3_1/root/on_tick",
+		"animated_java:pink_star1/root/on_tick",
+		"animated_java:pink_white2/root/on_tick",
+		"animated_java:pink_white3/root/on_tick"
+	]
+}
