@@ -3,5 +3,53 @@
     "exclude": [
       "**/animated_java/**"
     ]
+  },
+  "lint": {
+    "undeclaredSymbol": [
+      {
+        "if": {
+          "namespace": "animated_java"
+        },
+        "then": {
+          "declare": "block"
+        }
+      },
+      {
+        "if": [
+          {
+            "category": [ "activity", "armor_material", "attribute", "attribute_type", "block", "block_entity_type", "block_predicate_type", "block_type", "chunk_status", "command_argument_type", "consume_effect_type", "creative_mode_tab", "custom_stat", "data_component_predicate_type", "data_component_type", "debug_subscription", "decorated_pot_pattern", "decorated_pot_patterns", "dialog_action_type", "dialog_body_type", "dialog_type", "enchantment_effect_component_type", "enchantment_entity_effect_type", "enchantment_level_based_value_type", "enchantment_location_based_effect_type", "enchantment_provider_type", "enchantment_value_effect_type", "entity_sub_predicate_type", "entity_type", "environment_attribute", "float_provider_type", "fluid", "game_event", "game_rule", "height_provider_type", "incoming_rpc_methods", "input_control_type", "instrument", "int_provider_type", "item", "item_sub_predicate_type", "loot_condition_type", "loot_function_type", "loot_nbt_provider_type", "loot_number_provider_type", "loot_pool_entry_type", "loot_score_provider_type", "map_decoration_type", "memory_module_type", "menu", "mob_effect", "motive", "number_format_type", "outgoing_rpc_methods", "particle_type", "permission_check_type", "permission_type", "point_of_interest_type", "pos_rule_test", "position_source_type", "potion", "recipe_book_category", "recipe_display", "recipe_serializer", "recipe_type", "rule_block_entity_modifier", "rule_test", "schedule", "sensor_type", "slot_display", "slot_source_type", "sound_event", "spawn_condition_type", "stat_type", "test_environment_definition_type", "test_function", "test_instance_type", "trigger_type", "ticket_type", "villager_profession", "villager_type", "worldgen/biome_source", "worldgen/block_placer_type", "worldgen/block_state_provider_type", "worldgen/carver", "worldgen/carver_type", "worldgen/chunk_generator", "worldgen/decorator", "worldgen/density_function_type", "worldgen/feature", "worldgen/feature_size_type", "worldgen/feature_type", "worldgen/foliage_placer_type", "worldgen/material_condition", "worldgen/material_condition_type", "worldgen/material_rule", "worldgen/material_rule_type", "worldgen/placement_modifier_type", "worldgen/pool_alias_binding", "worldgen/root_placer_type", "worldgen/structure_feature", "worldgen/structure_piece", "worldgen/structure_placement", "worldgen/structure_pool_element", "worldgen/structure_processor", "worldgen/structure_type", "worldgen/surface_builder", "worldgen/tree_decorator_type", "worldgen/trunk_placer_type" ],
+            "namespace": "minecraft"
+          },
+          {
+            "category": [ "advancement", "banner_pattern", "cat_sound_variant", "cat_variant", "chat_type", "chicken_sound_variant", "chicken_variant", "cow_sound_variant", "cow_variant", "damage_type", "decorated_pot_pattern", "dialog", "dimension", "dimension_type", "enchantment", "enchantment_provider", "frog_variant", "function", "instrument", "item_modifier", "jukebox_song", "loot_table", "number_provider", "painting_variant", "pig_sound_variant", "pig_variant", "predicate", "recipe", "slot_source", "structure", "sulfur_cube_archetype", "test_environment", "test_instance", "timeline", "trade_set", "trial_spawner", "trim_material", "trim_pattern", "villager_trade", "wolf_sound_variant", "wolf_variant", "world_clock", "zombie_nautilus_variant",
+            "tag/advancement", "tag/banner_pattern", "tag/cat_sound_variant", "tag/cat_variant", "tag/chat_type", "tag/chicken_sound_variant", "tag/chicken_variant", "tag/cow_sound_variant", "tag/cow_variant", "tag/damage_type", "tag/decorated_pot_pattern", "tag/dialog", "tag/dimension", "tag/dimension_type", "tag/enchantment", "tag/enchantment_provider", "tag/frog_variant", "tag/function", "tag/instrument", "tag/item_modifier", "tag/jukebox_song", "tag/loot_table", "tag/number_provider", "tag/painting_variant", "tag/pig_sound_variant", "tag/pig_variant", "tag/predicate", "tag/recipe", "tag/slot_source", "tag/structure", "tag/sulfur_cube_archetype", "tag/test_environment", "tag/test_instance", "tag/timeline", "tag/trade_set", "tag/trial_spawner", "tag/trim_material", "tag/trim_pattern", "tag/villager_trade", "tag/wolf_sound_variant", "tag/wolf_variant", "tag/world_clock", "tag/zombie_nautilus_variant",
+            "tag/activity", "tag/armor_material", "tag/attribute", "tag/attribute_type", "tag/block", "tag/block_entity_type", "tag/block_predicate_type", "tag/block_type", "tag/chunk_status", "tag/command_argument_type", "tag/consume_effect_type", "tag/creative_mode_tab", "tag/custom_stat", "tag/data_component_predicate_type", "tag/data_component_type", "tag/debug_subscription", "tag/decorated_pot_pattern", "tag/decorated_pot_patterns", "tag/dialog_action_type", "tag/dialog_body_type", "tag/dialog_type", "tag/enchantment_effect_component_type", "tag/enchantment_entity_effect_type", "tag/enchantment_level_based_value_type", "tag/enchantment_location_based_effect_type", "tag/enchantment_provider_type", "tag/enchantment_value_effect_type", "tag/entity_sub_predicate_type", "tag/entity_type", "tag/environment_attribute", "tag/float_provider_type", "tag/fluid", "tag/game_event", "tag/game_rule", "tag/height_provider_type", "tag/incoming_rpc_methods", "tag/input_control_type", "tag/instrument", "tag/int_provider_type", "tag/item", "tag/item_sub_predicate_type", "tag/loot_condition_type", "tag/loot_function_type", "tag/loot_nbt_provider_type", "tag/loot_number_provider_type", "tag/loot_pool_entry_type", "tag/loot_score_provider_type", "tag/map_decoration_type", "tag/memory_module_type", "tag/menu", "tag/mob_effect", "tag/motive", "tag/number_format_type", "tag/outgoing_rpc_methods", "tag/particle_type", "tag/permission_check_type", "tag/permission_type", "tag/point_of_interest_type", "tag/pos_rule_test", "tag/position_source_type", "tag/potion", "tag/recipe_book_category", "tag/recipe_display", "tag/recipe_serializer", "tag/recipe_type", "tag/rule_block_entity_modifier", "tag/rule_test", "tag/schedule", "tag/sensor_type", "tag/slot_display", "tag/slot_source_type", "tag/sound_event", "tag/spawn_condition_type", "tag/stat_type", "tag/test_environment_definition_type", "tag/test_function", "tag/test_instance_type", "tag/trigger_type", "tag/ticket_type", "tag/villager_profession", "tag/villager_type", "tag/worldgen/biome_source", "tag/worldgen/block_placer_type", "tag/worldgen/block_state_provider_type", "tag/worldgen/carver", "tag/worldgen/carver_type", "tag/worldgen/chunk_generator", "tag/worldgen/decorator", "tag/worldgen/density_function_type", "tag/worldgen/feature", "tag/worldgen/feature_size_type", "tag/worldgen/feature_type", "tag/worldgen/foliage_placer_type", "tag/worldgen/material_condition", "tag/worldgen/material_condition_type", "tag/worldgen/material_rule", "tag/worldgen/material_rule_type", "tag/worldgen/placement_modifier_type", "tag/worldgen/pool_alias_binding", "tag/worldgen/root_placer_type", "tag/worldgen/structure_feature", "tag/worldgen/structure_piece", "tag/worldgen/structure_placement", "tag/worldgen/structure_pool_element", "tag/worldgen/structure_processor", "tag/worldgen/structure_type", "tag/worldgen/surface_builder", "tag/worldgen/tree_decorator_type", "tag/worldgen/trunk_placer_type",
+            "tag/worldgen/biome", "tag/worldgen/carver", "tag/worldgen/configured_carver", "tag/worldgen/configured_feature", "tag/worldgen/configured_structure_feature", "tag/worldgen/configured_surface_builder", "tag/worldgen/density_function", "tag/worldgen/feature", "tag/worldgen/flat_level_generator_preset", "tag/worldgen/material_condition", "tag/worldgen/material_rule", "tag/worldgen/multi_noise_biome_source_parameter_list", "tag/worldgen/noise", "tag/worldgen/noise_settings", "tag/worldgen/placed_feature", "tag/worldgen/processor_list", "tag/worldgen/structure", "tag/worldgen/structure_set", "tag/worldgen/template_pool", "tag/worldgen/world_preset",
+            "worldgen/biome", "worldgen/carver", "worldgen/configured_carver", "worldgen/configured_feature", "worldgen/configured_structure_feature", "worldgen/configured_surface_builder", "worldgen/density_function", "worldgen/feature", "worldgen/flat_level_generator_preset", "worldgen/material_condition", "worldgen/material_rule", "worldgen/multi_noise_biome_source_parameter_list", "worldgen/noise", "worldgen/noise_settings", "worldgen/placed_feature", "worldgen/processor_list", "worldgen/structure", "worldgen/structure_set", "worldgen/template_pool", "worldgen/world_preset",
+            "bossbar", "objective", "stopwatch", "team" ]
+          }
+        ],
+        "then": {
+          "report": "warning"
+        }
+      },
+      {
+        "if": {
+          "category": [
+            "attribute_modifier",
+            "attribute_modifier_uuid",
+            "tag"
+          ]
+        },
+        "then": {
+          "declare": "public"
+        }
+      },
+      {
+        "then": {
+          "declare": "block"
+        }
+      }
+    ]
   }
 }
