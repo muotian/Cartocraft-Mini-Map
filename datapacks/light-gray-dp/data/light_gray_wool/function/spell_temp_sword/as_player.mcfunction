@@ -2,7 +2,8 @@
 # 執行位置：同上
 
 # 粒子效果
-particle dust{scale:1, color:[34, 27, 51]} ~ ~ ~ 0.2 0.5 0.2 1 5 force
+#particle dust{scale:1, color:[34, 27, 51]} ~ ~ ~ 0.2 0.5 0.2 1 5 force
+particle dust{scale:1, color:-14542029} ~ ~ ~ 0.2 0.5 0.2 1 5 force
 
 # 藥水效果
 effect give @s strength 1 0 true

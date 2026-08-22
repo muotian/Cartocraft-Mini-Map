@@ -34,7 +34,7 @@ function light_gray_wool:spell_regeneration/tick
 # 範例怪物
 function light_gray_wool:example_monster/tick
 
-function light_gray_wool:bear/tick
+#function light_gray_wool:bear/tick
 function light_gray_wool:boss/tick
 function light_gray_wool:thunder_monster/tick
 
