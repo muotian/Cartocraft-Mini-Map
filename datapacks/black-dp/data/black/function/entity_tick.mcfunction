@@ -2,7 +2,7 @@
 #black
 
 execute as @e[type=slime,tag=black.stone_slime_s] at @s if entity @a[distance=..2] run kill @s
-execute as @e[type=zombie,tag=black.stone_warrior,tag=black.core] at @s run function black:mob/stone_warrior/tick
+#execute as @e[type=zombie,tag=black.stone_warrior,tag=black.core] at @s run function black:mob/stone_warrior/tick
 
 #slime_kill
 execute as @e[type=slime,tag=black.hitbox] at @s store result score @s black.y run data get entity @s Pos[1]
