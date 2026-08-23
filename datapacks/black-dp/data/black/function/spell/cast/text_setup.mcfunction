@@ -1,0 +1,2 @@
+ride @s mount @n[tag=icebird.spell_cast]
+data merge entity @s {width:1f,height:1f,billboard:"vertical",Tags:["icebird.spell_text"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]},}

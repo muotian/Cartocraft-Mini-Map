@@ -1,0 +1,1 @@
+$tellraw @a[distance=..30] {text:$(x)}

@@ -1,0 +1,156 @@
+[
+  {
+    "function": "set_name",
+    "name": {
+        "translate": "item.black.mheart.0",
+        "color": "white",
+        "italic": false,
+        "with": [{"translate": "item.black.mheart.1",
+        "color": "#995b1d",
+        "bold": true,
+        "italic": false},
+        {"translate": "item.black.mheart.2",
+        "color": "#b58b22",
+        "bold": true,
+        "italic": false},
+        {"translate": "item.black.mheart.3",
+        "color": "#d63c34",
+        "bold": true,
+        "italic": false},
+        {"translate": "item.black.mheart.4",
+        "color": "#de5656",
+        "bold": true,
+        "italic": false},
+        {"translate": "item.black.mheart.5.4",
+        "color": "red",
+        "italic": false}
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.black.mheart.desc.1",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "item.black.mheart.desc.s1",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "item.black.mheart.desc.s2",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "item.black.mheart.desc.s3",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "item.black.mheart.desc.s4",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "item.black.mheart.desc.st0",
+        "color": "white",
+        "italic": false,
+        "with": [{"translate": "item.black.mheart.desc.st0.1",
+        "color": "gray",
+        "italic": false},
+        {"translate": "item.black.mheart.desc.st1.4.1",
+        "color": "red",
+        "italic": false}
+      ]
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "item.black.mheart.desc.st1.4.2",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "item.black.mheart.desc.st1.4.3",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "item.black.mheart.desc.st1.4.s1",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "item.black.mheart.desc.st1.4.s2",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "black": {
+        "mheart_lvl": 4
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "base_attack_damage",
+        "amount": 10,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:sharpness": 4,
+      "smite":6,
+      "minecraft:fire_aspect": 0,
+      "black:mheart1": 0,
+      "black:mheart2": 0,
+      "black:mheart3": 0,
+      "black:mheart4": 1,
+      "black:mheart5": 0
+    },
+    "add": false
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        4
+      ],
+      "mode": "replace_all"
+    }
+  }
+]

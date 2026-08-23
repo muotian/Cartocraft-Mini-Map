@@ -1,0 +1,6 @@
+{
+  "parent": "black:mob/spell_root",
+  "display": { "icon": { "id": "minecraft:enchanting_table" }, "title": { "translate": "black.adv.spell.1.title" }, "description": { "translate": "black.adv.spell.1.desc" }, "frame": "goal" },
+  "criteria": { "hit": { "trigger": "minecraft:player_hurt_entity", "conditions": { "entity": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{Tags:[\"icebird.spell_cast\"]}" }}] } } },
+  "rewards": { "function": "black:mob/intro/spell" }
+}

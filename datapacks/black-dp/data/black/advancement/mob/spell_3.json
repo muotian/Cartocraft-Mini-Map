@@ -1,0 +1,6 @@
+{
+  "parent": "black:mob/spell_2",
+  "display": { "icon": { "id": "minecraft:exposed_copper_chain" }, "title": { "translate": "black.adv.spell.3.title" }, "description": { "translate": "black.adv.spell.3.desc" }, "frame": "goal" },
+  "criteria": { "hit": { "trigger": "minecraft:player_hurt_entity", "conditions": { "entity": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{Tags:[\"icebird.spell_channel\"]}" }}] } } },
+  "rewards": { "function": "black:mob/intro/channel" }
+}

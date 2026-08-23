@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ewe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"black.real\"]}"
+        },
+        "item": {
+          "items": "minecraft:yellow_dye",
+          "components": {
+            "minecraft:custom_data": "{black_real:1b,black_core:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "black:item/core/ini"
+  }
+}

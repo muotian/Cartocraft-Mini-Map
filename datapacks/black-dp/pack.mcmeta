@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "CCmini Black dtp by 小冰鳥Icebird",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s copper_sword[attribute_modifiers=[{id:"base_attack_damage",type:"attack_damage",amount:11,operation:"add_value",slot:"mainhand"},{id:"base_attack_speed",type:"attack_speed",amount:-2,operation:"add_value",slot:"mainhand"}],custom_data={black:{rusty_blade:1b}},custom_model_data={floats:[14]},custom_name={"color":"#5b3b22","italic":false,"translate":"item.black.rusty_blade"},enchantments={"thorns":2,"breach":1,"black:rusty_blade":1},item_model="black:models",lore=[{"color":"white","italic":false,"translate":"item.black.rusty_blade.desc.1"},{"color":"white","italic":false,"translate":"item.black.rusty_blade.desc.2"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.rusty_blade.desc.s1"},{"color":"white","italic":false,"translate":"item.black.rusty_blade.desc.s2"},{"color":"white","italic":false,"translate":"item.black.rusty_blade.desc.s3"}]] 1

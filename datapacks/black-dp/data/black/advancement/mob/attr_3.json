@@ -1,0 +1,6 @@
+{
+  "parent": "black:mob/attr_2",
+  "display": { "icon": { "id": "minecraft:gray_dye" }, "title": { "translate": "black.adv.attr.3.title" }, "description": { "translate": "black.adv.attr.3.desc" }, "frame": "goal" },
+  "criteria": { "hit": { "trigger": "minecraft:player_hurt_entity", "conditions": { "entity": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{Tags:[\"black.fake_mob1\"]}" }}] } } },
+  "rewards": { "function": "black:mob/intro/para" }
+}

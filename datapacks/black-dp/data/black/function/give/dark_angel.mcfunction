@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s carrot_on_a_stick[custom_data={black:{dark_angel:1b,dark_angel_sneak:0b,dark_angel_ammo:18}},custom_model_data={floats:[10]},custom_name={"bold":true,"color":"#352940","italic":false,"translate":"item.black.dark_angel"},enchantments={"quick_charge":2},item_model="black:models",lore=[{"text": ""},{"color":"white","italic":false,"translate":"item.black.dark_angel.desc.1"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.dark_angel.desc.s1.1"},{"color":"white","italic":false,"translate":"item.black.dark_angel.desc.s1.2"},{"color":"white","italic":false,"translate":"item.black.dark_angel.desc.s1.3"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.dark_angel.desc.s2.1"},{"color":"white","italic":false,"translate":"item.black.dark_angel.desc.s2.2"},{"color":"white","italic":false,"translate":"item.black.dark_angel.desc.s2.3"}]] 1

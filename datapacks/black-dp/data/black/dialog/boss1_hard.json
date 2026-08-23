@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "oao?"
+      },
+      "width": 400
+    }
+  ],
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": {
+      "text": "888"
+    }
+  },
+  "columns": 1,
+  "title": {
+    "text": "ewe",
+    "color": "aqua"
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "gogo",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger icebird.dialogue set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "what",
+        "color": "yellow"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "black:boss1_skill_hard"
+      }
+    },
+    {
+      "label": {
+        "text": "nono",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger icebird.dialogue set 2"
+      }
+    }
+  ]
+}

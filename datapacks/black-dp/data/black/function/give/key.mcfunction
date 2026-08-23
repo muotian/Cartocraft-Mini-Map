@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s poisonous_potato[attribute_modifiers=[{id:"black.key",type:"attack_damage",amount:1,operation:"add_value",slot:"offhand"},{id:"black.key",type:"attack_speed",amount:0.2,operation:"add_value",slot:"offhand"}],custom_data={black:{key:1b}},custom_model_data={floats:[13]},custom_name={"color":"#db6192","bold":true,"italic":false,"translate":"item.black.key"},enchantments={"protection":10, "loyalty":10},item_model="black:models",lore=[{"text": ""},{"color":"white","italic":false,"translate":"item.black.key.desc.1"},{"color":"white","italic":false,"translate":"item.black.key.desc.2"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.key.desc.s1"},{"color":"white","italic":false,"translate":"item.black.key.desc.s2"},{"color":"white","italic":false,"translate":"item.black.key.desc.s3"}],!consumable,max_stack_size=1] 1

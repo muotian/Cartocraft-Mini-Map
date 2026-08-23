@@ -1,0 +1,6 @@
+{
+  "parent": "black:mob/attr_root",
+  "display": { "icon": { "id": "minecraft:yellow_dye" }, "title": { "translate": "black.adv.attr.1.title" }, "description": { "translate": "black.adv.attr.1.desc" }, "frame": "goal" },
+  "criteria": { "hit": { "trigger": "minecraft:player_hurt_entity", "conditions": { "entity": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{Tags:[\"black.real_mob\"]}" }}] } } },
+  "rewards": { "function": "black:mob/intro/real" }
+}

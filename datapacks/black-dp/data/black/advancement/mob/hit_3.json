@@ -1,0 +1,31 @@
+{
+  "parent": "black:mob/hit_2",
+  "display": {
+    "icon": { "id": "minecraft:zombie_head" },
+    "title": { "translate": "black.mob.3", "fallback": "Solar Eclipse" },
+    "description": { "translate": "icebird.intro.elite3" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "hit_elite": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"black.elite3\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "black:mob/intro/3"
+  }
+}

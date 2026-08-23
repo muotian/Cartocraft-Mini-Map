@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:knowledge_book" },
+    "title": { "translate": "black.adv.root.title" },
+    "description": { "translate": "black.adv.root.desc" },
+    "background": "minecraft:textures/block/netherite_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "enter_snow_mount": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:snow_mount"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

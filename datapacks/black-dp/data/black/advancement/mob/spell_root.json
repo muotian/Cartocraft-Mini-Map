@@ -1,0 +1,32 @@
+{
+  "parent": "black:mob/root",
+  "display": {
+    "icon": { "id": "minecraft:enchanted_book" },
+    "title": { "translate": "black.adv.category.spell" },
+    "description": { "translate": "black.adv.category.spell.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "enter_snow_mount": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:snow_mount"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "black:spell/counterspell/item"
+  }
+}

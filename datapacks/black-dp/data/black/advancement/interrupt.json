@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:enchantments": {
+                    "black:counterspell": 1
+                  }
+                }
+              }
+            }
+          },
+          "entity": {
+            "nbt": "{Tags:[\"icebird.spell_casting\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "black:spell/interrupt/ini"
+    }
+  }

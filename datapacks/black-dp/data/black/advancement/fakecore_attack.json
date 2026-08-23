@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "ewe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"black.fake\"]}",
+          "slots": {
+            "weapon.offhand": {
+              "items": "minecraft:purple_dye",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 10
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "black:item/core/attack/damage_fake"
+  }
+}

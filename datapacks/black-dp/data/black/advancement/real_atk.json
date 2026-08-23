@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"black.real\"]}",
+          "slots": {
+            "weapon.offhand": {
+              "items": "minecraft:yellow_dye",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 10
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "black:ac_con/real_atk"
+  }
+}

@@ -1,0 +1,2 @@
+#fill ^3 ^7 ^-4 ^-3 ^ ^-4 minecraft:barrier replace air
+#summon minecraft:block_display ^ ^ ^-4 {Tags:["icebird.boss1.border"],block_state: {Name: "minecraft:frosted_ice", Properties: {age: "3"}}, brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [7.0f, 7.5f, 0.9999999f], translation: [-3.5f, 0.0f, -0.5f]}}

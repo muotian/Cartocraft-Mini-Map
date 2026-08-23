@@ -1,0 +1,31 @@
+{
+    "description": {
+      "translate": "icebird.spell_enchantment",
+      "color": "#f8affd"
+    },
+    "supported_items": "#minecraft:enchantable/weapon",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 100,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:entity_interaction_range",
+          "id": "icebird.counterspell1",
+          "amount": 2,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }

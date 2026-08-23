@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s poisonous_potato[attribute_modifiers=[{id:"black.spare_gear",type:"armor_toughness",amount:2,operation:"add_value",slot:"offhand"}],custom_data={black:{spare_gear:1b}},custom_model_data={floats:[6]},custom_name={"color":"dark_gray","italic":false,"translate":"item.black.spare_gear"},enchantments={"protection":1,"black:spare_gear":1},item_model="black:models",lore=[{"color":"white","italic":false,"translate":"item.black.spare_gear.desc.1"},{"color":"white","italic":false,"translate":"item.black.spare_gear.desc.2"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.spare_gear.desc.s1"},{"color":"white","italic":false,"translate":"item.black.spare_gear.desc.s2"}],!consumable,max_stack_size=1] 1

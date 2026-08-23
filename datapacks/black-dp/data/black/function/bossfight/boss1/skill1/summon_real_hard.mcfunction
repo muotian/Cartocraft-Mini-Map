@@ -1,0 +1,11 @@
+data merge entity @s {Glowing:1b,interpolation_duration:30,teleport_duration:1,Tags:["icebird.b1s1","icebird.b1s1_real","icebird.b1s1_hard_orb"],glow_color_override:16773544,brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzlhMGU1MTMzZGZjZDM2YzA2ODgwZDk4MzhkZGQ2NzY4MTRiN2Q1YTcwNTBlMjQxYTc5NmZmMTFhOWU0YzY2In19fQ=="}]}}}}
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 1 run data modify entity @s Rotation set value [-180f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 2 run data modify entity @s Rotation set value [-135f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 3 run data modify entity @s Rotation set value [-90f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 4 run data modify entity @s Rotation set value [-45f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 5 run data modify entity @s Rotation set value [0f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 6 run data modify entity @s Rotation set value [45f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 7 run data modify entity @s Rotation set value [90f,0f]
+execute if score @n[tag=icebird.b1s1_hard] icebird.boss1 matches 8 run data modify entity @s Rotation set value [135f,0f]
+
+playsound black:ring block @a ~ ~ ~ 2 0.9

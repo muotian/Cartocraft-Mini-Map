@@ -1,0 +1,1 @@
+kill @e[tag=icebird.b1s4]

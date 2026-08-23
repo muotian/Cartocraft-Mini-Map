@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s netherite_pickaxe[attribute_modifiers=[{id:"base_attack_damage",type:"attack_damage",amount:8,operation:"add_value",slot:"mainhand"},{id:"base_attack_speed",type:"attack_speed",amount:-3.2,operation:"add_value",slot:"mainhand"}],custom_data={black:{liquefier:1b}},custom_model_data={floats:[7]},custom_name={"bold":true,"color":"gold","italic":false,"translate":"item.black.liquefier"},enchantments={"efficiency":6},item_model="black:models",lore=[{"text": ""},{"color":"white","italic":false,"translate":"item.black.liquefier.desc.1"},{"color":"white","italic":false,"translate":"item.black.liquefier.desc.2"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.liquefier.desc.s1"}],tool={rules:[{blocks:"#mineable/pickaxe",correct_for_drops:true,speed:9},{blocks:"#mineable/axe",correct_for_drops:true,speed:9},{blocks:"#mineable/shovel",correct_for_drops:true,speed:9}]},unbreakable={}] 1

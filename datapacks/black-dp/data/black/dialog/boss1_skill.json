@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "black.boss1.des_title"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "black.b1s0",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s0_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s6",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s6_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1p1"
+        },
+        {
+          "translate": "black.b1s1",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s1_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s2",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s2_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s3",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s3_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1p15",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1p15_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s5",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s5_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s1",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s1_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1p2",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1p2_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s1",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s1_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s2",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s2_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s3",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s3_intro"
+            }
+          }
+        },
+        {
+          "translate": "black.b1s4",
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "black.b1s4_intro"
+            }
+          }
+        }
+      ],
+      "width": 200
+    }
+  ],
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "title": {
+    "text": "ewe",
+    "color": "aqua"
+  },
+  "actions": [
+    {
+      "label": {
+        "text": "okok"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "black:boss1"
+      }
+    }
+  ]
+}

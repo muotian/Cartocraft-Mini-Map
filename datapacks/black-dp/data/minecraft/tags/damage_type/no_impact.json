@@ -1,0 +1,8 @@
+{
+  "values": [
+    "black:nocd_nosc",
+    "black:nocd_sc",
+    "black:cd_nosc",
+    "black:cd_sc"
+  ]
+}

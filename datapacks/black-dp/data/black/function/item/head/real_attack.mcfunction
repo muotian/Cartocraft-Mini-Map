@@ -1,0 +1,3 @@
+damage @s 12 black:nocd_nosc
+summon item_display ~ ~2.3 ~ {teleport_duration:1,Glowing:1b,Tags:["black.star","black.2"],glow_color_override:16707209,brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[0.625f,2.75f,1.5f]},item:{id:"minecraft:nether_star",count:1,components:{"minecraft:item_model":"black:real_star"}}}
+execute as @s[tag=black.fake_mob] run function black:item/core/attack/break

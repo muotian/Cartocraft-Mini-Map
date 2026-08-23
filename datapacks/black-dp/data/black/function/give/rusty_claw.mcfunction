@@ -1,0 +1,4 @@
+#by JaCkY99
+#black
+
+give @s copper_axe[attribute_modifiers=[{id:"base_attack_damage",type:"attack_damage",amount:12,operation:"add_value",slot:"mainhand"},{id:"base_attack_speed",type:"attack_speed",amount:-2.6,operation:"add_value",slot:"mainhand"}],custom_data={black:{rusty_claw:1b}},custom_model_data={floats:[15]},custom_name={"color":"#7d475b","italic":false,"translate":"item.black.rusty_claw"},enchantments={"sharpness":1,"breach":1},item_model="black:models",lore=[{"text": ""},{"color":"white","italic":false,"translate":"item.black.rusty_claw.desc.1"},{"text": ""},{"color":"gray","italic":false,"translate":"item.black.rusty_blade.desc.s1"},{"color":"white","italic":false,"translate":"item.black.mheart.desc.st1.1.s3"},{"color":"white","italic":false,"translate":"item.black.rusty_claw.desc.2"},{"color":"white","italic":false,"translate":"item.black.rusty_claw.desc.3"}]] 1

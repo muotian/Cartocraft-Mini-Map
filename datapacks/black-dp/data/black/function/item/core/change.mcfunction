@@ -1,0 +1,7 @@
+tag @s add black.core_cd
+scoreboard players set @s black.core_cd 10
+item replace entity @s weapon.offhand with purple_dye[custom_name={"color":"dark_purple","italic":false,"translate":"black.coreoffake.name1"},custom_data={black_fake:1b,black_core:1b},item_model="black:fake",lore=[{"color":"gray","italic":false,"translate":"black.coreoffake.lore1"},{"color":"white","italic":false,"translate":"black.coreoffake.lore2"},{"color":"white","italic":false,"translate":"black.coreoffake.lore3"}," ",{"color":"gray","italic":false,"translate":"black.coreoffake.lore4"},{"color":"white","italic":false,"translate":"black.coreoffake.lore5"}],consumable={consume_seconds:100,animation:"none",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"block.enchantment_table.use"}]},attribute_modifiers=[{id:"black.core_armor",type:"armor",amount:6,operation:"add_value",slot:"offhand"},{id:"black.core_attack_damage",type:"attack_damage",amount:3,operation:"add_value",slot:"offhand"},{id:"black.core_knockback_resistance",type:"knockback_resistance",amount:1,operation:"add_value",slot:"offhand"},{id:"black.core_movement_speed",type:"movement_speed",amount:0.11,operation:"add_multiplied_total",slot:"offhand"},{id:"black.core_entity_interaction_range",type:"entity_interaction_range",amount:0.33,operation:"add_value",slot:"offhand"}]] 1
+tag @s remove black.real
+tag @s add black.fake
+execute if score @s black.core_attack_cd matches 0 run item modify entity @s weapon.offhand black:glint
+playsound minecraft:block.enchantment_table.use block @s ~ ~ ~ 1 2

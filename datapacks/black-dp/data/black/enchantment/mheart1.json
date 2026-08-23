@@ -1,0 +1,65 @@
+{
+  "description": {
+    "text": ""
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "black:item/mheart/mheart1_slow"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"black.fake\"]}",
+            "slots": {
+              "weapon.offhand": {
+                "items": "minecraft:purple_dye",
+                "components": {
+                  "minecraft:enchantments": {
+                    "minecraft:fortune": 10
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "black:item/mheart/mheart1_bonus"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "black:item/mheart/add"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}
