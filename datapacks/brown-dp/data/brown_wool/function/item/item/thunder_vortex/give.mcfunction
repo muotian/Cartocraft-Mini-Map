@@ -1,0 +1,3 @@
+#雷霆漩渦
+
+give @s heart_of_the_sea[item_name={"translate":"item.brown_wool.thunder_vortex","italic":false,"color":"aqua"},lore=[[{"translate":"item.brown_wool.thunder_vortex.lore.1","italic":false,"color":"gray"}],[{"translate":"item.brown_wool.q","italic":false,"color":"yellow"},{"text":">","italic":false,"color":"white"},{"translate":"item.brown_wool.thunder_vortex.lore.2","italic":false,"color":"aqua"}],[{"translate":"item.brown_wool.thunder_vortex.lore.3","italic":false,"color":"aqua"}],[{"translate":"item.brown_wool.thunder_vortex.lore.4","italic":false,"color":"aqua"}]],custom_data={brown_wool.thunder_vortex:1}] 64

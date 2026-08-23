@@ -1,0 +1,10 @@
+
+particle explosion ^4 ^0 ^0 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^3.06 ^0 ^2.57 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^0.69 ^0 ^3.94 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^-2 ^0 ^3.46 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^-3.76 ^0 ^1.37 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^-3.76 ^0 ^-1.37 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^-2 ^0 ^-3.46 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^0.69 ^0 ^-3.94 0 0 0 0.1 0 force @a[distance=..50]
+particle explosion ^3.06 ^0 ^-2.57 0 0 0 0.1 0 force @a[distance=..50]

@@ -1,0 +1,12 @@
+# 這個函數會召喚一隻雷影巡衛，效果是
+# 
+
+summon wither_skeleton ~ ~ ~ {CustomName:{translate:"entity.brown_wool.shadow_guard",color:"aqua"},Tags:["brown_wool.shadow_guard"],attributes:[{id:armor,base:20},{id:max_health,base:30},{id:attack_damage,base:14},{id:movement_speed,base:0.265}],equipment:{mainhand:{id:netherite_sword,components:{enchantments:{},attribute_modifiers:[{type:attack_damage,amount:0,operation:add_value,id:"1766546878431"}]}},chest:{id:netherite_chestplate,components:{trim:{pattern:eye,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},head:{id:netherite_helmet,components:{trim:{pattern:silence,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}}},Health:999,DeathLootTable:"brown_wool:lightning_crystal",drop_chances:{mainhand:0,chest:0,head:0,offhand:0}}
+
+
+
+
+
+
+
+

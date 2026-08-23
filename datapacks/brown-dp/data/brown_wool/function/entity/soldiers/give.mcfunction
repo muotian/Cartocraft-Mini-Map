@@ -1,0 +1,8 @@
+function brown_wool:entity/soldiers/mine_engineers/give_spawner
+function brown_wool:entity/soldiers/thunder_guardian/give_spawner
+function brown_wool:entity/soldiers/thunderstone_golem/give_spawner
+function brown_wool:entity/soldiers/thunder_attendant_monk/give_spawner
+function brown_wool:entity/soldiers/thunder_patterned_priest/give_spawner
+function brown_wool:entity/soldiers/shadow_guard/give_spawner
+
+

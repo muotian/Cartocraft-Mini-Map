@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "brown_wool.thunder_ring_blade": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{brown_wool.thunder_ring_blade:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/weapon/thunder_ring_blade/as_player"
+  }
+}

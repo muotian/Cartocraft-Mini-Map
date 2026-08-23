@@ -1,0 +1,12 @@
+# 這個函數會召喚一隻電芒侍僧，效果是
+# 電芒侍僧
+
+summon stray ~ ~ ~ {CustomName:{translate:"entity.brown_wool.thunder_attendant_monk",color:"aqua"},Tags:["brown_wool.thunder_attendant_monk"],attributes:[{id:armor,base:20},{id:max_health,base:25},{id:movement_speed,base:0.265}],equipment:{mainhand:{id:bow,components:{enchantments:{power:5}}},chest:{id:leather_chestplate,components:{trim:{pattern:vex,material:amethyst},dyed_color:3949738,attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},head:{id:leather_helmet,components:{trim:{pattern:flow,material:diamond},dyed_color:3847130,attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},legs:{id:leather_leggings,components:{trim:{pattern:snout,material:amethyst},dyed_color:8991416,attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}}},Health:999,DeathLootTable:"brown_wool:lightning_crystal",drop_chances:{mainhand:0,chest:0,head:0,legs:0}}
+
+
+
+
+
+
+
+

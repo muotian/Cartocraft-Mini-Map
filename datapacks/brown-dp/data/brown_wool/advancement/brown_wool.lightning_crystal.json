@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "brown_wool.lightning_crystal": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{brown_wool.lightning_crystal:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/item/lightning_crystal/cast"
+  }
+}

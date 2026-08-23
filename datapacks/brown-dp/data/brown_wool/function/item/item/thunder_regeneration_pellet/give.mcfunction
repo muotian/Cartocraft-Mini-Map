@@ -1,0 +1,3 @@
+#雷元氣血丹
+give @a apple[item_name={"translate":"item.brown_wool.thunder_regeneration_pellet","italic":false,"color":"aqua"},lore=[[{"translate":"item.brown_wool.thunder_regeneration_pellet.lore.1","italic":false,"color":"gray"}],[{"translate":"item.brown_wool.thunder_regeneration_pellet.lore.2","italic":false,"color":"aqua"}],[{"translate":"item.brown_wool.thunder_regeneration_pellet.lore.3","italic":false,"color":"aqua"}]],food={nutrition:3,saturation:3,can_always_eat:1b},consumable={consume_seconds:0.05,on_consume_effects:[{type:apply_effects,effects:[{id:instant_health,duration:1,amplifier:1},{id:slowness,duration:40,amplifier:5,show_particles:0b},{id:blindness,duration:50,amplifier:0}]}]},use_cooldown={seconds:30}] 64
+

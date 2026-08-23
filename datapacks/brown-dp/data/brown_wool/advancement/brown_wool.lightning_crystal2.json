@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "brown_wool.lightning_crystal2": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+          "components": {
+            "minecraft:custom_data": "{brown_wool.lightning_crystal:1}"
+          },
+          "items": [
+            "amethyst_shard"
+          ]
+        }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/item/lightning_crystal/item"
+  }
+}

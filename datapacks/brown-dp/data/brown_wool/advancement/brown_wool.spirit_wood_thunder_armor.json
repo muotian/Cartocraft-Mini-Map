@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "brown_wool.spirit_wood_thunder_armor": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"brown_wool.spirit_wood_thunder_armor1\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/armor/spirit_wood_thunder_armor/single_piece_effect"
+  }
+}

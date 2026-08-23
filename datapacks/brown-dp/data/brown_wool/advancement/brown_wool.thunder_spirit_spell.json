@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "brown_wool.thunder_spirit_spell": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{brown_wool.thunder_spirit_spell:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/item/thunder_spirit_spell/as_player"
+  }
+}

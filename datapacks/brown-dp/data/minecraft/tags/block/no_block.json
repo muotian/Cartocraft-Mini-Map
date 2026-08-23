@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#air",
+    "water",
+    "light",
+    "#all_hanging_signs",
+    "#all_signs",
+    "#banners",
+    "#flowers",
+    "#flower_pots",
+    "#fire",
+    "#corals",
+    "#combination_step_sound_blocks",
+    "#climbable",
+    "#chains",
+    "#wool_carpets",
+    "#saplings",
+    "#buttons",
+    "#candles",
+    "#rails",
+    "glow_lichen"
+  ]
+}

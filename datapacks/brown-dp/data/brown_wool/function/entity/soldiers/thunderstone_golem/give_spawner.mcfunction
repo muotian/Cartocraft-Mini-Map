@@ -1,0 +1,6 @@
+# 這個檔案會給你雷紋石傀的生怪磚
+
+give @s spawner[block_entity_data={id:"mob_spawner", Delay:0s, MaxNearbyEntities:8s, RequiredPlayerRange:16s, SpawnCount:2s, MaxSpawnDelay:800s, MinSpawnDelay:400s, SpawnRange:5s, SpawnData:{custom_spawn_rules:{block_light_limit:[0 ,15],sky_light_limit:[0 , 15]},entity:{id:"husk", CustomName:{translate:"entity.brown_wool.thunderstone_golem",color:"aqua"},Tags:["brown_wool.thunderstone_golem"],attributes:[{id:armor,base:20},{id:max_health,base:40},{id:attack_damage,base:12},{id:movement_speed,base:0.245}],equipment:{chest:{id:copper_chestplate,components:{trim:{pattern:silence,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},head:{id:copper_helmet,components:{trim:{pattern:silence,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},legs:{id:copper_leggings,components:{trim:{pattern:silence,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}},feet:{id:copper_boots,components:{trim:{pattern:flow,material:amethyst},attribute_modifiers:[{type:armor,amount:0,operation:add_value,id:"1766046898431"}]}}},Health:999,DeathLootTable:"brown_wool:lightning_crystal",drop_chances:{mainhand:0,chest:0,head:0,feet:0,legs:0}}}}]
+
+
+

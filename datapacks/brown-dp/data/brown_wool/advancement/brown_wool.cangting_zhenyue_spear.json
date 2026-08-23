@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "brown_wool.cangting_zhenyue_spear": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{brown_wool.cangting_zhenyue_spear:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "brown_wool:item/weapon/cangting_zhenyue_spear/as_player"
+  }
+}
