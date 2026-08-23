@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use_right_click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {"icer.reverend_sceptre":1}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "icer:reverend_sceptre/ability/right_click"
+  }
+}

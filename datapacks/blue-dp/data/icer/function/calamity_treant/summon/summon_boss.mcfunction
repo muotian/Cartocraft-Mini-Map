@@ -1,0 +1,6 @@
+summon zombie ~ ~ ~ {DeathLootTable:"",PersistenceRequired:1b,Silent:1b,CustomNameVisible:1b,CanPickUpLoot:0b,Health:444f,IsBaby:0b,CanBreakDoors:0b,Tags:["icer.standing","icer.calamity_treant"],CustomName:{"text":"","extra":[{"translate":"icer.calamity_treant.name1","italic":false,"bold":true,"color":"#D7CEC6"},{"translate":"icer.calamity_treant.name2","italic":false,"bold":true,"color":"#99AE8B"},{"translate":"icer.calamity_treant.name3","italic":false,"bold":true,"color":"#5B8E4F"},{"translate":"icer.calamity_treant.name4","italic":false,"bold":true,"color":"#1D6E14"}]},equipment:{head:{id:"minecraft:pale_oak_wood",count:1,components:{item_model:"icer:air"}}},drop_chances:{head:0.000},active_effects:[{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b,show_icon:0b}],attributes:[{id:"minecraft:attack_damage",base:3},{id:"minecraft:knockback_resistance",base:0.8},{id:"minecraft:max_health",base:444}]}
+function animated_java:calamity_treant/summon {args:{animation:'calamity_treant_standby',start_animation:true}}
+#召喚boss和aj模型
+
+scoreboard players set @n[tag=icer.calamity_treant] icer.boss_mana 0
+#將boss的魔力值歸零

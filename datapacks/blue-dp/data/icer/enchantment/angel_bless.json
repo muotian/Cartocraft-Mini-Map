@@ -1,0 +1,17 @@
+{
+    "description": {"translate": "icer.angel_bless"},
+    "exclusive_set": "#exclusive_set/demon_and_angel",
+    "max_level":1,
+    "slots":["mainhand"],
+    "supported_items": [],
+    "weight": 1,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 3,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 5,
+        "per_level_above_first": 0
+    }
+}

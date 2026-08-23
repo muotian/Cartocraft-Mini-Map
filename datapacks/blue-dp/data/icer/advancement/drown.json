@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "id": "gold_nugget"
+        },
+        "title": "made by icerdanny",
+        "description": "awa",
+        "background": "block/stone"        
+    },
+    "criteria": {
+        "drown":{
+            "trigger": "impossible"
+        }
+    }
+}

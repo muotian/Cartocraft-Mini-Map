@@ -1,0 +1,1 @@
+summon evoker ~ ~ ~ {CustomName:{"translate":"icer.fallen_pastor","color":"dark_gray","bold":true},Tags:["icer.fallen_pastor"],attributes:[{id:"max_health",base:40}],Health:40,DeathLootTable:"icer:fallen_pastor"}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"animated_java:calamity_treant/on_load",
+		"animated_java:knightsword/on_load",
+		"animated_java:rat/on_load",
+		"animated_java:reverend_sceptre/on_load",
+		"animated_java:scourge_staff/on_load"
+	]
+}

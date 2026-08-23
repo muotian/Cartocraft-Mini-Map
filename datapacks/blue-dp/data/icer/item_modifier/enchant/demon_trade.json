@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "icer:demon_trade": 1 
+    },
+    "add": false
+}

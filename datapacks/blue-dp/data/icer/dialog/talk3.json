@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:notice",
+  "title": {"translate": "icer.treant"},
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {"translate": "icer.story13"}
+    ]
+    }
+  ]
+}

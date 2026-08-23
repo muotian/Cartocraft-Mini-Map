@@ -1,0 +1,7 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+      "icer:angel_bless": 0
+    },
+    "add": false
+}

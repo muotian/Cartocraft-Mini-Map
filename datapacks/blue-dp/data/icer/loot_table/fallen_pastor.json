@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size":1,
+                "minecraft:item_model": "minecraft:dried_kelp",
+                "minecraft:custom_data": "{icer.dark:1b}",
+                "minecraft:custom_name": [{"text":"","extra":[{"text":"⊚","italic":false,"color":"#3B304E"},{"translate":"icer.dark.name","italic":false,"bold":true,"color":"#301B44"},{"text":"⊚","italic":false,"color":"#250539"}]}],
+                "minecraft:lore": [
+                  {"text":""},
+                  {"text":"❝","color":"gray"},
+                  {"text":"וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹםר    ","color":"gray"},
+                  {"text":"                                                                 ❞","color":"gray"},
+                  {"text":""},
+                  {"translate":"icer.item.effect","italic":false,"color":"white"},
+                  {"text":""},
+                  {"translate":"icer.dark.effect1","italic":false,"color":"white"},
+                  {"translate":"icer.dark.effect2","italic":false,"color":"white"},
+                  {"translate":"icer.dark.effect3","italic":false,"color":"white"},
+                  {"translate":"icer.dark.effect4","italic":false,"color":"white"},
+                  {"text":""},
+                  {"translate":"icer.demon_trade.effect1","italic":false,"color":"dark_gray"},
+                  {"translate":"icer.demon_trade.effect2","italic":false,"color":"dark_gray"},
+                  {"translate":"icer.demon_trade.effect3","italic":false,"color":"dark_gray"},
+                  {"translate":"icer.demon_trade.effect4","italic":false,"color":"dark_gray"},
+                  {"text":""},
+                  {"text":""}
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

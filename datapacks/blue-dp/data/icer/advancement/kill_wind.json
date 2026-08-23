@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "kill_boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags":[
+            {
+              "id": "kill",
+              "expected": false
+            }
+          ] 
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"icer.mithril_golem\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "icer:mini_boss/mithril_golem/give_fragment"
+  }
+}

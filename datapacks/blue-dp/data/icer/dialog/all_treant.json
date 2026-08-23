@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"translate": "icer.treant"},
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate": "icer.story1"}
+    }
+  ],
+  "actions": [
+    {
+        "label": {
+            "translate": "icer.story2"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger icer.run_craft set 1"
+        }
+    },
+    {
+        "label": {
+            "translate": "icer.story3"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "/trigger icer.run_talk set 1"
+        }
+    }
+  ]
+}
