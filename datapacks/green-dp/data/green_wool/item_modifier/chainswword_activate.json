@@ -1,0 +1,35 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "green_upgraped": true,
+      "green_chain_sword_activate": true
+    },
+    "minecraft:item_model": "ctmgreen:40k_chain_sword_activate",
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 24,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+    
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -3.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_knockback",
+        "id": "minecraft:",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  "conditions": []
+}

@@ -1,0 +1,1 @@
+give @s leather[custom_data={green_wool.leather:1b}] 1

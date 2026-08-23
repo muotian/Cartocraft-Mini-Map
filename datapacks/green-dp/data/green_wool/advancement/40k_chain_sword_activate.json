@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{green_chain_sword:1b,green_upgraped:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:40k_chain_sword/chain_sword_activate"
+  }
+}

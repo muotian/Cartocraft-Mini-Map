@@ -1,0 +1,1 @@
+give @s trial_key[lore=[{"translate":"weapon.green_wool.boltgun_bullet1"}],custom_data={green_wool.boltgun_bullet:1b},item_name={"translate":"weapon.green_wool.boltgun_bullet"},item_model="green_wool:boltgun_bullet_item"] 20

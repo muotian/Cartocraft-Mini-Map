@@ -1,0 +1,1 @@
+function green_wool:gladius/gladius_energy

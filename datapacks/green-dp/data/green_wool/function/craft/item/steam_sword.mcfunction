@@ -1,0 +1,3 @@
+#銅錠*3 蒸氣炮 零件
+execute if entity @n[nbt={Item:{count:3,components:{"minecraft:custom_data":{green_wool.copper:1b}}}},distance=..1] if entity @n[nbt={Item:{components:{"minecraft:custom_data":{green_wool.component:1b}}}},distance=..1] unless entity @e[type=interaction,tag=green_wool.craft,tag=green_wool.steam_sword_craft,distance=..1] run summon interaction ~ ~ ~ {Tags:["green_wool.craft","green_wool.steam_sword_craft"]}
+execute if entity @n[nbt={Item:{count:3,components:{"minecraft:custom_data":{green_wool.copper:1b}}}},distance=..1] if entity @n[nbt={Item:{components:{"minecraft:custom_data":{green_wool.component:1b}}}},distance=..1] run particle totem_of_undying ~ ~ ~ 0 0 0 0.2 1

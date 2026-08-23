@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "boltgun": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{green_wool.boltgun:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:boltgun/boltgun_t"
+  }
+}

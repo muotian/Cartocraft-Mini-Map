@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "boltgun": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{green_wool.steam_robot_hand:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:steam_robot_hand/steam_robot_hand"
+  }
+}

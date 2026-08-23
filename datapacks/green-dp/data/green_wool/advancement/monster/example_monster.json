@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.owo.example_monster.title"
+        },
+        "description": {
+            "translate": "advancement.owo.example_monster.description"
+        },
+        "icon": {
+            "id": "minecraft:husk_spawn_egg",
+            "count": 1
+        },
+        "hidden": true
+    },
+    "parent": "owo:monster/monster_root",
+    "criteria": {
+        "example_monster" :{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"owo.example_monster\"]}"
+                }
+            }
+        }
+    }
+}

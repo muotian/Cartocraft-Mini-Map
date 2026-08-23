@@ -1,0 +1,2 @@
+#給扳手
+give @s stone_axe[tooltip_display={hidden_components:["attribute_modifiers","unbreakable"]},item_name={"translate":"weapon.green_wool.spanner"},lore=[{"translate":"weapon.green_wool.spanner1"},{text:""},{"translate":"weapon.green_wool.spanner2"},{"translate":"weapon.green_wool.spanner3"}],item_model="green_wool:spanner_item",custom_data={green_wool.spanner:1b}]

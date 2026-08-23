@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": "{green_wool.pipe:1b}"
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:pipe/pipe"
+  }
+}

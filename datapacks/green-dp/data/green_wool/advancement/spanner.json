@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{spanner:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:spanner"
+  }
+}

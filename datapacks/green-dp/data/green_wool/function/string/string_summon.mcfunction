@@ -1,0 +1,1 @@
+summon skeleton ~ ~ ~ {CustomName:{translate:"entity.green_wool.string"},DeathLootTable:"green_wool:string",CustomNameVisible:1b,Health:10,Silent:1b,Tags:["green_wool.string"],equipment:{mainhand:{id:wooden_sword}},drop_chances:{mainhand:0f},attributes:[{id:armor,base:30f},{id:armor_toughness,base:20f},{id:max_health,base:10f}]}

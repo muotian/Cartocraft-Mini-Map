@@ -1,0 +1,4 @@
+execute if entity @s[scores={green_wool.steam_sworld_damage=60..,green_wool.steam_sworld_skill2=3}] run scoreboard players add @s green_wool.steam_sworld_skill_time 20
+execute if entity @s[scores={green_wool.steam_sworld_damage=30..,green_wool.steam_sworld_skill2=1..2}] run scoreboard players add @s green_wool.steam_sworld_skill_time 20
+execute if entity @s[scores={green_wool.steam_sworld_damage=60..,green_wool.steam_sworld_skill2=3}] run scoreboard players reset @s green_wool.steam_sworld_damage
+execute if entity @s[scores={green_wool.steam_sworld_damage=30..,green_wool.steam_sworld_skill2=1..2}] run scoreboard players reset @s green_wool.steam_sworld_damage

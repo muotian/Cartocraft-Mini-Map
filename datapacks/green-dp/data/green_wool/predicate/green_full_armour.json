@@ -1,0 +1,32 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "items": ["netherite_helmet"],
+                "predicates": {
+                    "custom_data": "{green_helmet:1b}"
+                }
+            },
+            "chest": {
+                "items": ["netherite_chestplate"],
+                "predicates": {
+                    "custom_data": "{green_chestplate:1b}"
+                }
+            },
+            "legs": {
+                "items": ["netherite_leggings"],
+                "predicates": {
+                    "custom_data": "{green_leggings:1b}"
+                }
+            },
+            "feet": {
+                "items": ["netherite_boots"],
+                "predicates": {
+                    "custom_data": "{green_boots:1b}"
+                }
+            }
+        }
+    }
+}

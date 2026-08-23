@@ -1,0 +1,1 @@
+summon minecraft:husk ~ ~1 ~ {DeathLootTable:"minecraft:empty",Tags:["green_wool.device","green_wool.test_device"],CustomName:[{"text":"\u6e2c\u8a66\u96fb\u5668","italic":false}],attributes:[{id:"minecraft:max_health",base:240f},{id:"minecraft:max_absorption",base:2048}],active_effects:[]}

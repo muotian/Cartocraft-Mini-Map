@@ -1,0 +1,1 @@
+summon bat ~ ~ ~ {CustomName:[{text:"【"},{text:"蒸汽聚合体",color:gold},{text:"】",color:gold}],CustomNameVisible:1b,Health:20,Silent:1b,Tags:["green_wool.bat"],active_effects:[{id:invisibility,duration:99999,amplifier:1,show_particles:0b}],attributes:[{id:max_health,base:20f}]} 

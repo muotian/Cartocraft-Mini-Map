@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "rc": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{green_handgun:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "green_wool:handgun/handgun_trigger"
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"replace": false,
+	"values": ["green_wool:tick", "animated_java:global/on_tick"]
+}

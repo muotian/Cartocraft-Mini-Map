@@ -1,0 +1,6 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_model": "green_wool:pipe_item"
+  }
+}

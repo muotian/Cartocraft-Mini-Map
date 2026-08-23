@@ -1,0 +1,1 @@
+function green_wool:crafting/heavy_armour_upgrape/craft_detect

@@ -1,0 +1,1 @@
+give @s minecraft:netherite_axe[custom_data={green_wool.pipe:1b},blocks_attacks={},item_model="green_wool:pipe_item",unbreakable={},item_name={translate:"weapon.green_wool.pipe"},attribute_modifiers=[{slot:"any",type:"attack_damage",id:"attack_damage_1080527335",amount:10d,operation:'add_value'}],tooltip_display={hide_tooltip:false,hidden_components:['attribute_modifiers']}] 1
