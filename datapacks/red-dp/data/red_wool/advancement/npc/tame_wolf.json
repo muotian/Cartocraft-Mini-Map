@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"red_wool.wolf\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "red_wool:npc/wolf/tame"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "anvil_cost": 999,
+    "description": {
+        "translate": "red_wool.enchantment.tnt_axe"
+    },
+    "max_cost": {
+        "base": 6,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": ["mainhand"],
+    "supported_items": "#enchantable/weapon",
+    "weight": 4,
+    "effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/tnt_axe/summon_tnt"
+                },
+                "affected": "victim",
+                "enchanted": "attacker"
+            }
+        ]
+    }
+}

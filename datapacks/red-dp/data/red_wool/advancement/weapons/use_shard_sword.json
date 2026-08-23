@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "use":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "item_model": "red_wool:shard_sword"
+                    }
+                },
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "components": {
+                                "item_model": "red_wool:shard_sword"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "red_wool:weapons/shard_sword/strong"
+    }
+}

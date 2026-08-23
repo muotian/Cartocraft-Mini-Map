@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "true_explosion"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "b":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "true_explosion"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["a"], ["b"]
+    ],
+    "rewards": {
+        "function": "red_wool:enchantment/explosion_for_reg"
+    }
+}

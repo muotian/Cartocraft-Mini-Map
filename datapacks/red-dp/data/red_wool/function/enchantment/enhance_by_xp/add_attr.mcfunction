@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {function:"set_components", components:{attribute_modifiers:[{amount:$(enhance_by_xp), id:"base_attack_damage", operation:"add_value", type:"attack_damage", slot:"mainhand"}, {amount:-2.8, id:"base_attack_speed", operation:"add_value", type:"attack_speed", slot:"mainhand"}]}}

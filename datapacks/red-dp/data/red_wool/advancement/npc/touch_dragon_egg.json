@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "touch_head_man":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"red_wool.boss.trigger\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "red_wool:boss/init"
+    }
+}

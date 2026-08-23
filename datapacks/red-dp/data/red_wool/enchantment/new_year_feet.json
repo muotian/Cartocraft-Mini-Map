@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 999,
+    "description": {
+        "translate": "red_wool.armor.new_year_feet"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": ["feet"],
+    "supported_items": "iron_boots",
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/new_year_shoes/tick"
+                }
+            }
+        ]
+    }
+}

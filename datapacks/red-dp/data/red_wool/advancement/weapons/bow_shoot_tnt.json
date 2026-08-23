@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "use_bow": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "red_wool:shoot_tnt",
+                  "levels": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "red_wool:enchantment/bow_shoot_tnt/ride"
+    }
+  }

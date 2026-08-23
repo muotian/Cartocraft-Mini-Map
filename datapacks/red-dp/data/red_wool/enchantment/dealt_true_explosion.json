@@ -1,0 +1,74 @@
+{
+    "anvil_cost": 999,
+    "description": {
+        "translate": "red_wool.enchantment.dealt_true_explosion"
+    },
+    "max_cost": {
+        "base": 6,
+        "per_level_above_first": 8
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": ["mainhand"],
+    "supported_items": "#enchantable/weapon",
+    "weight": 4,
+    "effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "damage_entity",
+                    "damage_type": "red_wool:true_explosion",
+                    "max_damage": {
+                        "type": "linear",
+                        "base": 1.6,
+                        "per_level_above_first": 1.6
+                    },
+                    "min_damage": {
+                        "type": "linear",
+                        "base": 1.6,
+                        "per_level_above_first": 1.6
+                    }
+                },
+                "affected": "victim",
+                "enchanted": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/dealt_true_explosion_particle_blue"
+                },
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate": {
+                            "type": "player"
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/dealt_true_explosion_particle"
+                },
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "attacker",
+                    "predicate": {
+                        "type": "player"
+                    }
+                    
+                }
+            }
+        ]
+    }
+}

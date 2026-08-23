@@ -1,0 +1,2 @@
+execute if score skill_cool_down red_wool.boss matches 0 run function red_wool:boss/summon_creeper/start
+execute if score creeper red_wool.boss matches 0.. run function red_wool:boss/summon_creeper/tick

@@ -1,0 +1,1 @@
+scoreboard players set @s red_wool.totem_of_peace 2

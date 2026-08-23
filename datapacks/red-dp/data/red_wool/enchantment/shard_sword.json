@@ -1,0 +1,93 @@
+{
+    "anvil_cost": 999,
+    "description": {
+        "translate": "red_wool.enchantment.shard_sword"
+    },
+    "max_cost": {
+        "base": 6,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": ["mainhand"],
+    "supported_items": "#enchantable/weapon",
+    "weight": 4,
+    "effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "damage_entity",
+                    "damage_type": "red_wool:true_explosion",
+                    "max_damage": 20,
+                    "min_damage": 20
+                },
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate": {
+                            "slots": {
+                                "weapon.mainhand": {
+                                    "components": {
+                                        "item_model": "red_wool:shard_sword_red"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:weapons/shard_sword/is_end"
+                },
+                "affected": "attacker",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate": {
+                            "slots": {
+                                "weapon.mainhand": {
+                                    "components": {
+                                        "item_model": "red_wool:shard_sword_red"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/dealt_true_explosion_particle"
+                },
+                "affected": "victim",
+                "enchanted": "attacker",
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "attacker",
+                        "predicate": {
+                            "slots": {
+                                "weapon.mainhand": {
+                                    "components": {
+                                        "item_model": "red_wool:shard_sword_red"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

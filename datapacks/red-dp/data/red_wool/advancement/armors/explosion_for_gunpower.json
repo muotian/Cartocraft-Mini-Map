@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "components": {
+                                "item_model": "red_wool:new_year_hat"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "red_wool:enchantment/explosion_for_gunpower"
+    }
+}

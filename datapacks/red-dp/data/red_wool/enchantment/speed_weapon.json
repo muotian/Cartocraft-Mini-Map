@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 999,
+    "description": {
+        "translate": "red_wool.enchantment.speed"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 5,
+    "slots": ["mainhand"],
+    "supported_items": "#enchantable/weapon",
+    "weight": 1,
+    "effects": {
+        "attributes": [
+            {
+                "amount": {
+                    "type": "linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
+                },
+                "attribute": "movement_speed",
+                "id": "movement_speed",
+                "operation": "add_multiplied_base"
+            }
+        ]
+    }
+}

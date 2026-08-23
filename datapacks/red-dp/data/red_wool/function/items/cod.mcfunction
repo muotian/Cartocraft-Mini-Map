@@ -1,0 +1,1 @@
+give @p cooked_cod[food={nutrition:8,saturation:8,can_always_eat:false},consumable={consume_seconds:1,on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:hunger",amplifier:20,duration:20},{id:"minecraft:instant_health",amplifier:0,duration:1}]}]},item_name={"translate":"red_wool.food.cod"}] 1

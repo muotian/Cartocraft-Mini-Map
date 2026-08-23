@@ -1,0 +1,1 @@
+bossbar set red_wool.boss color red

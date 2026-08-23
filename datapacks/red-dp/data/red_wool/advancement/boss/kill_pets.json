@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "kill":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"red_wool.boss.pet\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "red_wool:boss/boss_hp/kill_pets"
+    }
+}

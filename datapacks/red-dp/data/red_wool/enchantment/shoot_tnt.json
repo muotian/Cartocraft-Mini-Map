@@ -1,0 +1,57 @@
+{
+  "description": {
+    "translate": "red_wool.enchantment.tnt_crossbow"
+  },
+  "exclusive_set": [
+    "minecraft:multishot",
+    "minecraft:piercing"
+  ],
+  "supported_items": [
+    "minecraft:crossbow"
+  ],
+  "primary_items": [],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 20,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "end": "entity.arrow.hit_player",
+        "mid":"minecraft:entity.tnt.primed",
+        "start": "minecraft:item.flintandsteel.use"
+      }
+    ],
+    "post_attack": [
+            {
+                "effect": {
+                    "type": "damage_entity",
+                    "damage_type": "red_wool:true_explosion",
+                    "max_damage": 12,
+                    "min_damage": 12
+                },
+                "affected": "victim",
+                "enchanted": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "red_wool:enchantment/dealt_true_explosion_particle"
+                },
+                "affected": "victim",
+                "enchanted": "attacker"
+            }
+        ]
+  }
+}

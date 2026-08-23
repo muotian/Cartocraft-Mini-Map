@@ -1,0 +1,2 @@
+$execute on owner at @e[distance = ..12, type = !#no_hp, type = !wolf, type = !player] run damage @n $(wolf_damage) red_wool:true_explosion by @s from @s
+execute on owner at @e[distance = ..12, type = !#no_hp, type = !wolf, type = !player] run function red_wool:enchantment/dealt_true_explosion_particle

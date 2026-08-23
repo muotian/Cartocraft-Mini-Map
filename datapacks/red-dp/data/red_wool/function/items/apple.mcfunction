@@ -1,0 +1,1 @@
+give @p apple[food={nutrition:8,saturation:8,can_always_eat:false},consumable={consume_seconds:1,on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:hunger",amplifier:20,duration:20},{id:"minecraft:speed",amplifier:3,duration:300}]}]},item_name={"translate":"red_wool.food.apple"}] 1

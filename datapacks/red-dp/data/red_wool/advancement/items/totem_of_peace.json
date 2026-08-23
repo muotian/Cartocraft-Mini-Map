@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "use":{
+            "trigger": "used_totem",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "item_model": "red_wool:totem_of_peace"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "red_wool:items/totem_of_peace/run"
+    }
+}
