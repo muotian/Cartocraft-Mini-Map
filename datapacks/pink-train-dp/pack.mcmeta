@@ -1,6 +1,7 @@
 {
-   "pack":{
-      "pack_format":61,
-      "description":"Stable Player Display"
-   }
+  "pack": {
+    "description": "Stable Player Display",
+    "min_format": [94, 1],
+    "max_format": 94
+  }
 }
