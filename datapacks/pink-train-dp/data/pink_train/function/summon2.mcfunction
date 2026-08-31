@@ -1,0 +1,5 @@
+#
+summon villager ~ ~ ~ {VillagerData:{type:plains,profession:nitwit,level:99},Health:1000,Silent:1b,Tags:["pink.train.dummy"],equipment:{head:{id:player_head,components:{"minecraft:custom_name":{text:"Crash Dummy",color:gold,underlined:true,bold:true,italic:false},"minecraft:lore":[{text:"Custom Head ID: 20121",color:gray,italic:false},{text:"www.minecraft-heads.com",color:blue,italic:false}],profile:{properties:[{name:textures,value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZmZjc0ZTcxMDE0ZmIzYjkxYjk2NzQzNGViY2I5YWIxMTUzY2UxNzIzZTc1ZjJlYzljNjQxYmMxNmViIn19fQ=="}]}}}},attributes:[{id:max_health,base:1000f}],drop_chances:{head:0f,chest:0f}}
+
+
+
