@@ -1,1 +1,1 @@
-{"type":"overworld","generator":{"type":"minecraft:flat","settings":{"biome":"beach","lakes":false,"features":false,"layers":[]}}}
+{"type":"overworld","generator":{"type":"minecraft:flat","settings":{"biome":"beach","lakes":false,"features":false,"layers":[],"structure_overrides": []}}}
