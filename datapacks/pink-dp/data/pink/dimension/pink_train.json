@@ -6,7 +6,8 @@
       "biome": "beach",
       "lakes": false,
       "features": false,
-      "layers": []
+      "layers": [],
+      "structure_overrides": []
     }
   }
 }

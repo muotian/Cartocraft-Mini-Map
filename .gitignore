@@ -4,6 +4,7 @@ data/*
 DIM-1/*
 DIM1/*
 dimensions/**/data/*
+dimensions/**/poi/*
 playerdata/*
 poi/*
 stats/*
