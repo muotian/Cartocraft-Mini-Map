@@ -1,0 +1,16 @@
+black:              enchantment, worldgen/biome
+blue(icer):         none
+brown(brown_wool):  none
+cyan:               enchantment
+gray(ccmini_gray):  enchantment
+green(green_wool):  none              
+light-blue(a4):     enchantment, instrument, jukebox_song, worldgen/biome, worldgen/configured_feature, worldgen/placed_feature
+light-gray:         enchantment
+lime(light_green):  enchantment
+magenta(cook):      enchantment
+orange(thecoo...):  none
+pink:               dimension, enchantment
+purple(ordered...): enchantment
+red(red_wool):      enchantment
+white:              enchantment
+yellow(mini_light): enchantment

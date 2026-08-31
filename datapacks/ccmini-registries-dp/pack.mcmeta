@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "CCMini Registry DP [DO NOT DISABLE]",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}
