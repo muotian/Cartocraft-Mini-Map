@@ -27,6 +27,10 @@ pink:
 
     training dimension
 
+cyan:
+
+    rotate the submit command block
+
 red:
 
     red_wool_system\data\red_wool\predicate\in_boss_area.json 的 predicate 是用絕對路徑
