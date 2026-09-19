@@ -1,0 +1,5 @@
+{ "parent": "black:mob/music_root", "display": { "icon": { "id": "minecraft:note_block" }, "title": { "text":"Beethoven Virus by BanYa" }, "description": { "text": "https://youtu.be/DtKCNJmARF0" }, "frame": "task", "show_toast": true, "announce_to_chat": false },
+  "criteria": {
+    "enter_snow_mount": {
+      "trigger": "minecraft:impossible"}
+  } }
