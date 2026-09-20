@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "values": [
+    {"id": "#algol:tick", "required": false},
+    {"id": "monu:tick", "required": false},
+    {"id": "white:tick", "required": false},
+    {"id": "thecookieorange:tick", "required": false},
+    {"id": "thecookieorange:tick_item", "required": false},
+    {"id": "cook:tick", "required": false},
+    {"id": "a4:tick", "required": false},
+    {"id": "mini_light:tick", "required": false},
+    {"id": "light_green:tick", "required": false},
+    {"id": "pink:tick", "required": false},
+    {"id": "pink_train:tick", "required": false},
+    {"id": "ccmini_gray:tick", "required": false},
+    {"id": "light_gray_wool:tick", "required": false},
+    {"id": "cyan:tick", "required": false},
+    {"id": "ordered_splinter_main:tick", "required": false},
+    {"id": "ordered_splinter:tick", "required": false},
+    {"id": "icer:tick", "required": false},
+    {"id": "brown_wool:tick", "required": false},
+    {"id": "green_wool:tick", "required": false},
+    {"id": "red_wool:system/tick", "required": false},
+    {"id": "black:tick", "required": false},
+    {"id": "triggerlexica:tick", "required": false},
+    {"id": "animated_java:global/on_tick", "required": false}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "replace": true,
+  "values": [
+    {"id": "codex:load", "required": false},
+    {"id": "ccm.codex:load", "required": false},
+    {"id": "#algol:load", "required": false},
+    {"id": "animated_java:global/on_load", "required": false},
+    {"id": "monu:load", "required": false},
+    {"id": "white:load", "required": false},
+    {"id": "thecookieorange:load", "required": false},
+    {"id": "cook:load", "required": false},
+    {"id": "a4:load", "required": false},
+    {"id": "mini_light:load", "required": false},
+    {"id": "custom_heal:load", "required": false},
+    {"id": "light_green:load", "required": false},
+    {"id": "pink:load", "required": false},
+    {"id": "pink_train:load", "required": false},
+    {"id": "ccmini_gray:load", "required": false},
+    {"id": "light_gray_wool:load", "required": false},
+    {"id": "cyan:load", "required": false},
+    {"id": "ordered_splinter_main:load", "required": false},
+    {"id": "ordered_splinter:load", "required": false},
+    {"id": "icer:load", "required": false},
+    {"id": "brown_wool:load", "required": false},
+    {"id": "green_wool:load", "required": false},
+    {"id": "red_wool:system/load", "required": false},
+    {"id": "black:load", "required": false},
+    {"id": "triggerlexica:load", "required": false}
+  ]
+}

@@ -2,6 +2,13 @@
   "env": {
     "exclude": [
       "**/animated_java/**"
+    ],
+    "dependencies": [
+      "@vanilla-datapack",
+      "@vanilla-resourcepack",
+      "@vanilla-mcdoc",
+      "./datapacks/light-blue-dp.zip",
+      "./datapacks/catbook-patch-dp.zip"
     ]
   },
   "lint": {
