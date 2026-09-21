@@ -8,7 +8,8 @@
       "@vanilla-resourcepack",
       "@vanilla-mcdoc",
       "./datapacks/light-blue-dp.zip",
-      "./datapacks/catbook-patch-dp.zip"
+      "./datapacks/catbook-patch-dp.zip",
+      "../../resourcepacks/CC%20mini%20合併材質包%20v3.zip"
     ]
   },
   "lint": {
