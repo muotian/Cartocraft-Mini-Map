@@ -10,3 +10,5 @@ poi/*
 stats/*
 level.dat_old
 session.lock
+
+memo.txt
