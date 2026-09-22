@@ -1,4 +1,4 @@
-say awa
+#say awa
 #HI你好
 
 scoreboard objectives add icer.boss_cooldown dummy

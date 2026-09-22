@@ -1,4 +1,4 @@
-tellraw @a {"text":"monu loaded.","color":"aqua"}
+#tellraw @a {"text":"monu loaded.","color":"aqua"}
 
 scoreboard objectives add monu_timer dummy
 scoreboard objectives add monu_return dummy
