@@ -1,7 +1,9 @@
 # Opening boxes
+execute as @e[tag=wool_purple.open_box] unless score @s wool_purple.box.id matches 1.. run function ordered_splinter:box/open_box/box_fix
 execute as @e[tag=wool_purple.open_box] at @s if data entity @s interaction run function ordered_splinter:box/open_box/open_box
 scoreboard players add @e[tag=wool_purple.animation] wool_purple.animation 1
 execute as @e[tag=aj.box.root,tag=wool_purple.animation] if score @s wool_purple.animation matches 50 run function animated_java:box/remove/this
+execute as @e[tag=wool_purple.open_demon_box] unless score @s wool_purple.box.id matches 1.. run function ordered_splinter:box/open_box/demon_box_fix
 execute as @e[tag=wool_purple.open_demon_box] at @s if data entity @s interaction run function ordered_splinter:box/open_box/open_demon_box
 execute as @e[tag=aj.demon_box.root,tag=wool_purple.animation] if score @s wool_purple.animation matches 50 run function animated_java:demon_box/remove/this
 execute at @e[tag=aj.demon_box.root] if entity @p[distance=..20] run particle dust_color_transition{from_color:[0.549,0.000,0.000],to_color:[0.902,0.000,0.000],scale:1} ~ ~1 ~ 0.45 0.45 0.45 5 2
