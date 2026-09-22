@@ -1,7 +1,0 @@
-{
-  "function": "minecraft:set_enchantments",
-  "enchantments": {
-    "pink:black_attack": 0
-  },
-  "add": false
-}

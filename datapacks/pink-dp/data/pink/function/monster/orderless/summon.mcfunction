@@ -1,5 +1,0 @@
-#
-summon pillager ~ ~ ~ {Health:34,Tags:["pink_mobs","pink.orderless","up"],equipment:{mainhand:{id:crossbow,components:{enchantments:{quick_charge:2,power:1}}},head:{id:player_head,components:{"minecraft:custom_name":{text:"Monster Sheep (souleater)",color:gold,underlined:true,bold:true,italic:false},"minecraft:lore":[{text:"Custom Head ID: 123198",color:gray,italic:false},{text:"www.minecraft-heads.com",color:blue,italic:false}],profile:{properties:[{name:textures,value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I1ZGYzZGQ0MThlOWEyN2FlMzcxNDI5OTMyMmZlNWE3MWRjNjEzMjNlODJmZGZkM2Y5NjUwZTFjY2E3MTIxNSJ9fX0="}]}}}},drop_chances:{mainhand:0f,head:0f},attributes:[{id:max_health,base:32f}],CustomName:{"translate":"monster.pink.orderless.name"},active_effects:[{id:"levitation",duration:1000,amplifier:1}],CustomNameVisible:1b,DeathLootTable:"pink:item_d/white1"}
-
-kill @s
-kill @n[tag=pink.monster.b,type=marker]
