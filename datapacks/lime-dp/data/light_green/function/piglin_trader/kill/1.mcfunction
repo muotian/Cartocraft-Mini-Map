@@ -1,1 +1,0 @@
-$kill @n[scores={light_green.trader_id=$(id)},type=villager]

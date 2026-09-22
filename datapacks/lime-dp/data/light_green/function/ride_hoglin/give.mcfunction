@@ -1,1 +1,0 @@
-give @s goat_horn[custom_data={light_green.call_hoglin:1},custom_name={translate:"light_green:horn",italic:false},lore=[{translate:"light_green:horn_lore",italic:false,color:gray}],item_model="light_green:hoglin_horn"]

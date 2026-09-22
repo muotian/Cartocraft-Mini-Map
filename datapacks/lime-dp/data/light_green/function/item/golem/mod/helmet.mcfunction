@@ -1,1 +1,0 @@
-give @s poisonous_potato[use_effects={},item_model="light_green:mod/empty",custom_data={"light_green:golem_helmet_mod":"empty"},max_stack_size=1,lore=[{translate:"light_green:mod_helmet",italic:false,color:"gray"}],custom_name={translate:"light_green:mod_empty",italic:false}]

@@ -1,2 +1,0 @@
-$execute positioned ~-1 ~ ~-1 if entity @n[type=!#light_green:no_hp,dy=15,dx=1,dz=1,type=!player] as @n[type=!#light_green:no_hp,dy=15,dx=1,dz=1,type=!player] run damage @s 0.25 light_green:laser by @p[scores={light_green.player_id=$(id)},distance=..50]
-$execute positioned ~-1 ~ ~-1 if entity @n[type=!#light_green:no_hp,dy=-15,dx=1,dz=1,type=!player] as @n[type=!#light_green:no_hp,dy=-15,dx=1,dz=1,type=!player] run damage @s 0.25 light_green:laser by @p[scores={light_green.player_id=$(id)},distance=..50]

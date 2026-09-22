@@ -1,1 +1,0 @@
-execute unless entity caba-0-0-0-1 run summon item_display 0 0 0 {UUID:[I;51898,0,0,1],view_range:0}

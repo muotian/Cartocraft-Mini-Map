@@ -1,4 +1,0 @@
-item replace entity @s weapon.mainhand with crossbow[item_model="light_green:black_stone/set/sword",attribute_modifiers=[{id:"light_green:weapon",amount:0,operation:"add_value",slot:"mainhand",type:attack_damage}],enchantments={"light_green:defence":1},enchantment_glint_override=false]
-execute if entity @s[tag=light_green.farm] run item replace entity @s weapon.mainhand with crossbow[item_model="light_green:black_stone/set/hoe",attribute_modifiers=[{id:"light_green:weapon",amount:0,operation:"add_value",slot:"mainhand",type:attack_damage}],enchantments={"light_green:defence":1},enchantment_glint_override=false]
-scoreboard players set @s light_green.mob.ai 1
-effect give @s resistance infinite 2 true

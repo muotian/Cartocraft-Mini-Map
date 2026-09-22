@@ -1,2 +1,0 @@
-execute as @e[tag=aj.piglin_girl_head.root,limit=1,distance=..30] facing entity @n[tag=light_green.boss.piglin_girl.sprint_target] feet run rotate @s ~ ~
-execute as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] facing entity @n[tag=light_green.boss.piglin_girl.sprint_target] feet run rotate @s ~ 0

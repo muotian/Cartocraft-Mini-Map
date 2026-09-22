@@ -1,1 +1,0 @@
-execute at @s anchored eyes facing entity @p[distance=..10] eyes positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~

@@ -1,4 +1,0 @@
-summon piglin ~ ~ ~ {IsImmuneToZombification:true,Tags:["light_green","light_green.piglin_warrior","light_green.mob","light_green.new_mob"],drop_chances:{mainhand:0,offhand:0,feet:0},equipment:{feet:{id:golden_boots,components:{equippable:{slot:feet,asset_id:"light_green:black_stone"},enchantments:{depth_strider:3}}},mainhand:{id:golden_sword,components:{"item_model":"light_green:black_stone/set/sword","attribute_modifiers":[{id:"light_green:piglin.sword",slot:hand,type:attack_damage,amount:-0.5,operation:"add_value"}]}}},attributes:[{id:max_health,base:10}],DeathLootTable:"light_green:piglin",CustomName:{translate:"light_green:piglin_water"}}
-scoreboard players set @n[tag=light_green.new_mob] light_green.mob.ai 1
-scoreboard players set @n[tag=light_green.new_mob] light_green.team 1
-tag @n[tag=light_green.new_mob] remove light_green.new_mob

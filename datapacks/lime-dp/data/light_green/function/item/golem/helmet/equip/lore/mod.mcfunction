@@ -1,1 +1,0 @@
-$item modify entity @s armor.head light_green:mod/helmet_$(mod)

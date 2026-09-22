@@ -1,3 +1,0 @@
-execute unless items block ~ ~ ~ container.13 * run item replace block ~ ~ ~ container.13 with enchanted_book[item_model="light_green:table_fill_enchanted_book",custom_name="",tooltip_style="light_green:table_fill",custom_data={light_green.fill_item:1}]
-execute if items block ~ ~ ~ container.13 * unless items block ~ ~ ~ container.13 enchanted_book run item replace entity @p player.cursor from block ~ ~ ~ container.13
-execute if items block ~ ~ ~ container.13 * unless items block ~ ~ ~ container.13 enchanted_book run item replace block ~ ~ ~ container.13 with enchanted_book[item_model="light_green:table_fill_enchanted_book",custom_name="",tooltip_style="light_green:table_fill",custom_data={light_green.fill_item:1}]

@@ -1,1 +1,0 @@
-attribute @s attack_damage modifier remove light_green:hoglin_sword

@@ -1,1 +1,0 @@
-give @s iron_shovel[custom_name={translate:"light_green:blackstone_shovel",italic:false},item_model="light_green:black_stone/set/shovel"]

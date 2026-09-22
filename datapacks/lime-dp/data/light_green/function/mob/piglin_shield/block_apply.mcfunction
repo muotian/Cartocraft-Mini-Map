@@ -1,4 +1,0 @@
-item replace entity @s weapon.mainhand with shield[kinetic_weapon={contact_cooldown_ticks:0,damage_conditions:{max_duration_ticks:999999999,min_relative_speed:0,min_speed:0},\
-knockback_conditions:{max_duration_ticks:999999999,min_relative_speed:0,min_speed:0},\
-dismount_conditions:{max_duration_ticks:999999999,min_relative_speed:0,min_speed:0},damage_multiplier:0.35,hit_sound:"item.shield.block"}\
-,attack_range={hitbox_margin:0.3,min_reach:0,max_reach:0.5,mob_factor:2},use_effects={can_sprint:false,speed_multiplier:0},use_cooldown={seconds:10},banner_patterns=[{color:black,pattern:bricks}],base_color=white,enchantments={"light_green:shield_piglin":1,"light_green:shield_piglin2":1},enchantment_glint_override=false]

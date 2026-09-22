@@ -1,1 +1,0 @@
-summon piglin ~ ~ ~ {IsImmuneToZombification:true,equipment:{mainhand:{id:egg,components:{item_model:"air",kinetic_weapon:{}}}},drop_chances:{mainhand:0,offhand:0},attributes:[{id:follow_range,base:0}],DeathLootTable:"light_green:piglin"}

@@ -1,3 +1,0 @@
-execute if score $piglin_girl_throwing light_green.main.math matches 1.. run scoreboard players remove $piglin_girl_throwing light_green.main.math 1
-execute as @e[tag=aj.piglin_girl_head.root,limit=1,distance=..30] at @s anchored eyes facing entity @n[tag=light_green.target] eyes positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~10
-execute facing entity @n[tag=light_green.target] feet as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] at @s anchored eyes rotated as @e[tag=aj.piglin_girl_head.root,limit=1,distance=..30] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ 0

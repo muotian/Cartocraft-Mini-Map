@@ -1,1 +1,0 @@
-give @s lime_wool[lore=[{translate:"light_green:wool",color:gray,italic:false}],enchantment_glint_override=true]

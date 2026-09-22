@@ -1,1 +1,0 @@
-$execute at @s facing entity @n[tag=light_green.player.$(id).last_attack] feet rotated ~ 0 run rotate @s ~ ~

@@ -1,6 +1,0 @@
-scoreboard objectives add light_green.big_hoglin.limit trigger
-scoreboard objectives add light_green.arena.dialog trigger
-scoreboard objectives add light_green.difficulty_piglin trigger
-scoreboard objectives add light_green.difficulty_piglin_level trigger
-scoreboard objectives add light_green.difficulty_hoglin trigger
-scoreboard objectives add light_green.piglin_girl_type trigger

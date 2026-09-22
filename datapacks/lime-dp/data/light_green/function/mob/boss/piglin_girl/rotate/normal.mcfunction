@@ -1,2 +1,0 @@
-execute as @e[tag=aj.piglin_girl_head.root,limit=1,distance=..30] at @s anchored eyes rotated as @n[tag=light_green.boss.piglin_girl] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~
-execute as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] at @s anchored eyes rotated as @n[tag=light_green.boss.piglin_girl] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ 0

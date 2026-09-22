@@ -1,3 +1,0 @@
-execute if items entity @s weapon.offhand *[custom_data~{"light_green:hoglin_sword_iron":1}] run item modify entity @s weapon.offhand light_green:upgrade_hoglin_sword
-execute if items entity @s container.* *[custom_data~{"light_green:hoglin_sword_iron":1}] store result storage light_green:weapon slot int 1 run data get entity @s Inventory[{components:{"minecraft:custom_data":{"light_green:hoglin_sword_iron":1}}}].Slot
-execute if items entity @s container.* *[custom_data~{"light_green:hoglin_sword_iron":1}] run function light_green:item/big_hoglin/sword/upgrade2 with storage light_green:weapon

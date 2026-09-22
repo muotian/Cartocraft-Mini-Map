@@ -1,1 +1,0 @@
-$execute at @p[scores={light_green.player_id=$(id)}] rotated ~ 0 run tp @s ~ ~1 ~ ~ ~

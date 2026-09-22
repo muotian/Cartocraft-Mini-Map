@@ -1,1 +1,0 @@
-$execute store result score @s light_green.adapt_piglin_girl_weapon run execute if entity @e[tag=light_green.bullet.keep,distance=..50,scores={light_green.player_id=$(id)},type=marker]

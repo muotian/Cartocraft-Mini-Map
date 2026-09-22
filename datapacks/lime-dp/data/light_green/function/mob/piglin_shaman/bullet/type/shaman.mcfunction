@@ -1,2 +1,0 @@
-execute at @s as @e[tag=light_green.damage_target,distance=..10] run damage @s 2 mob_attack by @s from @n[tag=light_green.piglin_shaman,type=piglin]
-execute if entity @n[tag=light_green.damage_target,distance=..10] run effect give @n[tag=light_green.piglin_shaman,distance=..50] speed 1 5

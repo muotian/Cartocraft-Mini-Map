@@ -1,1 +1,0 @@
-data modify storage light_green:enchant enchant set from block ~ ~ ~ Items[{Slot:13b}].components."minecraft:stored_enchantments"

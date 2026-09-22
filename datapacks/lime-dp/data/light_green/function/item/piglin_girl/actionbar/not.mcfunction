@@ -1,2 +1,0 @@
-execute unless score @s light_green.piglin_girl_weapon.total matches 0.. run title @s actionbar [{text:"🔥",color:"red",italic:false},{text:"：0",color:white},{text:"/40",color:gray}]
-execute if score @s light_green.piglin_girl_weapon.total matches 0.. run title @s actionbar [{text:"🔥",color:red,italic:false},{text:"：",color:white},{score:{name:"@s",objective:light_green.piglin_girl_weapon.total},color:white},{text:"/40",color:gray}]

@@ -1,2 +1,0 @@
-execute if score $move light_green.main.math matches 1 unless score @s light_green.move_step matches 1.. run return run function light_green:mob/boss/piglin_girl/move/on
-execute unless score $move light_green.main.math matches 1 if score @s light_green.move_step matches 1..2 run return run function light_green:mob/boss/piglin_girl/move/off

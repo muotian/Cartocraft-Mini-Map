@@ -1,2 +1,0 @@
-give @s bundle[equippable={slot:chest,asset_id:"light_green:black_stone_armor",swappable:true,equip_sound:"minecraft:block.iron_trapdoor.close"},item_model="light_green:black_stone/armor",custom_data={"light_green:golem_armor":1,"light_green:golem_item_level":1},attribute_modifiers=[{id:"light_green:golem_armor",type:"armor",slot:"chest",amount:6,operation:"add_value"}],custom_name=[{translate:"light_green:golem_chestplate",italic:false},{text:"(I)",italic:false,color:"dark_gray"}],\
-lore=[{translate:"light_green:golem_chestplate_lore",italic:false,color:white}]]

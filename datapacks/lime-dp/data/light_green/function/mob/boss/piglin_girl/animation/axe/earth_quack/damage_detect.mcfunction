@@ -1,1 +1,0 @@
-$execute at @s as @e[distance=..$(distance),type=!#light_green:no_hp,tag=!light_green.attacker] unless score @s light_green.team matches 1 run function light_green:mob/boss/piglin_girl/animation/axe/earth_quack/damage

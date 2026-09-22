@@ -1,2 +1,0 @@
-execute at @s if entity @n[tag=light_green.target,distance=11..] at @s facing entity @n[tag=light_green.target] feet rotated ~ 0 run tp @s ^ ^ ^0.5
-execute at @s if entity @n[tag=light_green.target,distance=11..] run function light_green:mob/boss/piglin_girl/skill/dagger/teleport/3

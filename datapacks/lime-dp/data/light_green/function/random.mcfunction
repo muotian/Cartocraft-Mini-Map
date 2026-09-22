@@ -1,2 +1,0 @@
-$execute store result storage light_green:random random int 1 run random value $(math1)..$(math2)
-execute store result score $random light_green.main.math run data get storage light_green:random random

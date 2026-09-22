@@ -1,2 +1,0 @@
-execute if score $golem_summon light_green.main.math matches 1 at @s unless entity @a[distance=..50] run function light_green:mob/boss/graud_golem/kill
-execute unless score $golem_summon light_green.main.math matches 1 at @s if entity @a[distance=..50] run function light_green:mob/boss/graud_golem/summon_late

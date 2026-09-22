@@ -1,2 +1,0 @@
-execute as @e[tag=aj.big_hoglin_head.root,limit=1,distance=..30] at @s anchored eyes rotated as @n[tag=light_green.boss.big_hoglin] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ ~
-execute as @e[tag=aj.big_hoglin.root,limit=1,distance=..30] at @s anchored eyes rotated as @n[tag=light_green.boss.big_hoglin] positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run rotate @s ~ 0

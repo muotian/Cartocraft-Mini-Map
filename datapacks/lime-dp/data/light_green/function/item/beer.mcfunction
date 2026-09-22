@@ -1,4 +1,0 @@
-item replace entity caba-0-0-0-1 container.0 with potion[potion_contents={custom_color:41727,custom_effects:[{id:"nausea",amplifier:100,duration:2400,show_particles:true,show_icon:true},{id:"strength",amplifier:1,duration:2400,show_icon:true,show_particles:true}]},custom_name={translate:"light_green:water",italic:false},lore=[{translate:"light_green:water_lore",italic:false,color:gray}]]
-summon item ~ ~ ~ {Item:{id:egg},Tags:["light_green.new.mob"]}
-item replace entity @n[tag=light_green.new.mob] container.0 from entity caba-0-0-0-1 container.0
-tag @n[tag=light_green.new.mob] remove light_green.new.mob

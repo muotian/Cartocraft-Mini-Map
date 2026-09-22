@@ -1,1 +1,0 @@
-$execute as @e[tag=light_green.damage_target] run damage @s $(damage) light_green:spear_sweep by @p[tag=light_green.attacker]

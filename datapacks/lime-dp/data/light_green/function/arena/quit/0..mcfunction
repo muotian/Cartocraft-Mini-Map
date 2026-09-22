@@ -1,1 +1,0 @@
-schedule function light_green:arena/quit/clear_challenge 10t

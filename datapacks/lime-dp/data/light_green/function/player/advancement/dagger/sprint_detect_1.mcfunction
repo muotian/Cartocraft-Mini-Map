@@ -1,2 +1,0 @@
-$execute if score @s light_green.piglin_girl_weapon.total matches $(cost).. run function light_green:player/advancement/dagger/sprint_detect_2 with storage light_green:weapon
-$execute unless score @s light_green.piglin_girl_weapon.total matches $(cost).. run playsound minecraft:block.trial_spawner.close_shutter player @s ~ ~ ~ 1 1

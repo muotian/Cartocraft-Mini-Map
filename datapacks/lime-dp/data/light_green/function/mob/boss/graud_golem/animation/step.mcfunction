@@ -1,6 +1,0 @@
-execute if score @s light_green.boss.animation matches 0 run playsound entity.ravager.step hostile @a ~ ~ ~ 3 0
-execute if score @s light_green.boss.animation matches 0 if score $step light_green.main.math matches 1 run function light_green:mob/boss/graud_golem/earth_quack/summon0 {rotate:90}
-execute if score @s light_green.boss.animation matches 0 if score $step light_green.main.math matches 2 run function light_green:mob/boss/graud_golem/earth_quack/summon0 {rotate:-90}
-execute if score @s light_green.boss.animation matches 0 if score $step light_green.main.math matches 3 run function light_green:mob/boss/graud_golem/earth_quack/summon0 {rotate:0}
-execute if score @s light_green.boss.animation matches 0 if score $step light_green.main.math matches 4 run function light_green:mob/boss/graud_golem/earth_quack/summon0 {rotate:180}
-execute if score @s light_green.boss.animation matches 0 as @n[tag=aj.graud_golem.root,type=item_display] run function animated_java:graud_golem/animations/nothing/play

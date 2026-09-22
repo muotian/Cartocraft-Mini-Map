@@ -1,2 +1,0 @@
-execute as @e[tag=light_green.hand_cannon.hit,distance=..50,type=!player] run function light_green:item/golem/hand_cannon/laser_wave/lava/damage_math
-execute as @e[tag=light_green.hand_cannon.hit,distance=..50] run tag @s remove light_green.hand_cannon.hit

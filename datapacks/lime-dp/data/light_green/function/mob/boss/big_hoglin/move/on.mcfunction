@@ -1,1 +1,0 @@
-scoreboard players set @s light_green.move_step 1

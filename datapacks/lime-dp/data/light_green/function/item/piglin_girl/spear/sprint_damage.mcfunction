@@ -1,1 +1,0 @@
-$damage @s $(damage) light_green:spear_sprint by @p[tag=light_green.spear_sprint]

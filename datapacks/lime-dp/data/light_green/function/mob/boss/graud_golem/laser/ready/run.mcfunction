@@ -1,1 +1,0 @@
-execute positioned ~ ~2 ~ run function light_green:mob/boss/graud_golem/laser/ready/-3

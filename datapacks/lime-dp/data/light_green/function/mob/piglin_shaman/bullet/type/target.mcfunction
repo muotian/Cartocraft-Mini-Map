@@ -1,1 +1,0 @@
-execute as @n[tag=light_green.piglin_shaman,distance=..50] run effect give @e[tag=light_green.damage_target,distance=..10] slowness 3 1 false

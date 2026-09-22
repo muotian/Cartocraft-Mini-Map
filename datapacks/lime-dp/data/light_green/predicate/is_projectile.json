@@ -1,6 +1,0 @@
-{
-  "condition": "minecraft:damage_source_properties",
-  "predicate": {
-    "tags": []
-  }
-}

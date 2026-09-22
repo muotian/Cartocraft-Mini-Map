@@ -1,1 +1,0 @@
-#execute unless score $mod_equip light_green.main.math matches 1 run function light_green:item/golem/mod/second_life/apply

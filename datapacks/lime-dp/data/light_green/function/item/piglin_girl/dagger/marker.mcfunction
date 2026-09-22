@@ -1,4 +1,0 @@
-$execute positioned ~ ~ ~ positioned ~-.5 ~ ~-.5 as @e[dx=0,dz=0,type=!#light_green:no_hp,type=!player,tag=!light_green.player.$(id).dagger_hit] run function light_green:item/piglin_girl/dagger/sprint_damage with storage light_green:weapon
-$execute positioned ~ ~ ~ positioned ~-.5 ~ ~-.5 as @e[dx=0,dz=0,type=!#light_green:no_hp,type=!player,tag=!light_green.player.$(id).dagger_hit] run tag @s add light_green.player.$(id).dagger_hit
-execute positioned ~ ~ ~ unless entity @p[tag=light_green.dagger_sprint,distance=..0.5] facing entity @p[tag=light_green.dagger_sprint] feet positioned ^ ^ ^0.25 run return run function light_green:item/piglin_girl/dagger/marker with storage light_green:player
-kill @s

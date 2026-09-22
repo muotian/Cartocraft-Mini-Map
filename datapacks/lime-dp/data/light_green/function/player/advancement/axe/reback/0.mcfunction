@@ -1,1 +1,0 @@
-execute as @a[tag=light_green.use_axe] run function light_green:player/advancement/axe/reback/1

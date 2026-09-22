@@ -1,3 +1,0 @@
-execute if entity @s[tag=light_green.boss.piglin_girl.spear] run return run function light_green:mob/boss/piglin_girl/throw_thing/spear/tick
-execute if entity @s[tag=light_green.boss.piglin_girl.dagger] run return run function light_green:mob/boss/piglin_girl/throw_thing/dagger/tick
-execute if entity @s[tag=light_green.boss.piglin_girl.axe] run return run function light_green:mob/boss/piglin_girl/throw_thing/axe/tick

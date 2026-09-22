@@ -1,1 +1,0 @@
-$item modify entity @s armor.chest light_green:mod/$(mod)$(level)

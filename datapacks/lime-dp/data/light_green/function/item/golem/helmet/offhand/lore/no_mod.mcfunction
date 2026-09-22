@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand light_green:mod/helmet_no_mod

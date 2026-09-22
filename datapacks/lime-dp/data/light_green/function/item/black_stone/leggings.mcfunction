@@ -1,1 +1,0 @@
-give @s golden_leggings[equippable={slot:legs,asset_id:"light_green:black_stone",equip_sound:"minecraft:block.gilded_blackstone.step"},item_model="light_green:black_stone/set/leggings",max_damage=225,attribute_modifiers=[{id:armor.leggings,slot:"legs",type:armor,amount:5,operation:"add_value"}],custom_name={"translate":"light_green:blackstone_leggings",italic:false}]

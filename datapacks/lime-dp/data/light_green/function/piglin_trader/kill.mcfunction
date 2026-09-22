@@ -1,1 +1,0 @@
-execute as @n[tag=light_green.piglin_trader.piglin] run function light_green:piglin_trader/kill/0

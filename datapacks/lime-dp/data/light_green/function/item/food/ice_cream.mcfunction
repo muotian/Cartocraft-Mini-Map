@@ -1,1 +1,0 @@
-summon minecraft:splash_potion ~ ~ ~ {Item:{id:snowball,components:{potion_contents:{potion:water}}}}

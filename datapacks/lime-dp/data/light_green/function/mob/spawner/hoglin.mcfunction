@@ -1,1 +1,0 @@
-give @s spawner[custom_name={text:"豬布獸"},block_entity_data={id:"mob_spawner",SpawnRange:4,Delay:0,MaxSpawnDelay:800,MinSpawnDelay:700,MaxNearbyEntities:20,SpawnCount:1,RequiredPlayerRange:10,SpawnData:{entity:{id:hoglin,Tags:["light_green","light_green.mob","light_green.spawn_mob","light_green.hoglin"]}}}]

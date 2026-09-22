@@ -1,1 +1,0 @@
-summon splash_potion ~ ~ ~ {Item:{id:snow,components:{potion_contents:{potion:water}}},Motion:[0,-100,0]}

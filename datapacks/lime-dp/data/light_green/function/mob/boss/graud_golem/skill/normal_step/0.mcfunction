@@ -1,2 +1,0 @@
-execute as @p at @s as @n[tag=light_green.boss.graud_golem_leg] store result storage light_green:boss leg int 1 run scoreboard players get @s light_green.mob.ai
-function light_green:mob/boss/graud_golem/skill/normal_step/1 with storage light_green:boss

@@ -1,1 +1,0 @@
-$item modify entity @s container.$(slot) light_green:mod/hand_cannon$(mod)

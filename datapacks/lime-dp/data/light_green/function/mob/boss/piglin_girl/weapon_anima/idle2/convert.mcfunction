@@ -1,3 +1,0 @@
-execute if score $piglin_girl_weapon light_green.main.math matches 1 as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run return run function animated_java:piglin_girl/animations/axe_idle2/play
-execute if score $piglin_girl_weapon light_green.main.math matches 2 as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run return run function animated_java:piglin_girl/animations/dagger_idle2/play
-execute if score $piglin_girl_weapon light_green.main.math matches 3 as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run return run function animated_java:piglin_girl/animations/spear_idle2/play

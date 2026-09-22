@@ -1,3 +1,0 @@
-$execute as @n[tag=light_green.damage_target,type=!player,distance=..10] run damage @s 3 light_green:bullet by @p[scores={light_green.player_id=$(id)}]
-execute as @n[tag=light_green.damage_target,type=!player,distance=..10] run effect give @s slowness 1 1 false
-$execute if entity @n[tag=light_green.damage_target,type=!player,distance=..10] run scoreboard players remove @p[scores={light_green.player_id=$(id)}] light_green.adapt.attacker.hit 1

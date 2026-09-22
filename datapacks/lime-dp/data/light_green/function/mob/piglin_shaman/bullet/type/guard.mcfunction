@@ -1,3 +1,0 @@
-execute as @n[tag=light_green.piglin_shaman,distance=..50] run effect give @e[tag=light_green.damage_target,distance=..10] instant_damage 1 0
-execute as @n[tag=light_green.piglin_shaman,distance=..50] run effect give @e[tag=light_green.support_target,distance=..10] instant_health 1 0 true
-execute as @n[tag=light_green.piglin_shaman,distance=..50] run effect give @e[tag=light_green.support_target,distance=..10] absorption infinite 0

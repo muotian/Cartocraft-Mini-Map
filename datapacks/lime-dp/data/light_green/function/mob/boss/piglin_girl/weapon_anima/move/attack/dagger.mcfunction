@@ -1,1 +1,0 @@
-execute as @e[tag=aj.piglin_girl.root,limit=1,distance=..30] run function animated_java:piglin_girl/animations/dagger_1_run1/play

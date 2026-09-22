@@ -1,1 +1,0 @@
-$execute as @e[tag=light_green.bullet.keep,distance=..50,scores={light_green.player_id=$(id)},limit=1,type=marker] run function light_green:item/golem/mod/adapt/bullet/convert_target with storage light_green:player

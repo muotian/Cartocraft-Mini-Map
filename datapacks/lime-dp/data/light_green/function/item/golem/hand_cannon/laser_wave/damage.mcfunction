@@ -1,3 +1,0 @@
-$execute as @e[tag=light_green.hand_cannon.hit,distance=..50] run damage @s 1.5 light_green:laser by @p[scores={light_green.player_id=$(id)},distance=..50]
-execute as @e[tag=light_green.hand_cannon.hit,distance=..50] if entity @s[tag=light_green.boss.big_hoglin,type=ravager] run function light_green:mob/boss/big_hoglin/dirt_armor/clear_water
-execute as @e[tag=light_green.hand_cannon.hit,distance=..50] run tag @s remove light_green.hand_cannon.hit
