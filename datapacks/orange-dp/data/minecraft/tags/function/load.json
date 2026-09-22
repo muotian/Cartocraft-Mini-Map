@@ -1,7 +1,6 @@
 {
   "values": [
-    "thecookieorange:load",
-    "player_motion:internal/init"
+    "thecookieorange:load"
   ],
     "replace": false
 }
