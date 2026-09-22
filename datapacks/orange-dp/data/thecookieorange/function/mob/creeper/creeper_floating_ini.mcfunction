@@ -23,11 +23,13 @@ execute if score @s orange_timer matches 75 run tag @s add current_center
 
 # execute if score @s orange_timer matches 80..130 at @s as @e[distance=1..4, type=!minecraft:creeper] at @s facing entity @e[tag=current_center,limit=1, distance=1..4] eyes run tp @s ^ ^ ^0.2
 
-# [Distance: 4-7]
-execute if score @s orange_timer matches 80..130 at @s as @e[distance=4..7,type=!#minecraft:hostile, type=!marker] at @s facing entity @e[tag=current_center,limit=1,distance=4..7] feet rotated ~ 0 positioned ^ ^ ^0.05 if block ^ ^ ^0.5 #thecookieorange:passable run tp @s ^ ^ ^
+# [Distance: 4-9]
+execute if score @s orange_timer matches 80..130 at @s as @e[distance=3..7,type=!#minecraft:hostile, type=!marker] at @s facing entity @e[tag=current_center,limit=1,distance=4..9] feet run function thecookieorange:mob/creeper/pull/pull_player_weak
+
 
 # [Distance: 1-4]
-execute if score @s orange_timer matches 80..130 at @s as @e[distance=1..4,type=!#minecraft:hostile, type=!marker] at @s facing entity @e[tag=current_center,limit=1,distance=1..4] feet rotated ~ 0 positioned ^ ^ ^0.1 if block ^ ^ ^0.5 #thecookieorange:passable run tp @s ^ ^ ^
+execute if score @s orange_timer matches 80..130 at @s as @e[distance=1..3,type=!#minecraft:hostile, type=!marker] at @s facing entity @e[tag=current_center,limit=1,distance=1..4] feet run function thecookieorange:mob/creeper/pull/pull_player_medium
+
 
 execute if score @s orange_timer matches 130 run tag @s remove current_center
 
