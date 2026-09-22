@@ -1,5 +1,6 @@
 {
   "values": [
     "thecookieorange:load"
-  ]
+  ],
+    "replace": false
 }
