@@ -48,3 +48,6 @@ scoreboard objectives add icer.run_craft trigger
 scoreboard objectives add icer.run_talk trigger
 scoreboard objectives add icer.run_talk1 trigger
 scoreboard objectives add icer.run_talk2 trigger
+
+# 剉冰你到底在幹嘛
+scoreboard objectives add icer.stand_spawner dummy
