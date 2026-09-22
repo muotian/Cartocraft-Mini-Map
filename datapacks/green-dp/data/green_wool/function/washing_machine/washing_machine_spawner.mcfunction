@@ -1,2 +1,0 @@
-function green_wool:washing_machine/washing_machine_summon
-kill @s

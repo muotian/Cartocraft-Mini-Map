@@ -1,1 +1,0 @@
-give @p spawner[item_name="沙丘隱者生怪磚",block_entity_data={id:"mob_spawner",SpawnData:{entity:{id:"minecraft:parched",DeathLootTable:"ccmini_gray:dune_recluse",Tags:["gray.dune_recluse"],CustomName:{"translate":"gray.mob.dune_recluse"},equipment:{},attributes:[{id:"minecraft:attack_damage",base:8},{id:"minecraft:max_health",base:7}]}}}] 1

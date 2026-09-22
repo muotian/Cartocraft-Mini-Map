@@ -1,4 +1,0 @@
-summon item_display ~ ~ ~ {item: {components: {"minecraft:item_model": "minecraft:gray_sand_sword"}, count: 1, id: "minecraft:iron_sword"}, transformation: {left_rotation: [0.2705981f, 0.6532815f, 0.2705981f, 0.6532815f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 1.5f], translation: [0.0f, 0.0f, 0.0f]},Tags:[gray.gopr.ca.sandsword],teleport_duration:1}
-execute as @e[type=item_display,tag=gray.gopr.ca.sandsword,limit=1] at @s facing entity @e[tag=gray.gopr.ca.target,limit=1,sort=random,distance=..64] eyes run rotate @s ~ ~
-scoreboard players set @s gray.gopr_cooperative_attack.cd 20
-tag @e remove gray.gopr.ca.target

@@ -1,1 +1,0 @@
-give @s minecraft:iron_ingot[custom_data={green_wool.iron_ingot:1b},lore=[{translate:"item.green_wool.material"}]] 1

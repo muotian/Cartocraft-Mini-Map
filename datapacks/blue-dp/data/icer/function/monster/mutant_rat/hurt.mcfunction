@@ -1,2 +1,0 @@
-execute if data entity @s {HurtTime:10s} as @n[tag=icer.damage_rat] run function animated_java:rat/variants/hurt/apply
-execute if data entity @s {HurtTime:5s} as @n[tag=icer.damage_rat] run function animated_java:rat/variants/default/apply

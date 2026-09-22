@@ -1,7 +1,0 @@
-{
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "icer:angel_bless": 1 
-    },
-    "add": false
-}

@@ -1,9 +1,0 @@
-
-# 執行位置：同上
-#粒子
-
-execute rotated ~ 0 positioned ^ ^ ^1 if entity @p[distance=..20] if block ~ ~ ~ air run function brown_wool:entity/boss/xuan_ting_priest/cast5.1
-
-particle dust{color:[1, 1, 1],scale:1.0} ^1.5 ^0.1 ^ 0 0 0 0.1 0 force @a[distance=..50]
-particle dust{color:[1, 1, 1],scale:1.0} ^-1.5 ^0.1 ^ 0 0 0 0.1 0 force @a[distance=..50]
-

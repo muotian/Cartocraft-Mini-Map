@@ -1,2 +1,0 @@
-summon endermite ~ ~ ~ {CustomName:{"translate":"icer.mutant_rat","color":"dark_red","bold":true},Tags:["icer.mutant_rat","icer.undefined_rat","icer.standing"],active_effects:[{id:"invisibility",duration:-1,amplifier:255}],attributes:[{id:"max_health",base:20.0f}],Health:20}
-execute as @n[tag=icer.undefined_rat] at @s run function icer:monster/mutant_rat/set

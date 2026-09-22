@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smithing_trim",
-    "template": "minecraft:clay_ball",
-    "base": {},
-    "addition": {},
-    "result": {
-        "id": "minecraft:clay"
-    }
-}

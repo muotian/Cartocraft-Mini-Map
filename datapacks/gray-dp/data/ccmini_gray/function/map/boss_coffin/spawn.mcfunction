@@ -1,1 +1,0 @@
-$execute rotated $(angle) 0 run function animated_java:gray_pharaoh_coffin/summon {args:{animation:"spawn",start_animation:true}}

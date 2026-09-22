@@ -1,1 +1,0 @@
-give @p parched_spawn_egg[item_name="Desert Ranger Spawn Egg",entity_data={id:"minecraft:parched",Silent:1b,Invulnerable:1b,DeathLootTable:"ccmini_gray:empty",NoAI:1b,CanPickUpLoot:0b,Tags:["gray.desert_ranger_spawn"],equipment:{},active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:655360,show_particles:0b,show_icon:0b,ambient:0b}]}] 1

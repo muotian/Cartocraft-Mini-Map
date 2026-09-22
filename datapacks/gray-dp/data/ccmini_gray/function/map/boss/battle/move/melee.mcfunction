@@ -1,3 +1,0 @@
-execute unless score $skill_timer gray.boss.data matches 1.. as @e[type=item_display,tag=aj.gray_battle_boss_body.root] run function animated_java:gray_battle_boss_body/animations/battle_walk/play
-execute unless score $force_feet_animated gray.boss.data matches 1 as @e[type=item_display,tag=aj.gray_battle_boss_feet.root] run function animated_java:gray_battle_boss_feet/animations/battle_melee_walk/play
-execute unless score $skill_timer gray.boss.data matches 1.. as @e[type=item_display,tag=aj.gray_battle_boss_weapon.root] run function animated_java:gray_battle_boss_weapon/animations/battle_spawn/play

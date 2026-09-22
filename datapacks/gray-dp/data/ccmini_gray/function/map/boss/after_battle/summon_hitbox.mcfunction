@@ -1,1 +1,0 @@
-summon parched ~ ~ ~ {NoAI:true,Silent:true,attributes:[{id:max_health,base:1024},{id:attack_damage,base:0},{id:follow_range,base:64},{id:knockback_resistance,base:0.5}],DeathLootTable:"ccmini_gray:none",Health:1024,active_effects:[{id:invisibility,duration:-1,show_particles:false}],CustomNameVisible:false,PersistenceRequired:true,Tags:[gray.boss.after_battle.hitbox]}

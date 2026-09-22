@@ -1,2 +1,0 @@
-execute unless score @s gray.gopr_attack_number matches 1 as @e[type=item_display,tag=aj.gray_gopr.root] if score @s gray.id = @a[tag=gray.user,limit=1] gray.id run function animated_java:gray_gopr/animations/great_take/apply_frame {frame:5}
-scoreboard players set @s gray.gopr_attack_number 1

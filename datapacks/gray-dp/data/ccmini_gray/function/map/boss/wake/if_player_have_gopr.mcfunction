@@ -1,2 +1,0 @@
-execute if items entity @s container.* warped_fungus_on_a_stick[custom_data~{grit_of_pristine_revival:true}] run return 1
-execute if items entity @s weapon.offhand warped_fungus_on_a_stick[custom_data~{grit_of_pristine_revival:true}] run return 1

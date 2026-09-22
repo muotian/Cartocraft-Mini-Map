@@ -1,1 +1,0 @@
-give @s copper_ingot[custom_data={green_wool.copper:1b},lore=[{translate:"item.green_wool.material"}]] 1

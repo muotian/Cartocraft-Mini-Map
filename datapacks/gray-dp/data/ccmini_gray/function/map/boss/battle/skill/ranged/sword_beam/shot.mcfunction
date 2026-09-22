@@ -1,2 +1,0 @@
-function animated_java:gray_sword_beam/summon {args:{animation:"battle_ranged_sword_beam",start_animation:true}}
-execute as @e[type=item_display,tag=aj.gray_sword_beam.root,distance=..1,limit=1] at @s anchored eyes facing entity @e[tag=gray.boss_target,limit=1] feet run rotate @s ~ 0

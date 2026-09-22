@@ -1,2 +1,0 @@
-summon minecraft:block_display ~ ~ ~ {block_state: {Name: "minecraft:campfire", Properties: {facing: "north", lit: "false", signal_fire: "false", waterlogged: "false"}}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [3.5f, 3.5f, 3.5f], translation: [-1.75f, -0.5f, -1.75f]}}
-summon interaction ~ ~ ~ {width:3,height:3,Tags:[gray.beacon.interaction,gray.beacon.interaction.unignited]}

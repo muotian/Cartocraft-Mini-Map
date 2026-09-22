@@ -1,4 +1,0 @@
-{
-	"replace": false,
-	"values": ["icer:tick", "animated_java:global/on_tick"]
-}

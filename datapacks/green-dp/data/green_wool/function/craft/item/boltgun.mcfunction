@@ -1,3 +1,0 @@
-#3個零件 3個鐵
-execute if entity @n[nbt={Item:{components:{"minecraft:custom_data":{green_wool.iron_ingot:1b}},count:3}},distance=..1,] unless entity @e[type=interaction,tag=green_wool.craft,tag=green_wool.boltgun_craft] run summon interaction ~ ~ ~ {Tags:["green_wool.craft","green_wool.boltgun_craft"]}
-execute if entity @n[nbt={Item:{components:{"minecraft:custom_data":{green_wool.iron_ingot:1b}},count:3}},distance=..1] run particle totem_of_undying ~ ~ ~ 0 0 0 0.2 1

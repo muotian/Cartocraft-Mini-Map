@@ -1,2 +1,0 @@
-summon item ~ ~ ~ {Item:{id:"minecraft:clock",count:1,components:{"minecraft:item_model":"icer:mithril","minecraft:custom_data":{icer.mithril:1b},"minecraft:custom_name":{"translate":"icer.mithril.name","italic":false}}}}
-kill @s

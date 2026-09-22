@@ -1,1 +1,0 @@
-give @s music_disc_13[rarity="common",item_model="minecraft:gray_paradoxical_aqua",item_name={"translate":"gray.item.paradoxical_aqua"},custom_data={paradoxical_aqua:true},!jukebox_playable,lore=[{text:" "},{translate:"gray.lore.paradoxical_aqua",color:"gray",italic:false}]] 1

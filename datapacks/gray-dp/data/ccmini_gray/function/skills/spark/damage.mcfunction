@@ -1,1 +1,0 @@
-execute positioned ~-2.5 ~ ~-2.5 as @e[dx=4,dy=0,dz=4,type=!player,type=!armor_stand,nbt={DeathTime:0s}] run damage @s 2 on_fire

@@ -1,4 +1,0 @@
-{
-	"replace": false,
-	"values": ["animated_java:light_gray_wool_boss/root/on_tick", "animated_java:spell_extra/root/on_tick", "animated_java:spell/root/on_tick"]
-}

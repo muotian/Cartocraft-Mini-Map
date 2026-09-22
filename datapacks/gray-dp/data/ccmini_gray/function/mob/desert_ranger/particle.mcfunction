@@ -1,2 +1,0 @@
-execute on vehicle anchored eyes positioned ^ ^ ^0.8 run particle minecraft:sneeze ~ ~ ~ 0.1 0.1 0.1 0 1 force @a
-execute if score @s gray.desert_ranger_prepare matches 1 run function ccmini_gray:mob/desert_ranger/charge/motion

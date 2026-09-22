@@ -1,3 +1,0 @@
-summon item_display ~ ~ ~ {item: {components: {"minecraft:item_model": "minecraft:gray_sand_sword"}, count: 1, id: "minecraft:iron_sword"}, transformation: {left_rotation: [0.2705981f, 0.6532815f, 0.2705981f, 0.6532815f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.9999993f, 0.9999992f], translation: [0.0f, 0.0f, 0.0f]},Tags:[gray.sand_forge_sword.rightclick_attack,gray.new],teleport_duration:1}
-scoreboard players operation @e[type=item_display,tag=gray.new] gray.id = @s gray.id
-tag @e[type=item_display,tag=gray.new] remove gray.new

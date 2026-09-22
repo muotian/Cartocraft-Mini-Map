@@ -1,1 +1,0 @@
-function green_wool:heavy_armour/full_armour

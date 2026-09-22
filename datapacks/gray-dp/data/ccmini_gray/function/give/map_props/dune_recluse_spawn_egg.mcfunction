@@ -1,1 +1,0 @@
-give @s parched_spawn_egg[entity_data={id:"minecraft:parched",DeathLootTable:"ccmini_gray:dune_recluse",Tags:["gray.dune_recluse"],CustomName:{"translate":"gray.mob.dune_recluse"},equipment:{},attributes:[{id:"minecraft:attack_damage",base:8},{id:"minecraft:max_health",base:7}]},item_name="Dune Recluse Spawn Egg"] 1

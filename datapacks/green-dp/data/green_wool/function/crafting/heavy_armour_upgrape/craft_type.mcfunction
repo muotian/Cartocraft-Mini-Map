@@ -1,5 +1,0 @@
-execute if entity @s[predicate=green_wool:c_d_armour_chest] if entity @e[limit=1,predicate=green_wool:craft_detect_armour2,distance=..1,type=item] run function green_wool:crafting/heavy_armour_upgrape/chestplate_upgrape
-execute if entity @s[predicate=green_wool:c_d_armour_leggings] if entity @e[limit=1,predicate=green_wool:craft_detect_armour2,distance=..1,type=item] run function green_wool:crafting/heavy_armour_upgrape/leggings_upgrape
-execute if entity @s[predicate=green_wool:c_d_armour_boots] if entity @e[limit=1,predicate=green_wool:craft_detect_armour2,distance=..1,type=item] run function green_wool:crafting/heavy_armour_upgrape/boots_upgrape
-execute if entity @s[predicate=green_wool:c_d_armour_helmet] if entity @e[limit=1,predicate=green_wool:craft_detect_armour2,distance=..1,type=item] run function green_wool:crafting/heavy_armour_upgrape/helmet_upgrape
-execute if entity @s[predicate=green_wool:c_d_gladius] if entity @e[limit=1,predicate=green_wool:c_d_gladius_core,distance=..1,type=item] run function green_wool:crafting/gladius_upgrape/gladius_upgrape

@@ -1,8 +1,0 @@
-# 執行者：雙劍雷影衛
-# 執行位置：同上
-#粒子
-
-execute rotated ~ 0 positioned ^ ^ ^1 if entity @p[distance=..30] if block ~ ~ ~ air run function brown_wool:entity/boss/thunder_shadow_guard/skill_particle3
-
-particle dust{color:[1, 1, 1],scale:2.0} ^ ^0.1 ^ 0 0 0 0.1 0 force @a[distance=..50]
-
