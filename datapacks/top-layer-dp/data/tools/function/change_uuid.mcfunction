@@ -8,7 +8,7 @@ execute at @s run summon minecraft:interaction ~ ~ ~ {UUID:uuid(ccf-0-0-0-0),wid
 ride @s mount ccf-0-0-0-0
 data modify storage tools:change_uuid macro.type set from entity ccf-0-0-0-0 Passengers[0].id
 
-function tools:change_uuid.macro with storage tools:change_uuid macro
+execute at ccf-0-0-0-0 run function tools:change_uuid.macro with storage tools:change_uuid macro
 
 kill ccf-0-0-0-0
 kill @s
