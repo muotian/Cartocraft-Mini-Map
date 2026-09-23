@@ -2,7 +2,7 @@ execute store result score $pc light_green.main.math run execute if entity @e[ta
 scoreboard players remove $pc light_green.main.math 1
 
 scoreboard players set @s light_green.custom.health 50
-scoreboard players set $piglin_girl.health.base light_green.main.math 30
+scoreboard players set $piglin_girl.health.base light_green.main.math 5
 scoreboard players set $piglin_girl.modify.base light_green.main.math 90
 scoreboard players set $piglin_girl.multipie.base light_green.main.math 90
 
