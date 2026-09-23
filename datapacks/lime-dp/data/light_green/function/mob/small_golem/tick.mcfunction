@@ -15,5 +15,5 @@ execute store result storage light_green:mob id int 1 run scoreboard players get
 function light_green:mob/small_golem/tick2 with storage light_green:mob
 
 execute on target run tag @s add light_green.target
-damage @s 0 light_green:golem_angry by @n[tag=light_green.target,distance=..50]
+damage @s 0 light_green:golem_angry by @n[tag=light_green.target,distance=..5]
 execute on target run tag @s remove light_green.target

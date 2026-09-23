@@ -1,7 +1,7 @@
 execute store result score $pc light_green.main.math run execute if entity @e[tag=light_green.boss.challenger]
 scoreboard players remove $pc light_green.main.math 1
 
-scoreboard players set $piglin_girl.health.base light_green.main.math 300
+scoreboard players set $piglin_girl.health.base light_green.main.math 100
 scoreboard players set $piglin_girl.modify.base light_green.main.math 90
 scoreboard players set $piglin_girl.multipie.base light_green.main.math 90
 
