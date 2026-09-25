@@ -1,3 +1,4 @@
+execute at @s as @n[type=item_display,tag=wool_purple.aj_box,distance=0..2] on passengers if entity @s[tag=aj.global.data] run function animated_java:box/zzz/summon/as_data_entity
 execute at @s as @n[type=item_display,tag=wool_purple.aj_box,distance=0..2] on passengers run team join wool_purple.blue @s
 execute positioned 358.0 75.0 913.0 if entity @s[dx=0,dy=0,dz=0] run scoreboard players set @s wool_purple.box.id 1
 execute positioned 334.0 79.0 922.0 if entity @s[dx=0,dy=0,dz=0] run scoreboard players set @s wool_purple.box.id 2

@@ -1,4 +1,5 @@
 #tellraw @a {"text":"資料包載入完畢。"}
+forceload add 0 0
 scoreboard objectives add wool_purple.yaw dummy
 scoreboard objectives add wool_purple.animation dummy
 scoreboard objectives add wool_purple.mob.hp.percentage dummy

@@ -1,0 +1,12 @@
+execute as @e[tag=wool_purple.murderer.spawner,type=armor_stand] at @s run function ordered_splinter:monster/murderer/summon
+execute as @e[tag=wool_purple.murderer.spawner,type=armor_stand] at @s run kill @s
+execute as @e[tag=wool_purple.demon.spawner,type=armor_stand] at @s run function ordered_splinter:monster/demon/summon
+execute as @e[tag=wool_purple.demon.spawner,type=armor_stand] at @s run kill @s
+execute as @e[tag=wool_purple.fallen_alchemist.spawner,type=armor_stand] at @s run function ordered_splinter:monster/fallen_alchemist/summon
+execute as @e[tag=wool_purple.fallen_alchemist.spawner,type=armor_stand] at @s run kill @s
+execute as @e[tag=wool_purple.imp.spawner,type=armor_stand] at @s run function ordered_splinter:monster/imp/summon
+execute as @e[tag=wool_purple.imp.spawner,type=armor_stand] at @s run kill @s
+execute as @e[tag=wool_purple.demon_guard.spawner,type=armor_stand] at @s run function ordered_splinter:monster/demon_guard/summon
+execute as @e[tag=wool_purple.demon_guard.spawner,type=armor_stand] at @s run kill @s
+execute as @e[tag=wool_purple.malidread.spawner,type=armor_stand] at @s run function ordered_splinter:monster/malidread/summon
+execute as @e[tag=wool_purple.malidread.spawner,type=armor_stand] at @s run kill @s

@@ -1,3 +1,4 @@
+tag @s remove wool_purple.hellfire_target
 tag @s remove wool_purple.in_boss_room
 gamemode survival @s[scores={wool_purple.gametype=0}]
 gamemode creative @s[scores={wool_purple.gametype=1}]
