@@ -1,3 +1,6 @@
+# New Origin
+execute unless entity a7-0-0-0-0 positioned -145.0 39.0 708.0 if loaded ~ ~ ~ run summon minecraft:marker ~ ~ ~ {Tags:["pink.new_origin"],UUID:uuid(a7-0-0-0-0)}
+
 # Player
 execute as @a if items entity @s weapon.mainhand *[custom_data~{pink_magic_staff:1b}] at @s run function pink:as_player_mainhand
 execute as @a if items entity @s weapon.offhand *[custom_data~{pink_magic_staff:1b}] at @s run function pink:as_player_offhand
@@ -110,7 +113,7 @@ execute as @e[tag=pink.monster.b,type=armor_stand] at @s run function pink:monst
 ######################## NPC ########################
 execute as @e[tag=pink_npc] at @s run function pink:npc/tick
 
-execute as @e[tag=pink.npc.train.leave_marker] at @s as @p[distance=..3] run function pink:npc/train/leave_tp
+#execute as @e[tag=pink.npc.train.leave_marker] at @s as @p[distance=..3] run function pink:npc/train/leave_tp
 
 
 ######################## ITEM ########################
