@@ -24,6 +24,6 @@ bossbar add red_wool.boss.creeper [{"translate":"red_wool.boss.creeper", color:g
 bossbar set red_wool.boss.creeper color green
 bossbar set red_wool.boss.creeper style notched_10
 
-execute unless entity @n[tag = red_wool.center] run summon marker 0.0 0.0 0.0 {Tags:[red_wool.center]}
+# execute unless entity @n[tag = red_wool.center] run summon marker 0.0 0.0 0.0 {Tags:[red_wool.center]}
 
 scoreboard players set hp red_wool.boss 0

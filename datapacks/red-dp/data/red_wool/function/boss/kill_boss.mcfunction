@@ -2,8 +2,8 @@ kill @n[tag = red_wool.boss]
 kill @e[tag = red_wool.boss.pet]
 kill @e[tag = red_wool.vex]
 
-fill -40 52 61 -38 54 61 air
-fill -40 52 67 -38 54 67 air
+execute at @n[tag = red_wool.center] run fill ~-40 ~52 ~61 ~-38 ~54 ~61 air
+execute at @n[tag = red_wool.center] run fill ~-40 ~52 ~67 ~-38 ~54 ~67 air
 
 bossbar set minecraft:red_wool.boss visible false
 

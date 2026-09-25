@@ -1,4 +1,4 @@
-execute at @n[tag = red_wool.center] run summon villager 72.5 1 -14.5 {Invulnerable:1b,Health:1000f,CustomName:{"bold":true,"color":"gold","translate":"red_wool.villager.2"},attributes:[{id:"minecraft:jump_strength",base:0},{id:"minecraft:max_health",base:1000},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.9}],\
+execute at @n[tag = red_wool.center] run summon villager ~72.5 ~1 ~-14.5 {Invulnerable:1b,Health:1000f,CustomName:{"bold":true,"color":"gold","translate":"red_wool.villager.2"},attributes:[{id:"minecraft:jump_strength",base:0},{id:"minecraft:max_health",base:1000},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.9}],\
     VillagerData:{level:99,profession:"minecraft:butcher",type:"minecraft:snow"},\
     Offers:{\
         Recipes:[\
@@ -12,7 +12,7 @@ execute at @n[tag = red_wool.center] run summon villager 72.5 1 -14.5 {Invulnera
     }\
 }
 
-execute at @n[tag = red_wool.center] run summon villager 78.5 1 -14.5 {\
+execute at @n[tag = red_wool.center] run summon villager ~78.5 ~1 ~-14.5 {\
     Invulnerable:1b,Health:1000f,CustomName:{"bold":true,"color":"gold","translate":"red_wool.villager.3"},attributes:[{id:"minecraft:jump_strength",base:0},{id:"minecraft:max_health",base:1000},{id:"minecraft:movement_speed",base:0},{id:"minecraft:scale",base:0.9}],\
     VillagerData:{level:99,profession:"minecraft:butcher",type:"minecraft:snow"},\
     Offers:{\

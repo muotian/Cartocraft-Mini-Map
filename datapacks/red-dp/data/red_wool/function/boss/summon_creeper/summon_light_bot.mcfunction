@@ -1,6 +1,6 @@
 execute at @n[tag = red_wool.boss] run summon lightning_bolt
 
-scoreboard players set 150 red_wool.tmp 110
+scoreboard players set 110 red_wool.tmp 110
 scoreboard players set 100 red_wool.tmp 100
 scoreboard players operation boss_take_damage_muti red_wool.boss *= 110 red_wool.tmp
 scoreboard players operation boss_take_damage_muti red_wool.boss /= 100 red_wool.tmp
