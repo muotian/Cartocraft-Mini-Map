@@ -1,5 +1,4 @@
-execute store result score $y light_green.main.math run data get entity @s Pos[1]
-execute if score $y light_green.main.math <= $level_y light_green.main.math run return fail
+execute if predicate light_green:y run return fail
 execute if entity @s[gamemode=!survival,gamemode=!adventure] run return fail
 
 scoreboard players set $x player_motion.api.launch 0

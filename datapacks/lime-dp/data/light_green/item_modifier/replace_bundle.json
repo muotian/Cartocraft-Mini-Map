@@ -3,7 +3,7 @@
     "function": "minecraft:set_components",
     "components": {
       "minecraft:consumable": {
-        "consume_seconds": 0,
+        "consume_seconds": 999999999,
         "animation": "none",
         "sound": {
           "sound_id": ""

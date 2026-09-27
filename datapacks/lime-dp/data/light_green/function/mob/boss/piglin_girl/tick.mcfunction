@@ -11,7 +11,7 @@ execute store result bossbar light_green:piglin_girl value run scoreboard player
 
 execute if score @s light_green.boss.attack_type matches ..0 run return run function light_green:mob/boss/piglin_girl/animation/convert
 
-execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~35 ~ unless entity @p[tag=light_green.boss.challenger,distance=..31] run return run function light_green:mob/boss/piglin_girl/end
+execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~35 ~ unless entity @p[tag=light_green.boss.challenger,distance=..31] unless entity @a[tag=light_green.boss.challenger,scores={light_green.death=0..},nbt={Health:0f}] run return run function light_green:mob/boss/piglin_girl/end
 
 execute if score $piglin_girl_axe_jump_late light_green.main.math matches 1.. run scoreboard players remove $piglin_girl_axe_jump_late light_green.main.math 1
 

@@ -1,4 +1,4 @@
-give @s poisonous_potato[use_effects={},item_model="light_green:mod/water",custom_data={"light_green:golem_hand_cannon_mod":"wave"},max_stack_size=1,custom_name={translate:"light_green:mod_wave",italic:false}\
+give @s poisonous_potato[use_effects={},item_model="light_green:mod/water",custom_data={"light_green:golem_hand_cannon_mod":"wave"},max_stack_size=1,custom_name={translate:"light_green:mod_wave",italic:false},!consumable\
 ,lore=[{translate:"light_green:mod_hand_cannon",italic:false,color:"gray"},\
       { "text": ""},\
       [{"keybind": "key.use",\

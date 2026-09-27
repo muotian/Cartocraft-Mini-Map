@@ -1,3 +1,5 @@
+execute unless score $golem_kill light_green.main.math matches 1 run return run function light_green:arena/dialog/boss
+execute if entity @e[tag=light_green.boss] run return run function light_green:arena/dialog/boss
 execute unless entity @s[tag=light_green.boss.challenger] run return run dialog show @s {type:multi_action,title:'',body:[\
 {type:plain_message,contents:[{"translate":"light_green:arena_join","color":"white"}]},\
 ],\

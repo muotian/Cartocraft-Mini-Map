@@ -3,3 +3,4 @@ execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~34 ~ as @e[type=
 execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~34 ~ as @e[type=experience_orb,distance=..32] run kill @s
 execute as @a[tag=light_green.boss.challenger] run gamemode survival
 execute as @a[tag=light_green.boss.challenger] run tag @s remove light_green.boss.challenger
+execute at @n[tag=light_green.summon.graud_golem] run forceload remove ~-100 ~-100 ~100 ~100

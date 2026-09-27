@@ -1,3 +1,4 @@
+execute at @n[tag=light_green.summon.graud_golem] run forceload remove ~-100 ~-100 ~100 ~100
 stopsound @a record light_green:fight_music-graud_golem-1
 stopsound @a record light_green:fight_music-graud_golem-2
 kill @e[tag=light_green.boss.graud_golem_leg,limit=4,type=husk]

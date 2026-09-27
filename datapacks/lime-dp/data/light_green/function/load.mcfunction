@@ -46,6 +46,7 @@ scoreboard objectives add light_green.long_heal dummy
 scoreboard objectives add light_green.hurt_count dummy
 scoreboard objectives add light_green.tp_door_cd dummy
 scoreboard objectives add light_green.hand_cannon_cd dummy
+scoreboard objectives add light_green.hand_cannon_use_cd dummy
 scoreboard objectives add light_green.hand_cannon dummy
 scoreboard objectives add light_green.hand_cannon_type dummy
 scoreboard objectives add light_green.hand_cannon_hit dummy
@@ -86,6 +87,9 @@ scoreboard objectives add light_green.piglin_girl_weapon.total dummy
 scoreboard objectives add light_green.dialog dummy
 scoreboard objectives add light_green.dialog.time dummy
 scoreboard objectives add light_green.death deathCount
+scoreboard objectives add light_green.check_hand_cannon dummy
+scoreboard objectives add light_green.check_hand_chest dummy
+scoreboard objectives add light_green.check_hand_helmet dummy
 
 
 scoreboard players set $100 light_green.main.math 100
@@ -100,6 +104,8 @@ scoreboard players set $75 light_green.main.math 75
 scoreboard players set $20 light_green.main.math 20
 scoreboard players set $3000 light_green.main.math 3000
 
+scoreboard players set $level_y light_green.main.math 112
+
 
 bossbar add light_green:piglin_girl {"text":"\ue006",font:"light_green:custom"}
 bossbar set light_green:piglin_girl color red
@@ -109,4 +115,4 @@ team modify light_green.piglin friendlyFire false
 
 function light_green:load_trigger
 schedule function light_green:load_late 5s
-#say hi
+say hi

@@ -1,5 +1,6 @@
 scoreboard players set $mod_equip light_green.main.math 1
-data modify storage light_green:golem_item item set from entity @s equipment.chest
+item replace entity caba-0-0-0-1 container.0 from entity @s armor.chest
+data modify storage light_green:golem_item item set from entity caba-0-0-0-1 item
 data modify storage light_green:golem_item contents set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0]
 data modify storage light_green:golem_item contents_id set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0].id
 execute store result score $golem_item_level light_green.main.math run data get storage light_green:golem_item contents.components."minecraft:custom_data"."light_green:golem_item_level"

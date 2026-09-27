@@ -1,3 +1,5 @@
+execute unless score @s light_green.check_hand_helmet matches 5.. run return run scoreboard players add @s light_green.check_hand_helmet 1
+scoreboard players reset @s light_green.check_hand_helmet
 data modify storage light_green:golem_item item set from entity @s Inventory[{components:{"minecraft:custom_data":{"light_green:golem_helmet":1}}}]
 data modify storage light_green:golem_item contents set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0]
 data modify storage light_green:golem_item contents_id set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0].id

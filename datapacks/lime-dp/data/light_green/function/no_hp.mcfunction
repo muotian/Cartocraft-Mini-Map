@@ -1,11 +1,3 @@
-execute if entity @s[type=item] run function light_green:item
-
-execute if entity @s[tag=light_green.summon.graud_golem] run function light_green:area_level/0
-
-execute unless entity @s[tag=light_green] run return fail
-
-execute if entity @s[tag=light_green.daze] run return run function light_green:daze/tick
-
 execute if entity @s[tag=light_green.agony_text] run return run function light_green:item/piglin_girl/victim/agony/tick
 
 execute if entity @s[tag=light_green.boss.piglin_girl.shadow_player] run return run function light_green:item/piglin_girl/dagger/shdow_tick

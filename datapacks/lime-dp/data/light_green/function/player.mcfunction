@@ -10,7 +10,7 @@ execute store result storage light_green:player id int 1 run scoreboard players 
 function light_green:hurt_detect/0
 
 execute if score @s light_green.tp_door_cd matches 1.. run scoreboard players remove @s light_green.tp_door_cd 1
-execute if score @s light_green.death matches 0.. run function light_green:tag_clear
+execute if score @s light_green.death matches 0.. unless data entity @s {Health:0f} run function light_green:tag_clear
 execute if score @s light_green.hand_cannon_cd matches 1.. run function light_green:item/golem/hand_cannon/score
 
 execute if score @s light_green.break_defanse_time matches 1.. run function light_green:break_defance/tick

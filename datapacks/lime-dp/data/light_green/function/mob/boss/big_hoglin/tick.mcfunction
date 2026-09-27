@@ -6,7 +6,7 @@ function light_green:mob/boss/big_hoglin/music
 
 function light_green:arena/difficulty/challenge
 
-execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~35 ~ unless entity @p[tag=light_green.boss.challenger,distance=..31] run return run function light_green:mob/boss/big_hoglin/no_challenger
+execute at @n[tag=light_green.summon.graud_golem] positioned ~ ~35 ~ unless entity @p[tag=light_green.boss.challenger,distance=..31] unless entity @a[tag=light_green.boss.challenger,scores={light_green.death=0..},nbt={Health:0f}] run return run function light_green:mob/boss/big_hoglin/no_challenger
 
 execute if score $hoglin_summon light_green.main.math matches 1.. run scoreboard players remove $hoglin_summon light_green.main.math 1
 

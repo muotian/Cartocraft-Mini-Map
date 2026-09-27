@@ -1,3 +1,5 @@
+execute unless score @s light_green.check_hand_chest matches 5.. run return run scoreboard players add @s light_green.check_hand_chest 1
+scoreboard players reset @s light_green.check_hand_chest
 data modify storage light_green:golem_item item set from entity @s equipment.offhand
 data modify storage light_green:golem_item contents set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0]
 data modify storage light_green:golem_item contents_id set from storage light_green:golem_item item.components."minecraft:bundle_contents"[0].id
