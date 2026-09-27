@@ -1,3 +1,4 @@
+kill @n[tag=icer.start_bossfight]
 bossbar remove icer.calamity_treant
 kill @e[tag=icer.calamity_treant]
 kill @e[tag=icer.calamity_treant.ability4]

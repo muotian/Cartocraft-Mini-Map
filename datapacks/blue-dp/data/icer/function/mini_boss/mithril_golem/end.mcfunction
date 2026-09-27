@@ -2,6 +2,7 @@ tag @s remove icer.executing_wind
 tag @s add icer.end_wind
 
 summon iron_golem ~ ~ ~ {active_effects:[{id:"glowing",duration:-1,show_particles:false}],CustomNameVisible:1b,CustomName:{"translate":"icer.mithril_golem","color":"red","bold":true},Tags:["icer.mithril_golem"],attributes:[{id:"movement_speed",base:0.25},{id:"attack_damage",base:8},{id:"max_health",base:200}],Health:200,PersistenceRequired:1b,DeathLootTable:""}
+summon marker ~ ~ ~ {Tags:["icer.start_windfight"]}
 
 fill ~1 ~ ~ ~-1 ~ ~ air replace prismarine_bricks
 fill ~ ~ ~1 ~ ~ ~-1 air replace prismarine_bricks

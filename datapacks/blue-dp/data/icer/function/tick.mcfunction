@@ -145,3 +145,7 @@ execute as @e[type=armor_stand] at @s run function icer:spawner/summon
 
 execute as @e[tag=icer.fly] at @s run effect give @e[distance=..2,type=!marker] levitation 1 90 true
 execute as @e[tag=icer.fly] at @s run particle end_rod ~ ~ ~ 0.1 5 0.1 0.1 0 force
+
+execute as @n[tag=icer.start_bossfight] unless entity @n[tag=icer.calamity_treant] run function icer:calamity_treant/dead/end
+execute as @n[tag=icer.start_windfight] unless entity @n[tag=icer.mithril_golem] run function icer:mini_boss/mithril_golem/give_fragment
+execute as @n[tag=icer.start_pyrofight] unless entity @n[tag=icer.cherub] run function icer:mini_boss/cherub/give_fragment

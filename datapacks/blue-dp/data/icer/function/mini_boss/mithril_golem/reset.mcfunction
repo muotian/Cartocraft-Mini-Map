@@ -1,3 +1,5 @@
+kill @n[tag=icer.start_windfight]
+
 tag @e remove icer.end_wind
 tag @e remove icer.executing_wind
 scoreboard players reset @e icer.wind_story

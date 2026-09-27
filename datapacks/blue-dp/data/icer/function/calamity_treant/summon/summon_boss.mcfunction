@@ -4,3 +4,5 @@ function animated_java:calamity_treant/summon {args:{animation:'calamity_treant_
 
 scoreboard players set @n[tag=icer.calamity_treant] icer.boss_mana 0
 #將boss的魔力值歸零
+
+summon marker ~ ~ ~ {Tags:["icer.start_bossfight"]}

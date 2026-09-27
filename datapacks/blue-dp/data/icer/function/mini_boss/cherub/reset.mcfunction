@@ -1,3 +1,5 @@
+kill @n[tag=icer.start_pyrofight]
+
 tag @e remove icer.end_pyro
 tag @e remove icer.executing_pyro
 scoreboard players reset @e icer.pyro_story
