@@ -115,4 +115,4 @@ team modify light_green.piglin friendlyFire false
 
 function light_green:load_trigger
 schedule function light_green:load_late 5s
-say hi
+#say hi
