@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "placed_placer": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:chicken_spawn_egg",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "id": "tools:candle_placer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tools:candle_placer/placed"
+  }
+}
