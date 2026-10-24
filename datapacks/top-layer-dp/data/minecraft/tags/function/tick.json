@@ -23,6 +23,7 @@
     {"id": "red_wool:system/tick", "required": false},
     {"id": "black:tick", "required": false},
     {"id": "triggerlexica:tick", "required": false},
+    "assist:tick",
     {"id": "animated_java:global/on_tick", "required": false}
   ]
 }
