@@ -2,7 +2,7 @@
 # @s = player
 
 attribute @s minecraft:movement_speed modifier add assist:booster 1 add_multiplied_total
-playsound minecraft:entity.wind_charge.wind_burst player @a ~ ~ ~
+playsound minecraft:item.firecharge.use player @a ~ ~ ~ 0.75 1.5
 
 execute store result score $gametime assist.booster run time query gametime
 
