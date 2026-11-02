@@ -25,7 +25,7 @@ bossbar set red_wool.boss name [\
     {"translate":"red_wool.boss.lore.1", color:red}, {score:{name:"boss_take_damage_muti", objective:"red_wool.boss"}, color:"white"}, {text:" % ", "color":red}\
 ]
 
-fill -40 52 61 -38 54 61 bedrock
-fill -40 52 67 -38 54 67 bedrock
+execute at @n[tag = red_wool.center] run fill ~-40 ~52 ~61 ~-38 ~54 ~61 bedrock
+execute at @n[tag = red_wool.center] run fill ~-40 ~52 ~67 ~-38 ~54 ~67 bedrock
 
 tellraw @a {translate:"red_wool.boss.init", "color":red}

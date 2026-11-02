@@ -1,0 +1,11 @@
+execute if score @s wool_purple.isaiah_duration.1 matches 200 run playsound minecraft:block.bell.use player @a ~ ~ ~ 2 0.1
+execute if score @s wool_purple.isaiah_duration.1 matches 200 run playsound minecraft:block.beacon.ambient player @a ~ ~ ~ 2 0.2
+execute if score @s wool_purple.isaiah_duration.1 matches 195 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 185 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 175 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 165 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 155 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 145 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 135 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 125 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05
+execute if score @s wool_purple.isaiah_duration.1 matches 115 run playsound minecraft:block.amethyst_block.resonate player @a ~ ~ ~ 0.1 0.05

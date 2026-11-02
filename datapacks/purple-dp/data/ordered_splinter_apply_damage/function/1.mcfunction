@@ -28,12 +28,13 @@ execute if entity @n[tag=wool_purple.damage.hit,tag=!wool_purple.effect] if item
 # 疾焰長劍特質
 execute as @e[tag=wool_purple.damage.hit] run data modify entity @s Fire set from storage damage:data fire_aspect
 # 絕命特質
-execute as @e[tag=wool_purple.damage.hit] if data entity @s {HurtTime:10s} on attacker if items entity @s weapon.mainhand *[custom_data~{blade_of_finality: 1b}] run function ordered_splinter:sword/blade_of_finality/start
+execute if items entity @s weapon.mainhand *[custom_data~{blade_of_finality: 1b}] if entity @e[tag=wool_purple.damage.hit] run function ordered_splinter:sword/blade_of_finality/start
 execute if items entity @s weapon.mainhand *[custom_data~{blade_of_finality: 1b}] run scoreboard players add @s wool_purple.blade_of_finality 1
 # 千面奇點特質
 execute if items entity @s weapon.mainhand *[custom_data~{singularity_of_thousandfaces: 1b}] as @e[tag=wool_purple.damage.hit,tag=!wool_purple.singularity_of_thousandfaces_target,type=!player] run tag @s add wool_purple.singularity_of_thousandfaces_target
 # 落獄輕呂特質
-execute as @e[tag=wool_purple.damage.hit] if data entity @s {HurtTime:10s} on attacker if items entity @s weapon.mainhand *[custom_data~{naraku_fallen_shortsword: 1b}] as @e[tag=wool_purple.damage.hit] run tag @s add wool_purple.naraku_fallen_shortsword_target
+execute if items entity @s weapon.mainhand *[custom_data~{naraku_fallen_shortsword: 1b}] as @e[tag=wool_purple.damage.hit,tag=!wool_purple.naraku_fallen_shortsword_target,type=!player] run tag @s add wool_purple.naraku_fallen_shortsword_target
+execute if items entity @s weapon.mainhand *[custom_data~{naraku_fallen_shortsword: 1b}] as @e[tag=wool_purple.damage.hit] run effect give @s slowness 2 1 true
 execute if items entity @s weapon.mainhand *[custom_data~{naraku_fallen_shortsword: 1b}] run tag @s add wool_purple.naraku_fallen_shortsword_user
 execute unless items entity @s weapon.mainhand *[custom_data~{naraku_fallen_shortsword: 1b}] run tag @s remove wool_purple.naraku_fallen_shortsword_user
 # final

@@ -4,3 +4,5 @@ scoreboard players set @s wool_purple.boss_animation 46
 scoreboard players set @s wool_purple.boss_type 7
 execute as a11-0-0-0-1 at @s run rotate @s facing entity @e[tag=wool_purple.target,limit=1]
 tag @s remove wool_purple.ready_to_fire
+tag @e[tag=wool_purple.hellfire_target] remove wool_purple.hellfire_target
+tag @a[tag=wool_purple.hellfire_target] remove wool_purple.hellfire_target

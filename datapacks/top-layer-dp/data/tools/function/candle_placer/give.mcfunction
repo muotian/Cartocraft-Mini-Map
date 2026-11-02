@@ -1,0 +1,1 @@
+$give @s minecraft:chicken_spawn_egg[minecraft:entity_data={id:"minecraft:marker"},minecraft:custom_data={id:"tools:candle_placer",color:"$(color)",min:$(min),max:$(max),lit:"$(lit)",waterlogged:"$(waterlogged)",mode:"$(mode)"},minecraft:item_model="minecraft:$(candle_id)",minecraft:item_name={text:"Placer of ",extra:[{translate:"block.minecraft.$(candle_id)"}]}]

@@ -8,411 +8,411 @@ scoreboard players set @s wool_purple.eye_ability 1
 
 scoreboard players add @s wool_purple.ability.stockpile 1
 execute if score @s wool_purple.ability.stockpile matches 1 run item modify entity @s weapon.mainhand {function:"set_components",components:{item_model:"wool_purple:eye_of_truesight_animation_item"}}
-execute if score @s wool_purple.ability.stockpile matches 10..60 anchored eyes run particle small_gust ^ ^0.85 ^1 0.025 0.025 0.025 0.0001 10
+execute if score @s wool_purple.ability.stockpile matches 10..60 anchored eyes positioned ^ ^ ^ run particle small_gust ^ ^0.85 ^1 0.025 0.025 0.025 0.0001 10
 execute if score @s wool_purple.ability.stockpile matches 10 run playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 2 0.8
-execute if score @s wool_purple.ability.stockpile matches 20..60 anchored eyes run particle flame ^-0.809 ^0.263 ^1 0.005 0.005 0.005 0.0001 10
+execute if score @s wool_purple.ability.stockpile matches 20..60 anchored eyes positioned ^ ^ ^ run particle flame ^-0.809 ^0.263 ^1 0.005 0.005 0.005 0.0001 10
 execute if score @s wool_purple.ability.stockpile matches 20 run playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 2 0.8
-execute if score @s wool_purple.ability.stockpile matches 30..60 anchored eyes run particle dolphin ^-0.5 ^-0.688 ^1 0.07 0.07 0.07 0.0001 15
+execute if score @s wool_purple.ability.stockpile matches 30..60 anchored eyes positioned ^ ^ ^ run particle dolphin ^-0.5 ^-0.688 ^1 0.07 0.07 0.07 0.0001 15
 execute if score @s wool_purple.ability.stockpile matches 30 run playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 2 0.8
-execute if score @s wool_purple.ability.stockpile matches 40..60 anchored eyes run particle dust{color:[0.890,0.541,0.149],scale:1} ^0.5 ^-0.688 ^1 0.0001 0.0001 0.0001 0.0001 5
+execute if score @s wool_purple.ability.stockpile matches 40..60 anchored eyes positioned ^ ^ ^ run particle dust{color:[0.890,0.541,0.149],scale:1} ^0.5 ^-0.688 ^1 0.0001 0.0001 0.0001 0.0001 5
 execute if score @s wool_purple.ability.stockpile matches 40 run playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 2 0.8
-execute if score @s wool_purple.ability.stockpile matches 50..60 anchored eyes run particle ominous_spawning ^0.809 ^0.263 ^1 0.05 0.05 0.05 0.0001 15
+execute if score @s wool_purple.ability.stockpile matches 50..60 anchored eyes positioned ^ ^ ^ run particle ominous_spawning ^0.809 ^0.263 ^1 0.05 0.05 0.05 0.0001 15
 execute if score @s wool_purple.ability.stockpile matches 50 run playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 2 0.8
 execute if score @s wool_purple.ability.stockpile matches 60 run playsound minecraft:block.portal.trigger player @a ~ ~ ~ 2 0.75
-execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.8415}
-execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.80091,y:0.26037}
-execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes run function ordered_splinter:particle/star_water {x:-0.495,y:-0.68112}
-execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes run function ordered_splinter:particle/star_earth {x:0.495,y:-0.68112}
-execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes run function ordered_splinter:particle/star_ather {x:0.80091,y:0.26037}
-execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.833}
-execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.79282,y:0.25774}
-execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes run function ordered_splinter:particle/star_water {x:-0.49,y:-0.67424}
-execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes run function ordered_splinter:particle/star_earth {x:0.49,y:-0.67424}
-execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes run function ordered_splinter:particle/star_ather {x:0.79282,y:0.25774}
-execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.8245}
-execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.78473,y:0.25511}
-execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes run function ordered_splinter:particle/star_water {x:-0.485,y:-0.66736}
-execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes run function ordered_splinter:particle/star_earth {x:0.485,y:-0.66736}
-execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes run function ordered_splinter:particle/star_ather {x:0.78473,y:0.25511}
-execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.816}
-execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.77664,y:0.25248}
-execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes run function ordered_splinter:particle/star_water {x:-0.48,y:-0.66048}
-execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes run function ordered_splinter:particle/star_earth {x:0.48,y:-0.66048}
-execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes run function ordered_splinter:particle/star_ather {x:0.77664,y:0.25248}
-execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.8075}
-execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.76855,y:0.24985}
-execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes run function ordered_splinter:particle/star_water {x:-0.475,y:-0.6536}
-execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes run function ordered_splinter:particle/star_earth {x:0.475,y:-0.6536}
-execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes run function ordered_splinter:particle/star_ather {x:0.76855,y:0.24985}
-execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.799}
-execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.76046,y:0.24722}
-execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes run function ordered_splinter:particle/star_water {x:-0.47,y:-0.64672}
-execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes run function ordered_splinter:particle/star_earth {x:0.47,y:-0.64672}
-execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes run function ordered_splinter:particle/star_ather {x:0.76046,y:0.24722}
-execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7905}
-execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.75237,y:0.24459}
-execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes run function ordered_splinter:particle/star_water {x:-0.465,y:-0.63984}
-execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes run function ordered_splinter:particle/star_earth {x:0.465,y:-0.63984}
-execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes run function ordered_splinter:particle/star_ather {x:0.75237,y:0.24459}
-execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.782}
-execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.74428,y:0.24196}
-execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes run function ordered_splinter:particle/star_water {x:-0.46,y:-0.63296}
-execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes run function ordered_splinter:particle/star_earth {x:0.46,y:-0.63296}
-execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes run function ordered_splinter:particle/star_ather {x:0.74428,y:0.24196}
-execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7735}
-execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.73619,y:0.23933}
-execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes run function ordered_splinter:particle/star_water {x:-0.455,y:-0.62608}
-execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes run function ordered_splinter:particle/star_earth {x:0.455,y:-0.62608}
-execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes run function ordered_splinter:particle/star_ather {x:0.73619,y:0.23933}
-execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.765}
-execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.7281,y:0.2367}
-execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes run function ordered_splinter:particle/star_water {x:-0.45,y:-0.6192}
-execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes run function ordered_splinter:particle/star_earth {x:0.45,y:-0.6192}
-execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes run function ordered_splinter:particle/star_ather {x:0.7281,y:0.2367}
-execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7565}
-execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.72001,y:0.23407}
-execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes run function ordered_splinter:particle/star_water {x:-0.445,y:-0.61232}
-execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes run function ordered_splinter:particle/star_earth {x:0.445,y:-0.61232}
-execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes run function ordered_splinter:particle/star_ather {x:0.72001,y:0.23407}
-execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.748}
-execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.71192,y:0.23144}
-execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes run function ordered_splinter:particle/star_water {x:-0.44,y:-0.60544}
-execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes run function ordered_splinter:particle/star_earth {x:0.44,y:-0.60544}
-execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes run function ordered_splinter:particle/star_ather {x:0.71192,y:0.23144}
-execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7395}
-execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.70383,y:0.22881}
-execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes run function ordered_splinter:particle/star_water {x:-0.435,y:-0.59856}
-execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes run function ordered_splinter:particle/star_earth {x:0.435,y:-0.59856}
-execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes run function ordered_splinter:particle/star_ather {x:0.70383,y:0.22881}
-execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.731}
-execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.69574,y:0.22618}
-execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes run function ordered_splinter:particle/star_water {x:-0.43,y:-0.59168}
-execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes run function ordered_splinter:particle/star_earth {x:0.43,y:-0.59168}
-execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes run function ordered_splinter:particle/star_ather {x:0.69574,y:0.22618}
-execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7225}
-execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.68765,y:0.22355}
-execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes run function ordered_splinter:particle/star_water {x:-0.425,y:-0.5848}
-execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes run function ordered_splinter:particle/star_earth {x:0.425,y:-0.5848}
-execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes run function ordered_splinter:particle/star_ather {x:0.68765,y:0.22355}
-execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.714}
-execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.67956,y:0.22092}
-execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes run function ordered_splinter:particle/star_water {x:-0.42,y:-0.57792}
-execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes run function ordered_splinter:particle/star_earth {x:0.42,y:-0.57792}
-execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes run function ordered_splinter:particle/star_ather {x:0.67956,y:0.22092}
-execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.7055}
-execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.67147,y:0.21829}
-execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes run function ordered_splinter:particle/star_water {x:-0.415,y:-0.57104}
-execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes run function ordered_splinter:particle/star_earth {x:0.415,y:-0.57104}
-execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes run function ordered_splinter:particle/star_ather {x:0.67147,y:0.21829}
-execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.697}
-execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.66338,y:0.21566}
-execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes run function ordered_splinter:particle/star_water {x:-0.41,y:-0.56416}
-execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes run function ordered_splinter:particle/star_earth {x:0.41,y:-0.56416}
-execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes run function ordered_splinter:particle/star_ather {x:0.66338,y:0.21566}
-execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6885}
-execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.65529,y:0.21303}
-execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes run function ordered_splinter:particle/star_water {x:-0.405,y:-0.55728}
-execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes run function ordered_splinter:particle/star_earth {x:0.405,y:-0.55728}
-execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes run function ordered_splinter:particle/star_ather {x:0.65529,y:0.21303}
-execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.68}
-execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.6472,y:0.2104}
-execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes run function ordered_splinter:particle/star_water {x:-0.4,y:-0.5504}
-execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes run function ordered_splinter:particle/star_earth {x:0.4,y:-0.5504}
-execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes run function ordered_splinter:particle/star_ather {x:0.6472,y:0.2104}
-execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6715}
-execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.63911,y:0.20777}
-execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes run function ordered_splinter:particle/star_water {x:-0.395,y:-0.54352}
-execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes run function ordered_splinter:particle/star_earth {x:0.395,y:-0.54352}
-execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes run function ordered_splinter:particle/star_ather {x:0.63911,y:0.20777}
-execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.663}
-execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.63102,y:0.20514}
-execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes run function ordered_splinter:particle/star_water {x:-0.39,y:-0.53664}
-execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes run function ordered_splinter:particle/star_earth {x:0.39,y:-0.53664}
-execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes run function ordered_splinter:particle/star_ather {x:0.63102,y:0.20514}
-execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6545}
-execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.62293,y:0.20251}
-execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes run function ordered_splinter:particle/star_water {x:-0.385,y:-0.52976}
-execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes run function ordered_splinter:particle/star_earth {x:0.385,y:-0.52976}
-execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes run function ordered_splinter:particle/star_ather {x:0.62293,y:0.20251}
-execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.646}
-execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.61484,y:0.19988}
-execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes run function ordered_splinter:particle/star_water {x:-0.38,y:-0.52288}
-execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes run function ordered_splinter:particle/star_earth {x:0.38,y:-0.52288}
-execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes run function ordered_splinter:particle/star_ather {x:0.61484,y:0.19988}
-execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6375}
-execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.60675,y:0.19725}
-execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes run function ordered_splinter:particle/star_water {x:-0.375,y:-0.516}
-execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes run function ordered_splinter:particle/star_earth {x:0.375,y:-0.516}
-execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes run function ordered_splinter:particle/star_ather {x:0.60675,y:0.19725}
-execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.629}
-execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.59866,y:0.19462}
-execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes run function ordered_splinter:particle/star_water {x:-0.37,y:-0.50912}
-execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes run function ordered_splinter:particle/star_earth {x:0.37,y:-0.50912}
-execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes run function ordered_splinter:particle/star_ather {x:0.59866,y:0.19462}
-execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6205}
-execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.59057,y:0.19199}
-execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes run function ordered_splinter:particle/star_water {x:-0.365,y:-0.50224}
-execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes run function ordered_splinter:particle/star_earth {x:0.365,y:-0.50224}
-execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes run function ordered_splinter:particle/star_ather {x:0.59057,y:0.19199}
-execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.612}
-execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.58248,y:0.18936}
-execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes run function ordered_splinter:particle/star_water {x:-0.36,y:-0.49536}
-execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes run function ordered_splinter:particle/star_earth {x:0.36,y:-0.49536}
-execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes run function ordered_splinter:particle/star_ather {x:0.58248,y:0.18936}
-execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.6035}
-execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.57439,y:0.18673}
-execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes run function ordered_splinter:particle/star_water {x:-0.355,y:-0.48848}
-execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes run function ordered_splinter:particle/star_earth {x:0.355,y:-0.48848}
-execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes run function ordered_splinter:particle/star_ather {x:0.57439,y:0.18673}
-execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.595}
-execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.5663,y:0.1841}
-execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes run function ordered_splinter:particle/star_water {x:-0.35,y:-0.4816}
-execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes run function ordered_splinter:particle/star_earth {x:0.35,y:-0.4816}
-execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes run function ordered_splinter:particle/star_ather {x:0.5663,y:0.1841}
-execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5865}
-execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.55821,y:0.18147}
-execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes run function ordered_splinter:particle/star_water {x:-0.345,y:-0.47472}
-execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes run function ordered_splinter:particle/star_earth {x:0.345,y:-0.47472}
-execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes run function ordered_splinter:particle/star_ather {x:0.55821,y:0.18147}
-execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.578}
-execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.55012,y:0.17884}
-execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes run function ordered_splinter:particle/star_water {x:-0.34,y:-0.46784}
-execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes run function ordered_splinter:particle/star_earth {x:0.34,y:-0.46784}
-execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes run function ordered_splinter:particle/star_ather {x:0.55012,y:0.17884}
-execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5695}
-execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.54203,y:0.17621}
-execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes run function ordered_splinter:particle/star_water {x:-0.335,y:-0.46096}
-execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes run function ordered_splinter:particle/star_earth {x:0.335,y:-0.46096}
-execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes run function ordered_splinter:particle/star_ather {x:0.54203,y:0.17621}
-execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.561}
-execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.53394,y:0.17358}
-execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes run function ordered_splinter:particle/star_water {x:-0.33,y:-0.45408}
-execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes run function ordered_splinter:particle/star_earth {x:0.33,y:-0.45408}
-execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes run function ordered_splinter:particle/star_ather {x:0.53394,y:0.17358}
-execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5525}
-execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.52585,y:0.17095}
-execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes run function ordered_splinter:particle/star_water {x:-0.325,y:-0.4472}
-execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes run function ordered_splinter:particle/star_earth {x:0.325,y:-0.4472}
-execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes run function ordered_splinter:particle/star_ather {x:0.52585,y:0.17095}
-execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.544}
-execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.51776,y:0.16832}
-execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes run function ordered_splinter:particle/star_water {x:-0.32,y:-0.44032}
-execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes run function ordered_splinter:particle/star_earth {x:0.32,y:-0.44032}
-execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes run function ordered_splinter:particle/star_ather {x:0.51776,y:0.16832}
-execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5355}
-execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.50967,y:0.16569}
-execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes run function ordered_splinter:particle/star_water {x:-0.315,y:-0.43344}
-execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes run function ordered_splinter:particle/star_earth {x:0.315,y:-0.43344}
-execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes run function ordered_splinter:particle/star_ather {x:0.50967,y:0.16569}
-execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.527}
-execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.50158,y:0.16306}
-execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes run function ordered_splinter:particle/star_water {x:-0.31,y:-0.42656}
-execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes run function ordered_splinter:particle/star_earth {x:0.31,y:-0.42656}
-execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes run function ordered_splinter:particle/star_ather {x:0.50158,y:0.16306}
-execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5185}
-execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.49349,y:0.16043}
-execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes run function ordered_splinter:particle/star_water {x:-0.305,y:-0.41968}
-execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes run function ordered_splinter:particle/star_earth {x:0.305,y:-0.41968}
-execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes run function ordered_splinter:particle/star_ather {x:0.49349,y:0.16043}
-execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.51}
-execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.4854,y:0.1578}
-execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes run function ordered_splinter:particle/star_water {x:-0.3,y:-0.4128}
-execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes run function ordered_splinter:particle/star_earth {x:0.3,y:-0.4128}
-execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes run function ordered_splinter:particle/star_ather {x:0.4854,y:0.1578}
-execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.5015}
-execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.47731,y:0.15517}
-execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes run function ordered_splinter:particle/star_water {x:-0.295,y:-0.40592}
-execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes run function ordered_splinter:particle/star_earth {x:0.295,y:-0.40592}
-execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes run function ordered_splinter:particle/star_ather {x:0.47731,y:0.15517}
-execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.493}
-execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.46922,y:0.15254}
-execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes run function ordered_splinter:particle/star_water {x:-0.29,y:-0.39904}
-execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes run function ordered_splinter:particle/star_earth {x:0.29,y:-0.39904}
-execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes run function ordered_splinter:particle/star_ather {x:0.46922,y:0.15254}
-execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.4845}
-execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.46113,y:0.14991}
-execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes run function ordered_splinter:particle/star_water {x:-0.285,y:-0.39216}
-execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes run function ordered_splinter:particle/star_earth {x:0.285,y:-0.39216}
-execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes run function ordered_splinter:particle/star_ather {x:0.46113,y:0.14991}
-execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.476}
-execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.45304,y:0.14728}
-execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes run function ordered_splinter:particle/star_water {x:-0.28,y:-0.38528}
-execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes run function ordered_splinter:particle/star_earth {x:0.28,y:-0.38528}
-execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes run function ordered_splinter:particle/star_ather {x:0.45304,y:0.14728}
-execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.4675}
-execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.44495,y:0.14465}
-execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes run function ordered_splinter:particle/star_water {x:-0.275,y:-0.3784}
-execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes run function ordered_splinter:particle/star_earth {x:0.275,y:-0.3784}
-execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes run function ordered_splinter:particle/star_ather {x:0.44495,y:0.14465}
-execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.459}
-execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.43686,y:0.14202}
-execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes run function ordered_splinter:particle/star_water {x:-0.27,y:-0.37152}
-execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes run function ordered_splinter:particle/star_earth {x:0.27,y:-0.37152}
-execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes run function ordered_splinter:particle/star_ather {x:0.43686,y:0.14202}
-execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.4505}
-execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.42877,y:0.13939}
-execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes run function ordered_splinter:particle/star_water {x:-0.265,y:-0.36464}
-execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes run function ordered_splinter:particle/star_earth {x:0.265,y:-0.36464}
-execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes run function ordered_splinter:particle/star_ather {x:0.42877,y:0.13939}
-execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.442}
-execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.42068,y:0.13676}
-execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes run function ordered_splinter:particle/star_water {x:-0.26,y:-0.35776}
-execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes run function ordered_splinter:particle/star_earth {x:0.26,y:-0.35776}
-execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes run function ordered_splinter:particle/star_ather {x:0.42068,y:0.13676}
-execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.4335}
-execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.41259,y:0.13413}
-execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes run function ordered_splinter:particle/star_water {x:-0.255,y:-0.35088}
-execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes run function ordered_splinter:particle/star_earth {x:0.255,y:-0.35088}
-execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes run function ordered_splinter:particle/star_ather {x:0.41259,y:0.13413}
-execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.425}
-execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.4045,y:0.1315}
-execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes run function ordered_splinter:particle/star_water {x:-0.25,y:-0.344}
-execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes run function ordered_splinter:particle/star_earth {x:0.25,y:-0.344}
-execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes run function ordered_splinter:particle/star_ather {x:0.4045,y:0.1315}
-execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.4165}
-execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.39641,y:0.12887}
-execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes run function ordered_splinter:particle/star_water {x:-0.245,y:-0.33712}
-execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes run function ordered_splinter:particle/star_earth {x:0.245,y:-0.33712}
-execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes run function ordered_splinter:particle/star_ather {x:0.39641,y:0.12887}
-execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.408}
-execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.38832,y:0.12624}
-execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes run function ordered_splinter:particle/star_water {x:-0.24,y:-0.33024}
-execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes run function ordered_splinter:particle/star_earth {x:0.24,y:-0.33024}
-execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes run function ordered_splinter:particle/star_ather {x:0.38832,y:0.12624}
-execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3995}
-execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.38023,y:0.12361}
-execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes run function ordered_splinter:particle/star_water {x:-0.235,y:-0.32336}
-execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes run function ordered_splinter:particle/star_earth {x:0.235,y:-0.32336}
-execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes run function ordered_splinter:particle/star_ather {x:0.38023,y:0.12361}
-execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.391}
-execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.37214,y:0.12098}
-execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes run function ordered_splinter:particle/star_water {x:-0.23,y:-0.31648}
-execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes run function ordered_splinter:particle/star_earth {x:0.23,y:-0.31648}
-execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes run function ordered_splinter:particle/star_ather {x:0.37214,y:0.12098}
-execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3825}
-execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.36405,y:0.11835}
-execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes run function ordered_splinter:particle/star_water {x:-0.225,y:-0.3096}
-execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes run function ordered_splinter:particle/star_earth {x:0.225,y:-0.3096}
-execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes run function ordered_splinter:particle/star_ather {x:0.36405,y:0.11835}
-execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.374}
-execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.35596,y:0.11572}
-execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes run function ordered_splinter:particle/star_water {x:-0.22,y:-0.30272}
-execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes run function ordered_splinter:particle/star_earth {x:0.22,y:-0.30272}
-execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes run function ordered_splinter:particle/star_ather {x:0.35596,y:0.11572}
-execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3655}
-execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.34787,y:0.11309}
-execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes run function ordered_splinter:particle/star_water {x:-0.215,y:-0.29584}
-execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes run function ordered_splinter:particle/star_earth {x:0.215,y:-0.29584}
-execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes run function ordered_splinter:particle/star_ather {x:0.34787,y:0.11309}
-execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.357}
-execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.33978,y:0.11046}
-execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes run function ordered_splinter:particle/star_water {x:-0.21,y:-0.28896}
-execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes run function ordered_splinter:particle/star_earth {x:0.21,y:-0.28896}
-execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes run function ordered_splinter:particle/star_ather {x:0.33978,y:0.11046}
-execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3485}
-execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.33169,y:0.10783}
-execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes run function ordered_splinter:particle/star_water {x:-0.205,y:-0.28208}
-execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes run function ordered_splinter:particle/star_earth {x:0.205,y:-0.28208}
-execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes run function ordered_splinter:particle/star_ather {x:0.33169,y:0.10783}
-execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.34}
-execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.3236,y:0.1052}
-execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes run function ordered_splinter:particle/star_water {x:-0.2,y:-0.2752}
-execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes run function ordered_splinter:particle/star_earth {x:0.2,y:-0.2752}
-execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes run function ordered_splinter:particle/star_ather {x:0.3236,y:0.1052}
-execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3315}
-execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.31551,y:0.10257}
-execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes run function ordered_splinter:particle/star_water {x:-0.195,y:-0.26832}
-execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes run function ordered_splinter:particle/star_earth {x:0.195,y:-0.26832}
-execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes run function ordered_splinter:particle/star_ather {x:0.31551,y:0.10257}
-execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.323}
-execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.30742,y:0.09994}
-execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes run function ordered_splinter:particle/star_water {x:-0.19,y:-0.26144}
-execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes run function ordered_splinter:particle/star_earth {x:0.19,y:-0.26144}
-execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes run function ordered_splinter:particle/star_ather {x:0.30742,y:0.09994}
-execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.3145}
-execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.29933,y:0.09731}
-execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes run function ordered_splinter:particle/star_water {x:-0.185,y:-0.25456}
-execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes run function ordered_splinter:particle/star_earth {x:0.185,y:-0.25456}
-execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes run function ordered_splinter:particle/star_ather {x:0.29933,y:0.09731}
-execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.306}
-execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.29124,y:0.09468}
-execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes run function ordered_splinter:particle/star_water {x:-0.18,y:-0.24768}
-execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes run function ordered_splinter:particle/star_earth {x:0.18,y:-0.24768}
-execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes run function ordered_splinter:particle/star_ather {x:0.29124,y:0.09468}
-execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2975}
-execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.28315,y:0.09205}
-execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes run function ordered_splinter:particle/star_water {x:-0.175,y:-0.2408}
-execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes run function ordered_splinter:particle/star_earth {x:0.175,y:-0.2408}
-execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes run function ordered_splinter:particle/star_ather {x:0.28315,y:0.09205}
-execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.289}
-execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.27506,y:0.08942}
-execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes run function ordered_splinter:particle/star_water {x:-0.17,y:-0.23392}
-execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes run function ordered_splinter:particle/star_earth {x:0.17,y:-0.23392}
-execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes run function ordered_splinter:particle/star_ather {x:0.27506,y:0.08942}
-execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2805}
-execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.26697,y:0.08679}
-execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes run function ordered_splinter:particle/star_water {x:-0.165,y:-0.22704}
-execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes run function ordered_splinter:particle/star_earth {x:0.165,y:-0.22704}
-execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes run function ordered_splinter:particle/star_ather {x:0.26697,y:0.08679}
-execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.272}
-execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.25888,y:0.08416}
-execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes run function ordered_splinter:particle/star_water {x:-0.16,y:-0.22016}
-execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes run function ordered_splinter:particle/star_earth {x:0.16,y:-0.22016}
-execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes run function ordered_splinter:particle/star_ather {x:0.25888,y:0.08416}
-execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2635}
-execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.25079,y:0.08153}
-execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes run function ordered_splinter:particle/star_water {x:-0.155,y:-0.21328}
-execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes run function ordered_splinter:particle/star_earth {x:0.155,y:-0.21328}
-execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes run function ordered_splinter:particle/star_ather {x:0.25079,y:0.08153}
-execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.255}
-execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.2427,y:0.0789}
-execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes run function ordered_splinter:particle/star_water {x:-0.15,y:-0.2064}
-execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes run function ordered_splinter:particle/star_earth {x:0.15,y:-0.2064}
-execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes run function ordered_splinter:particle/star_ather {x:0.2427,y:0.0789}
-execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2465}
-execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.23461,y:0.07627}
-execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes run function ordered_splinter:particle/star_water {x:-0.145,y:-0.19952}
-execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes run function ordered_splinter:particle/star_earth {x:0.145,y:-0.19952}
-execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes run function ordered_splinter:particle/star_ather {x:0.23461,y:0.07627}
-execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.238}
-execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.22652,y:0.07364}
-execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes run function ordered_splinter:particle/star_water {x:-0.14,y:-0.19264}
-execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes run function ordered_splinter:particle/star_earth {x:0.14,y:-0.19264}
-execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes run function ordered_splinter:particle/star_ather {x:0.22652,y:0.07364}
-execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2295}
-execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.21843,y:0.07101}
-execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes run function ordered_splinter:particle/star_water {x:-0.135,y:-0.18576}
-execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes run function ordered_splinter:particle/star_earth {x:0.135,y:-0.18576}
-execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes run function ordered_splinter:particle/star_ather {x:0.21843,y:0.07101}
-execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.221}
-execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.21034,y:0.06838}
-execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes run function ordered_splinter:particle/star_water {x:-0.13,y:-0.17888}
-execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes run function ordered_splinter:particle/star_earth {x:0.13,y:-0.17888}
-execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes run function ordered_splinter:particle/star_ather {x:0.21034,y:0.06838}
-execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.2125}
-execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.20225,y:0.06575}
-execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes run function ordered_splinter:particle/star_water {x:-0.125,y:-0.172}
-execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes run function ordered_splinter:particle/star_earth {x:0.125,y:-0.172}
-execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes run function ordered_splinter:particle/star_ather {x:0.20225,y:0.06575}
-execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.204}
-execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.19416,y:0.06312}
-execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes run function ordered_splinter:particle/star_water {x:-0.12,y:-0.16512}
-execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes run function ordered_splinter:particle/star_earth {x:0.12,y:-0.16512}
-execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes run function ordered_splinter:particle/star_ather {x:0.19416,y:0.06312}
-execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.1955}
-execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.18607,y:0.06049}
-execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes run function ordered_splinter:particle/star_water {x:-0.115,y:-0.15824}
-execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes run function ordered_splinter:particle/star_earth {x:0.115,y:-0.15824}
-execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes run function ordered_splinter:particle/star_ather {x:0.18607,y:0.06049}
-execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.187}
-execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.17798,y:0.05786}
-execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes run function ordered_splinter:particle/star_water {x:-0.11,y:-0.15136}
-execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes run function ordered_splinter:particle/star_earth {x:0.11,y:-0.15136}
-execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes run function ordered_splinter:particle/star_ather {x:0.17798,y:0.05786}
-execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes run function ordered_splinter:particle/star_wind {x:0.0,y:0.1785}
-execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes run function ordered_splinter:particle/star_fire {x:-0.16989,y:0.05523}
-execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes run function ordered_splinter:particle/star_water {x:-0.105,y:-0.14448}
-execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes run function ordered_splinter:particle/star_earth {x:0.105,y:-0.14448}
-execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes run function ordered_splinter:particle/star_ather {x:0.16989,y:0.05523}
+execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.8415}
+execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.80091,y:0.26037}
+execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.495,y:-0.68112}
+execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.495,y:-0.68112}
+execute if score @s wool_purple.ability.stockpile matches 61 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.80091,y:0.26037}
+execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.833}
+execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.79282,y:0.25774}
+execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.49,y:-0.67424}
+execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.49,y:-0.67424}
+execute if score @s wool_purple.ability.stockpile matches 62 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.79282,y:0.25774}
+execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.8245}
+execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.78473,y:0.25511}
+execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.485,y:-0.66736}
+execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.485,y:-0.66736}
+execute if score @s wool_purple.ability.stockpile matches 63 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.78473,y:0.25511}
+execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.816}
+execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.77664,y:0.25248}
+execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.48,y:-0.66048}
+execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.48,y:-0.66048}
+execute if score @s wool_purple.ability.stockpile matches 64 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.77664,y:0.25248}
+execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.8075}
+execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.76855,y:0.24985}
+execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.475,y:-0.6536}
+execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.475,y:-0.6536}
+execute if score @s wool_purple.ability.stockpile matches 65 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.76855,y:0.24985}
+execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.799}
+execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.76046,y:0.24722}
+execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.47,y:-0.64672}
+execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.47,y:-0.64672}
+execute if score @s wool_purple.ability.stockpile matches 66 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.76046,y:0.24722}
+execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7905}
+execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.75237,y:0.24459}
+execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.465,y:-0.63984}
+execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.465,y:-0.63984}
+execute if score @s wool_purple.ability.stockpile matches 67 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.75237,y:0.24459}
+execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.782}
+execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.74428,y:0.24196}
+execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.46,y:-0.63296}
+execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.46,y:-0.63296}
+execute if score @s wool_purple.ability.stockpile matches 68 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.74428,y:0.24196}
+execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7735}
+execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.73619,y:0.23933}
+execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.455,y:-0.62608}
+execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.455,y:-0.62608}
+execute if score @s wool_purple.ability.stockpile matches 69 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.73619,y:0.23933}
+execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.765}
+execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.7281,y:0.2367}
+execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.45,y:-0.6192}
+execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.45,y:-0.6192}
+execute if score @s wool_purple.ability.stockpile matches 70 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.7281,y:0.2367}
+execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7565}
+execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.72001,y:0.23407}
+execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.445,y:-0.61232}
+execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.445,y:-0.61232}
+execute if score @s wool_purple.ability.stockpile matches 71 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.72001,y:0.23407}
+execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.748}
+execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.71192,y:0.23144}
+execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.44,y:-0.60544}
+execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.44,y:-0.60544}
+execute if score @s wool_purple.ability.stockpile matches 72 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.71192,y:0.23144}
+execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7395}
+execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.70383,y:0.22881}
+execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.435,y:-0.59856}
+execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.435,y:-0.59856}
+execute if score @s wool_purple.ability.stockpile matches 73 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.70383,y:0.22881}
+execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.731}
+execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.69574,y:0.22618}
+execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.43,y:-0.59168}
+execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.43,y:-0.59168}
+execute if score @s wool_purple.ability.stockpile matches 74 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.69574,y:0.22618}
+execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7225}
+execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.68765,y:0.22355}
+execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.425,y:-0.5848}
+execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.425,y:-0.5848}
+execute if score @s wool_purple.ability.stockpile matches 75 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.68765,y:0.22355}
+execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.714}
+execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.67956,y:0.22092}
+execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.42,y:-0.57792}
+execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.42,y:-0.57792}
+execute if score @s wool_purple.ability.stockpile matches 76 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.67956,y:0.22092}
+execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.7055}
+execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.67147,y:0.21829}
+execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.415,y:-0.57104}
+execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.415,y:-0.57104}
+execute if score @s wool_purple.ability.stockpile matches 77 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.67147,y:0.21829}
+execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.697}
+execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.66338,y:0.21566}
+execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.41,y:-0.56416}
+execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.41,y:-0.56416}
+execute if score @s wool_purple.ability.stockpile matches 78 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.66338,y:0.21566}
+execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6885}
+execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.65529,y:0.21303}
+execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.405,y:-0.55728}
+execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.405,y:-0.55728}
+execute if score @s wool_purple.ability.stockpile matches 79 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.65529,y:0.21303}
+execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.68}
+execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.6472,y:0.2104}
+execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.4,y:-0.5504}
+execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.4,y:-0.5504}
+execute if score @s wool_purple.ability.stockpile matches 80 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.6472,y:0.2104}
+execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6715}
+execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.63911,y:0.20777}
+execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.395,y:-0.54352}
+execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.395,y:-0.54352}
+execute if score @s wool_purple.ability.stockpile matches 81 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.63911,y:0.20777}
+execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.663}
+execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.63102,y:0.20514}
+execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.39,y:-0.53664}
+execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.39,y:-0.53664}
+execute if score @s wool_purple.ability.stockpile matches 82 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.63102,y:0.20514}
+execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6545}
+execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.62293,y:0.20251}
+execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.385,y:-0.52976}
+execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.385,y:-0.52976}
+execute if score @s wool_purple.ability.stockpile matches 83 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.62293,y:0.20251}
+execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.646}
+execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.61484,y:0.19988}
+execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.38,y:-0.52288}
+execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.38,y:-0.52288}
+execute if score @s wool_purple.ability.stockpile matches 84 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.61484,y:0.19988}
+execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6375}
+execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.60675,y:0.19725}
+execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.375,y:-0.516}
+execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.375,y:-0.516}
+execute if score @s wool_purple.ability.stockpile matches 85 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.60675,y:0.19725}
+execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.629}
+execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.59866,y:0.19462}
+execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.37,y:-0.50912}
+execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.37,y:-0.50912}
+execute if score @s wool_purple.ability.stockpile matches 86 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.59866,y:0.19462}
+execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6205}
+execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.59057,y:0.19199}
+execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.365,y:-0.50224}
+execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.365,y:-0.50224}
+execute if score @s wool_purple.ability.stockpile matches 87 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.59057,y:0.19199}
+execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.612}
+execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.58248,y:0.18936}
+execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.36,y:-0.49536}
+execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.36,y:-0.49536}
+execute if score @s wool_purple.ability.stockpile matches 88 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.58248,y:0.18936}
+execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.6035}
+execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.57439,y:0.18673}
+execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.355,y:-0.48848}
+execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.355,y:-0.48848}
+execute if score @s wool_purple.ability.stockpile matches 89 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.57439,y:0.18673}
+execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.595}
+execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.5663,y:0.1841}
+execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.35,y:-0.4816}
+execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.35,y:-0.4816}
+execute if score @s wool_purple.ability.stockpile matches 90 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.5663,y:0.1841}
+execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5865}
+execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.55821,y:0.18147}
+execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.345,y:-0.47472}
+execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.345,y:-0.47472}
+execute if score @s wool_purple.ability.stockpile matches 91 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.55821,y:0.18147}
+execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.578}
+execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.55012,y:0.17884}
+execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.34,y:-0.46784}
+execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.34,y:-0.46784}
+execute if score @s wool_purple.ability.stockpile matches 92 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.55012,y:0.17884}
+execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5695}
+execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.54203,y:0.17621}
+execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.335,y:-0.46096}
+execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.335,y:-0.46096}
+execute if score @s wool_purple.ability.stockpile matches 93 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.54203,y:0.17621}
+execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.561}
+execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.53394,y:0.17358}
+execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.33,y:-0.45408}
+execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.33,y:-0.45408}
+execute if score @s wool_purple.ability.stockpile matches 94 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.53394,y:0.17358}
+execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5525}
+execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.52585,y:0.17095}
+execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.325,y:-0.4472}
+execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.325,y:-0.4472}
+execute if score @s wool_purple.ability.stockpile matches 95 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.52585,y:0.17095}
+execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.544}
+execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.51776,y:0.16832}
+execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.32,y:-0.44032}
+execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.32,y:-0.44032}
+execute if score @s wool_purple.ability.stockpile matches 96 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.51776,y:0.16832}
+execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5355}
+execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.50967,y:0.16569}
+execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.315,y:-0.43344}
+execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.315,y:-0.43344}
+execute if score @s wool_purple.ability.stockpile matches 97 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.50967,y:0.16569}
+execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.527}
+execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.50158,y:0.16306}
+execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.31,y:-0.42656}
+execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.31,y:-0.42656}
+execute if score @s wool_purple.ability.stockpile matches 98 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.50158,y:0.16306}
+execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5185}
+execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.49349,y:0.16043}
+execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.305,y:-0.41968}
+execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.305,y:-0.41968}
+execute if score @s wool_purple.ability.stockpile matches 99 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.49349,y:0.16043}
+execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.51}
+execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.4854,y:0.1578}
+execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.3,y:-0.4128}
+execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.3,y:-0.4128}
+execute if score @s wool_purple.ability.stockpile matches 100 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.4854,y:0.1578}
+execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.5015}
+execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.47731,y:0.15517}
+execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.295,y:-0.40592}
+execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.295,y:-0.40592}
+execute if score @s wool_purple.ability.stockpile matches 101 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.47731,y:0.15517}
+execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.493}
+execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.46922,y:0.15254}
+execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.29,y:-0.39904}
+execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.29,y:-0.39904}
+execute if score @s wool_purple.ability.stockpile matches 102 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.46922,y:0.15254}
+execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.4845}
+execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.46113,y:0.14991}
+execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.285,y:-0.39216}
+execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.285,y:-0.39216}
+execute if score @s wool_purple.ability.stockpile matches 103 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.46113,y:0.14991}
+execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.476}
+execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.45304,y:0.14728}
+execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.28,y:-0.38528}
+execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.28,y:-0.38528}
+execute if score @s wool_purple.ability.stockpile matches 104 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.45304,y:0.14728}
+execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.4675}
+execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.44495,y:0.14465}
+execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.275,y:-0.3784}
+execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.275,y:-0.3784}
+execute if score @s wool_purple.ability.stockpile matches 105 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.44495,y:0.14465}
+execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.459}
+execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.43686,y:0.14202}
+execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.27,y:-0.37152}
+execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.27,y:-0.37152}
+execute if score @s wool_purple.ability.stockpile matches 106 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.43686,y:0.14202}
+execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.4505}
+execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.42877,y:0.13939}
+execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.265,y:-0.36464}
+execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.265,y:-0.36464}
+execute if score @s wool_purple.ability.stockpile matches 107 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.42877,y:0.13939}
+execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.442}
+execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.42068,y:0.13676}
+execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.26,y:-0.35776}
+execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.26,y:-0.35776}
+execute if score @s wool_purple.ability.stockpile matches 108 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.42068,y:0.13676}
+execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.4335}
+execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.41259,y:0.13413}
+execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.255,y:-0.35088}
+execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.255,y:-0.35088}
+execute if score @s wool_purple.ability.stockpile matches 109 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.41259,y:0.13413}
+execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.425}
+execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.4045,y:0.1315}
+execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.25,y:-0.344}
+execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.25,y:-0.344}
+execute if score @s wool_purple.ability.stockpile matches 110 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.4045,y:0.1315}
+execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.4165}
+execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.39641,y:0.12887}
+execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.245,y:-0.33712}
+execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.245,y:-0.33712}
+execute if score @s wool_purple.ability.stockpile matches 111 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.39641,y:0.12887}
+execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.408}
+execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.38832,y:0.12624}
+execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.24,y:-0.33024}
+execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.24,y:-0.33024}
+execute if score @s wool_purple.ability.stockpile matches 112 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.38832,y:0.12624}
+execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3995}
+execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.38023,y:0.12361}
+execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.235,y:-0.32336}
+execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.235,y:-0.32336}
+execute if score @s wool_purple.ability.stockpile matches 113 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.38023,y:0.12361}
+execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.391}
+execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.37214,y:0.12098}
+execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.23,y:-0.31648}
+execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.23,y:-0.31648}
+execute if score @s wool_purple.ability.stockpile matches 114 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.37214,y:0.12098}
+execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3825}
+execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.36405,y:0.11835}
+execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.225,y:-0.3096}
+execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.225,y:-0.3096}
+execute if score @s wool_purple.ability.stockpile matches 115 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.36405,y:0.11835}
+execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.374}
+execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.35596,y:0.11572}
+execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.22,y:-0.30272}
+execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.22,y:-0.30272}
+execute if score @s wool_purple.ability.stockpile matches 116 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.35596,y:0.11572}
+execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3655}
+execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.34787,y:0.11309}
+execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.215,y:-0.29584}
+execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.215,y:-0.29584}
+execute if score @s wool_purple.ability.stockpile matches 117 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.34787,y:0.11309}
+execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.357}
+execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.33978,y:0.11046}
+execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.21,y:-0.28896}
+execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.21,y:-0.28896}
+execute if score @s wool_purple.ability.stockpile matches 118 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.33978,y:0.11046}
+execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3485}
+execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.33169,y:0.10783}
+execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.205,y:-0.28208}
+execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.205,y:-0.28208}
+execute if score @s wool_purple.ability.stockpile matches 119 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.33169,y:0.10783}
+execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.34}
+execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.3236,y:0.1052}
+execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.2,y:-0.2752}
+execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.2,y:-0.2752}
+execute if score @s wool_purple.ability.stockpile matches 120 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.3236,y:0.1052}
+execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3315}
+execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.31551,y:0.10257}
+execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.195,y:-0.26832}
+execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.195,y:-0.26832}
+execute if score @s wool_purple.ability.stockpile matches 121 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.31551,y:0.10257}
+execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.323}
+execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.30742,y:0.09994}
+execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.19,y:-0.26144}
+execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.19,y:-0.26144}
+execute if score @s wool_purple.ability.stockpile matches 122 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.30742,y:0.09994}
+execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.3145}
+execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.29933,y:0.09731}
+execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.185,y:-0.25456}
+execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.185,y:-0.25456}
+execute if score @s wool_purple.ability.stockpile matches 123 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.29933,y:0.09731}
+execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.306}
+execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.29124,y:0.09468}
+execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.18,y:-0.24768}
+execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.18,y:-0.24768}
+execute if score @s wool_purple.ability.stockpile matches 124 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.29124,y:0.09468}
+execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2975}
+execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.28315,y:0.09205}
+execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.175,y:-0.2408}
+execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.175,y:-0.2408}
+execute if score @s wool_purple.ability.stockpile matches 125 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.28315,y:0.09205}
+execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.289}
+execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.27506,y:0.08942}
+execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.17,y:-0.23392}
+execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.17,y:-0.23392}
+execute if score @s wool_purple.ability.stockpile matches 126 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.27506,y:0.08942}
+execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2805}
+execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.26697,y:0.08679}
+execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.165,y:-0.22704}
+execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.165,y:-0.22704}
+execute if score @s wool_purple.ability.stockpile matches 127 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.26697,y:0.08679}
+execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.272}
+execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.25888,y:0.08416}
+execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.16,y:-0.22016}
+execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.16,y:-0.22016}
+execute if score @s wool_purple.ability.stockpile matches 128 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.25888,y:0.08416}
+execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2635}
+execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.25079,y:0.08153}
+execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.155,y:-0.21328}
+execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.155,y:-0.21328}
+execute if score @s wool_purple.ability.stockpile matches 129 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.25079,y:0.08153}
+execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.255}
+execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.2427,y:0.0789}
+execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.15,y:-0.2064}
+execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.15,y:-0.2064}
+execute if score @s wool_purple.ability.stockpile matches 130 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.2427,y:0.0789}
+execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2465}
+execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.23461,y:0.07627}
+execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.145,y:-0.19952}
+execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.145,y:-0.19952}
+execute if score @s wool_purple.ability.stockpile matches 131 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.23461,y:0.07627}
+execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.238}
+execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.22652,y:0.07364}
+execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.14,y:-0.19264}
+execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.14,y:-0.19264}
+execute if score @s wool_purple.ability.stockpile matches 132 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.22652,y:0.07364}
+execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2295}
+execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.21843,y:0.07101}
+execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.135,y:-0.18576}
+execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.135,y:-0.18576}
+execute if score @s wool_purple.ability.stockpile matches 133 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.21843,y:0.07101}
+execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.221}
+execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.21034,y:0.06838}
+execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.13,y:-0.17888}
+execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.13,y:-0.17888}
+execute if score @s wool_purple.ability.stockpile matches 134 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.21034,y:0.06838}
+execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.2125}
+execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.20225,y:0.06575}
+execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.125,y:-0.172}
+execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.125,y:-0.172}
+execute if score @s wool_purple.ability.stockpile matches 135 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.20225,y:0.06575}
+execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.204}
+execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.19416,y:0.06312}
+execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.12,y:-0.16512}
+execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.12,y:-0.16512}
+execute if score @s wool_purple.ability.stockpile matches 136 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.19416,y:0.06312}
+execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.1955}
+execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.18607,y:0.06049}
+execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.115,y:-0.15824}
+execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.115,y:-0.15824}
+execute if score @s wool_purple.ability.stockpile matches 137 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.18607,y:0.06049}
+execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.187}
+execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.17798,y:0.05786}
+execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.11,y:-0.15136}
+execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.11,y:-0.15136}
+execute if score @s wool_purple.ability.stockpile matches 138 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.17798,y:0.05786}
+execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_wind {x:0.0,y:0.1785}
+execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_fire {x:-0.16989,y:0.05523}
+execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_water {x:-0.105,y:-0.14448}
+execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_earth {x:0.105,y:-0.14448}
+execute if score @s wool_purple.ability.stockpile matches 139 anchored eyes positioned ^ ^ ^ run function ordered_splinter:particle/star_ather {x:0.16989,y:0.05523}
 
-execute if score @s wool_purple.ability.stockpile matches 150.. anchored eyes run particle flash{color:[0.659,1.000,1.000,1.00]} ^ ^ ^1 0.0001 0.0001 0.0001 0 1
+execute if score @s wool_purple.ability.stockpile matches 150.. anchored eyes positioned ^ ^ ^ run particle flash{color:[0.659,1.000,1.000,1.00]} ^ ^ ^1 0.0001 0.0001 0.0001 0 1
