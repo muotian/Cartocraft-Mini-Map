@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "attacked_gateway_button": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"assist.gateway.button\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "assist:gateway/player/button_lc"
+  }
+}

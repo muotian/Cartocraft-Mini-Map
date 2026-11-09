@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "interacted_with_gateway_button": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"assist.gateway.button\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "assist:gateway/player/button_rc"
+  }
+}
