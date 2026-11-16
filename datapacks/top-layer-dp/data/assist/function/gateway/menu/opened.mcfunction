@@ -3,4 +3,6 @@
 scoreboard players set @s assist.gateway.active 3
 scoreboard players reset @s assist.gateway.looked_at
 
+execute as @s[scores={assist.gateway.awake=0}] run return run function assist:gateway/menu/close
+
 execute as @e[type=minecraft:block_display,tag=assist.gateway.pedestle,distance=0..5] if score @s assist.gateway.id = $this assist.gateway.id at @s run function assist:gateway/menu/pedestle.button

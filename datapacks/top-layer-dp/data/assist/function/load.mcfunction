@@ -26,7 +26,9 @@ scoreboard objectives add assist.jump_pad.animation dummy
 # gateway
 scoreboard objectives add assist.gateway dummy
 scoreboard objectives add assist.gateway.id dummy
+scoreboard objectives add assist.gateway.dest_id dummy
 scoreboard objectives add assist.gateway.active dummy
+scoreboard objectives add assist.gateway.awake dummy
 scoreboard objectives add assist.gateway.timer dummy
 scoreboard objectives add assist.gateway.looked_at dummy
 scoreboard objectives add assist.gateway.dx dummy

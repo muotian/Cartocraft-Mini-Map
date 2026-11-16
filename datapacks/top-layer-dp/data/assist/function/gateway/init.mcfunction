@@ -17,3 +17,5 @@ execute align xyz positioned ~0.5 ~0.5 ~0.5 summon minecraft:block_display run f
 data modify storage assist:gateway init append from storage assist:gateway args
 tag @s add assist.gateway.init
 tag @s add assist.gateway.button
+
+execute if score @s assist.gateway.id matches 0 run function assist:gateway/core/activate
